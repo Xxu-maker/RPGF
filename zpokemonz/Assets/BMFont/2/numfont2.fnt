@@ -1,0 +1,14 @@
+info face="Arial" size=32 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1 outline=0
+common lineHeight=32 base=26 scaleW=512 scaleH=512 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="numfont2_0.png"
+chars count=10
+char id=48   x=0     y=179   width=133   height=165   xoffset=0     yoffset=0     xadvance=133   page=0  chnl=15
+char id=49   x=400   y=170   width=83    height=162   xoffset=0     yoffset=0     xadvance=83    page=0  chnl=15
+char id=50   x=0     y=345   width=130   height=162   xoffset=0     yoffset=0     xadvance=130   page=0  chnl=15
+char id=51   x=116   y=0     width=116   height=173   xoffset=0     yoffset=0     xadvance=116   page=0  chnl=15
+char id=52   x=261   y=171   width=138   height=163   xoffset=0     yoffset=0     xadvance=138   page=0  chnl=15
+char id=53   x=0     y=0     width=115   height=178   xoffset=0     yoffset=0     xadvance=115   page=0  chnl=15
+char id=54   x=233   y=0     width=127   height=170   xoffset=0     yoffset=0     xadvance=127   page=0  chnl=15
+char id=55   x=131   y=345   width=125   height=160   xoffset=0     yoffset=0     xadvance=125   page=0  chnl=15
+char id=56   x=134   y=174   width=126   height=165   xoffset=0     yoffset=0     xadvance=126   page=0  chnl=15
+char id=57   x=361   y=0     width=127   height=169   xoffset=0     yoffset=0     xadvance=127   page=0  chnl=15

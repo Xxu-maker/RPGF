@@ -1,0 +1,672 @@
+fileFormatVersion: 2
+guid: 65a6aa7ec1a418145bc52b8c14e918ea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8734763484144772580
+    second: battleUISlots_0
+  - first:
+      213: -6934217740396163183
+    second: battleUISlots_1
+  - first:
+      213: -2085097199577344835
+    second: battleUISlots_2
+  - first:
+      213: -217164849274401492
+    second: battleUISlots_3
+  - first:
+      213: -2824747163527888429
+    second: battleUISlots_4
+  - first:
+      213: -9219779845666147805
+    second: battleUISlots_5
+  - first:
+      213: -2914617015809788496
+    second: battleUISlots_6
+  - first:
+      213: 3058833696062460697
+    second: battleUISlots_7
+  - first:
+      213: 8104545137066782294
+    second: battleUISlots_8
+  - first:
+      213: -4751849095635010810
+    second: battleUISlots_9
+  - first:
+      213: 1120418888819031075
+    second: battleUISlots_10
+  - first:
+      213: 5800739373669458969
+    second: battleUISlots_11
+  - first:
+      213: 5051577918488830706
+    second: battleUISlots_12
+  - first:
+      213: 7471161018821308119
+    second: battleUISlots_13
+  - first:
+      213: 4507154045394551876
+    second: battleUISlots_14
+  - first:
+      213: -588125683578330197
+    second: battleUISlots_15
+  - first:
+      213: 5452503032792565952
+    second: battleUISlots_16
+  - first:
+      213: -3752594111249060419
+    second: battleUISlots_17
+  - first:
+      213: -5636855197600737832
+    second: battleUISlots_18
+  - first:
+      213: -8374861941992488354
+    second: battleUISlots_19
+  - first:
+      213: -6339998334248756113
+    second: battleUISlots_20
+  - first:
+      213: 3310347473084928674
+    second: battleUISlots_21
+  - first:
+      213: -4088569696750145412
+    second: battleUISlots_22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: battleUISlots_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 957
+        width: 211
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a5f72d3e2e7c680800000000000000
+      internalID: -8734763484144772580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battleUISlots_1
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 957
+        width: 211
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f897444b5b4cf90800000000000000
+      internalID: -6934217740396163183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battleUISlots_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 890
+        width: 211
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4d701f42f3013e0800000000000000
+      internalID: -2085097199577344835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battleUISlots_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 890
+        width: 211
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d4c4d58b97cfcf0800000000000000
+      internalID: -217164849274401492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battleUISlots_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 823
+        width: 211
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1c0a1cb6b7cc8d0800000000000000
+      internalID: -2824747163527888429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battleUISlots_5
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 823
+        width: 211
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32273cf2413cc0080800000000000000
+      internalID: -9219779845666147805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battleUISlots_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 756
+        width: 211
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5395434433d87d0800000000000000
+      internalID: -2914617015809788496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battleUISlots_7
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 756
+        width: 211
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9135cc84a09237a20800000000000000
+      internalID: 3058833696062460697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battleUISlots_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 689
+        width: 211
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e2cf8ccd0297070800000000000000
+      internalID: 8104545137066782294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battleUISlots_9
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 689
+        width: 211
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bf9648c6a0e0eb0800000000000000
+      internalID: -4751849095635010810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battleUISlots_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 622
+        width: 211
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c32bb0b078c8f00800000000000000
+      internalID: 1120418888819031075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battleUISlots_11
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 622
+        width: 211
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914a03a0abd508050800000000000000
+      internalID: 5800739373669458969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battleUISlots_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 555
+        width: 211
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2ebba3a5fca1640800000000000000
+      internalID: 5051577918488830706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battleUISlots_13
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 555
+        width: 211
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dee69adc55eea760800000000000000
+      internalID: 7471161018821308119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battleUISlots_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 488
+        width: 211
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44405bf69b0ac8e30800000000000000
+      internalID: 4507154045394551876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battleUISlots_15
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 488
+        width: 211
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3a70b8ece86d7f0800000000000000
+      internalID: -588125683578330197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battleUISlots_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 421
+        width: 211
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c84756ae9e2bab40800000000000000
+      internalID: 5452503032792565952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battleUISlots_17
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 421
+        width: 211
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbde6c4b98b1cebc0800000000000000
+      internalID: -3752594111249060419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battleUISlots_18
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d591b8201ed5c1b0800000000000000
+      internalID: -5636855197600737832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battleUISlots_19
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5289988f6386cb80800000000000000
+      internalID: -8374861941992488354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battleUISlots_20
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cd8821b1dc308a0800000000000000
+      internalID: -6339998334248756113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battleUISlots_21
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 959
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2d650ec77b0fd20800000000000000
+      internalID: 3310347473084928674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battleUISlots_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 354
+        width: 211
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70f7c1e58b7247c0800000000000000
+      internalID: -4088569696750145412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

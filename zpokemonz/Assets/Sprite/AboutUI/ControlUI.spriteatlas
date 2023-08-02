@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ControlUI
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 512
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: ad80acf0602fffe4bbe793de19032b91, type: 3}
+    - {fileID: 2800000, guid: 82990fe7f640fc84782b9cd4934f3cb0, type: 3}
+    - {fileID: 2800000, guid: bb5a07efa778a354f910d6646676bb1e, type: 3}
+    - {fileID: 2800000, guid: 6e286831b33be3a40a77c072638f133a, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: ad80acf0602fffe4bbe793de19032b91, type: 3}
+  - {fileID: -5768707181911658818, guid: 6e286831b33be3a40a77c072638f133a, type: 3}
+  - {fileID: -246737080610278617, guid: 6e286831b33be3a40a77c072638f133a, type: 3}
+  - {fileID: 995373061669876474, guid: 82990fe7f640fc84782b9cd4934f3cb0, type: 3}
+  - {fileID: 1199781926471355675, guid: 82990fe7f640fc84782b9cd4934f3cb0, type: 3}
+  - {fileID: 6510752709248869913, guid: 82990fe7f640fc84782b9cd4934f3cb0, type: 3}
+  - {fileID: 6130990841418937043, guid: 82990fe7f640fc84782b9cd4934f3cb0, type: 3}
+  - {fileID: 1200249168883517981, guid: bb5a07efa778a354f910d6646676bb1e, type: 3}
+  - {fileID: 2851130873520133390, guid: bb5a07efa778a354f910d6646676bb1e, type: 3}
+  - {fileID: 5054268965460908768, guid: bb5a07efa778a354f910d6646676bb1e, type: 3}
+  - {fileID: 7161310251633509181, guid: bb5a07efa778a354f910d6646676bb1e, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - DPad
+  - RoR_1
+  - RoR_0
+  - OnDPad_2
+  - OnDPad_3
+  - OnDPad_0
+  - OnDPad_1
+  - battleHud_1
+  - battleHud_0
+  - battleHud_3
+  - battleHud_2
+  m_RenderDataMap: {}
+  m_Tag: ControlUI
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

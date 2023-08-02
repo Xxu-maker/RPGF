@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - CirclePokemon
+  - PcPokemon
+  - NPC
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - GrassAnim
+  - Npc
+  - Follow
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - Build
+  - Grass
+  - Roof
+  - 
+  - OceanLand
+  - Fov
+  - Portal
+  - 
+  - Battle
+  - 
+  - 
+  - Light2D
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 54491061
+    locked: 0
+  - name: ForeGround
+    uniqueID: 1577362095
+    locked: 0
+  - name: Player
+    uniqueID: 2971909085
+    locked: 0
+  - name: Roof
+    uniqueID: 2822796183
+    locked: 0
+  - name: Light
+    uniqueID: 3453064633
+    locked: 0
+  - name: Weather
+    uniqueID: 2548446801
+    locked: 0
+  - name: UI
+    uniqueID: 2925867731
+    locked: 0
+  - name: Battle
+    uniqueID: 1600030263
+    locked: 0
+  - name: Model
+    uniqueID: 153537441
+    locked: 0

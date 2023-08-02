@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d38edd48df7fbd4ea312d5f8f5df38f, type: 3}
+  m_Name: "PP\u6781\u9650\u63D0\u5347\u5242"
+  m_EditorClassIdentifier: 
+  itemName: "PP\u6781\u9650\u63D0\u5347\u5242"
+  itemSprite: {fileID: -8833612970794420088, guid: ff1809367d26f5942bfb978380eb7735, type: 3}
+  description: 
+  itemType: 7
+  price: 0
+  id: 1
+  itemsUseRules: 2
+  isBerry: 0

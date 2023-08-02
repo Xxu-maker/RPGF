@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4a0c55da1dd08449942ee87a44c8ec9, type: 3}
+  m_Name: 7
+  m_EditorClassIdentifier: 
+  skillName: "\u706B\u7130\u62F3"
+  sid: 7
+  description: 
+  skillType: 0
+  skillAnimatorType: 0
+  skillAnim: {fileID: 0}
+  type: 1
+  power: 75
+  accuracy: 1
+  alwaysHits: 0
+  pp: 15
+  maxPP: 0
+  priority: 0
+  target: 0
+  category: 0
+  addOn: 1
+  addOnPercent: 10
+  effects:
+    boosts: []
+    status: 3
+    volatileStatus: 0
+    effectTarget: 0

@@ -1,0 +1,16 @@
+插件不用动
+
+目前弃用NewInputSystem
+原因:按键多向输入会顶掉跟随宝可梦移动
+
+2dxfx是 *静态 Sprite特效, Assets/Scene/Test/EffectsTestScenen/EffectsTest.unity场景有演示(图片太小特效会出问题)
+
+AkilliMum_Weather是雾和雪天气插件
+
+Dem是DoTween
+
+UniTask是异步插件
+
+UPR是Unity自己的2D光照
+（*不支持UPR处理无法用于此项目, 或者你可以找个更好的光照替换UPR，我尝试过放弃了，很多以Y=1为轴无法支持
+ 所以现在无法制作倒影，如果你等到官方商店SS Water Reflection 2D更新到支持UPR，可以参考一下）

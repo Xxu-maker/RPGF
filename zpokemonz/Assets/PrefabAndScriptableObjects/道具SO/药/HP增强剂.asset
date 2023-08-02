@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cc7ec5162825af44a45976ef8e8d58f, type: 3}
+  m_Name: "HP\u589E\u5F3A\u5242"
+  m_EditorClassIdentifier: 
+  itemName: "HP\u589E\u5F3A\u5242"
+  itemSprite: {fileID: 6231997829839481191, guid: ff1809367d26f5942bfb978380eb7735, type: 3}
+  description: "\u5B9D\u53EF\u68A6\u7684\u8425\u517B\u996E\u6599\u3002\u80FD\u63D0\u9AD81\u53EA\u5B9D\u53EF\u68A6\u7684\uFF28\uFF30\u7684\u57FA\u7840\u70B9\u6570\u3002"
+  itemType: 4
+  price: 0
+  id: 0
+  itemsUseRules: 2
+  isBerry: 0
+  basePointType: 0
+  num: 0
+  add: 1

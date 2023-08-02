@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efa15a8c59d9d8a4da2b113a1e9c5351, type: 3}
+  m_Name: "65\u8302\u76DB"
+  m_EditorClassIdentifier: 
+  id: 65
+  abilityName: "\u8302\u76DB"
+  description: "\uFF28\uFF30\u51CF\u5C11\u7684\u65F6\u5019\uFF0C\u8349\u5C5E\u6027\u7684\u62DB\u5F0F\u5A01\u529B\u4F1A\u63D0\u9AD8\u3002"
+  triggerType: 2
+  attackType: 2
+  percent: 0
+  isVolatileCondition: 0
+  conditionID: 0
+  stat: 0
+  multiplier: 0
+  criticalPercent: 4.16
+  damage: 1.5
+  hpPercentUsedToCheck: 0.333
+  typeUsedToCheckBoost: 3
+  _stat: 0
+  addition: 0

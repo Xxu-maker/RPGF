@@ -1,0 +1,359 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f48289e2120d0d4886cbd2c75325b2d, type: 3}
+  m_Name: GlobalConfig
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 21300000, guid: 27bdc765eaceb40409beabbb1e0e1ef8, type: 3}
+    - {fileID: 21300000, guid: 860008ba3d13b4906ab11b2e044aec81, type: 3}
+    - {fileID: 21300000, guid: c767e7941500246009bba474ba899c9c, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: NovelsCharas
+      Entry: 7
+      Data: 0|GlobalConfig+NovelsCharaData[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 1|GlobalConfig+NovelsCharaData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: CH04
+    - Name: Name
+      Entry: 1
+      Data: "Ai\u4E00\u53F7"
+    - Name: Sprites
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[GlobalConfig+NovelsCharaData+CharaSprite,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 3|GlobalConfig+NovelsCharaData+CharaSprite, Assembly-CSharp
+    - Name: TextureSize
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 409.6
+    - Name: 
+      Entry: 4
+      Data: 604.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Express
+      Entry: 3
+      Data: 0
+    - Name: Sprite
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|GlobalConfig+NovelsCharaData, Assembly-CSharp
+    - Name: Key
+      Entry: 1
+      Data: CH03
+    - Name: Name
+      Entry: 1
+      Data: "Ai \u4E8C\u53F7"
+    - Name: Sprites
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[GlobalConfig+NovelsCharaData+CharaSprite,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 6|GlobalConfig+NovelsCharaData+CharaSprite, Assembly-CSharp
+    - Name: TextureSize
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 360
+    - Name: 
+      Entry: 4
+      Data: 540
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Express
+      Entry: 3
+      Data: 0
+    - Name: Sprite
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|GlobalConfig+NovelsCharaData+CharaSprite, Assembly-CSharp
+    - Name: TextureSize
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 360
+    - Name: 
+      Entry: 4
+      Data: 540
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Express
+      Entry: 3
+      Data: 7
+    - Name: Sprite
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CharaMap
+      Entry: 7
+      Data: 8|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ShowCharaSet,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 9|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: CH04_L
+    - Name: $v
+      Entry: 7
+      Data: 10|ShowCharaSet, Assembly-CSharp
+    - Name: CharaKey
+      Entry: 1
+      Data: CH04
+    - Name: PosType
+      Entry: 3
+      Data: 0
+    - Name: IsFlipX
+      Entry: 5
+      Data: true
+    - Name: State
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: CH03_R
+    - Name: $v
+      Entry: 7
+      Data: 11|ShowCharaSet, Assembly-CSharp
+    - Name: CharaKey
+      Entry: 1
+      Data: CH03
+    - Name: PosType
+      Entry: 3
+      Data: 1
+    - Name: IsFlipX
+      Entry: 5
+      Data: true
+    - Name: State
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: EventMap
+      Entry: 7
+      Data: 12|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[INovelsSet,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 9
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: StartNovelName
+      Entry: 7
+      Data: 13|GlobalConfig+NovelsChapterData, Assembly-CSharp
+    - Name: SectionNodes
+      Entry: 1
+      Data: Config/NovelsChapters/1001
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CharaPosList
+      Entry: 7
+      Data: 14|System.Collections.Generic.List`1[[GlobalConfig+CharaPosData, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 15|GlobalConfig+CharaPosData, Assembly-CSharp
+    - Name: PosKey
+      Entry: 1
+      Data: Left
+    - Name: Pos
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 16|GlobalConfig+CharaPosData, Assembly-CSharp
+    - Name: PosKey
+      Entry: 1
+      Data: Middle
+    - Name: Pos
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 17|GlobalConfig+CharaPosData, Assembly-CSharp
+    - Name: PosKey
+      Entry: 1
+      Data: Right
+    - Name: Pos
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: SFX_TextAppear
+      Entry: 7
+      Data: 18|AudioClipData, Assembly-CSharp
+    - Name: AudioRes
+      Entry: 6
+      Data: 
+    - Name: Volume
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+  AnimationList: []
+  CharSpeed: 0.02
+  ForceTextWait: 0.5

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4c6c6364e195bc41a41b03ab6a925e6, type: 3}
+  m_Name: "03\u706B\u7130\u62F3"
+  m_EditorClassIdentifier: 
+  itemName: "\u6D4B\u8BD5\u6280\u80FD\u706B\u7130\u62F3"
+  itemSprite: {fileID: 5911495567690175071, guid: a8bce2ac81287bf4f93b43352a6ff582, type: 3}
+  description: 
+  itemType: 8
+  price: 0
+  id: 0
+  itemsUseRules: 2
+  isBerry: 0
+  skill: {fileID: 11400000, guid: 1623c2ecca99d0d41a5824e8395d141a, type: 2}

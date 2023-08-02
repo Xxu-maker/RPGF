@@ -1,0 +1,2 @@
+粒子存放比较混乱
+Assets/ParticleEffects/ParticleEffects里面是处理好的，外面的没分好，可能有引用，别删。

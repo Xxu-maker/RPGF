@@ -1,0 +1,328 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a8069ad651919e40886945bb90fcbe8, type: 3}
+  m_Name: 1001
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: EventNodes
+      Entry: 7
+      Data: 0|Novels.INovelsNode[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 1|Novels.NovelsNodeData, Assembly-CSharp
+    - Name: Contents
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Novels.IContent, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 3|Novels.BlackScreenContent, Assembly-CSharp
+    - Name: Str
+      Entry: 1
+      Data: "\u8FDB\u5165\u6F14\u793ADemo\u2026\u2026"
+    - Name: IsNeedClick
+      Entry: 5
+      Data: false
+    - Name: IsClose
+      Entry: 5
+      Data: true
+    - Name: EnterFade
+      Entry: 4
+      Data: 0.5
+    - Name: StayTime
+      Entry: 4
+      Data: 1
+    - Name: LeaveFade
+      Entry: 4
+      Data: 0.5
+    - Name: TextEffect
+      Entry: 3
+      Data: 2
+    - Name: EffectTime
+      Entry: 4
+      Data: 0.5
+    - Name: BGType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|Novels.SetNodeData, Assembly-CSharp
+    - Name: SetData
+      Entry: 7
+      Data: 5|PreLoadSpineAsset, Assembly-CSharp
+    - Name: SpineNodes
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 1
+      Data: Prefabs/Spine/Dragon/dragon_SkeletonData
+    - Name: 
+      Entry: 1
+      Data: Prefabs/Spine/Hero/hero-pro_SkeletonData
+    - Name: 
+      Entry: 1
+      Data: Prefabs/Spine/spineboy-pro/spineboy-pro_SkeletonData
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|Novels.NovelsNodeData, Assembly-CSharp
+    - Name: Contents
+      Entry: 7
+      Data: 8|System.Collections.Generic.List`1[[Novels.IContent, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 9|Novels.DialogueContent, Assembly-CSharp
+    - Name: ShowStr
+      Entry: 1
+      Data: CH04_L
+    - Name: Expression
+      Entry: 3
+      Data: 3
+    - Name: CharaName
+      Entry: 6
+      Data: 
+    - Name: Close
+      Entry: 3
+      Data: 0
+    - Name: TextEffect
+      Entry: 3
+      Data: 1
+    - Name: EffectTime
+      Entry: 4
+      Data: 0
+    - Name: LeaveWait
+      Entry: 4
+      Data: 0
+    - Name: Str
+      Entry: 1
+      Data: "ai\u7B2C\u4E00\u6B21\u6D4B\u8BD5 \u51FA\u73B0\u573A\u666F\u4EBA\u7269"
+    - Name: DialogBoxType
+      Entry: 3
+      Data: 0
+    - Name: IsNextLine
+      Entry: 5
+      Data: false
+    - Name: IsNeedClick
+      Entry: 5
+      Data: false
+    - Name: IsClearCache
+      Entry: 5
+      Data: false
+    - Name: IsCloseDialog
+      Entry: 5
+      Data: false
+    - Name: IsCloseBlack
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 10|Novels.DialogueContent, Assembly-CSharp
+    - Name: ShowStr
+      Entry: 1
+      Data: CH03_R
+    - Name: Expression
+      Entry: 3
+      Data: 0
+    - Name: CharaName
+      Entry: 6
+      Data: 
+    - Name: Close
+      Entry: 3
+      Data: 0
+    - Name: TextEffect
+      Entry: 3
+      Data: 2
+    - Name: EffectTime
+      Entry: 4
+      Data: 0
+    - Name: LeaveWait
+      Entry: 4
+      Data: 0
+    - Name: Str
+      Entry: 1
+      Data: "ai\u7B2C\u4E8C\u6B21\u6D4B\u8BD5 \u6253\u5B57\u673A\u6548\u679C"
+    - Name: DialogBoxType
+      Entry: 3
+      Data: 1
+    - Name: IsNextLine
+      Entry: 5
+      Data: true
+    - Name: IsNeedClick
+      Entry: 5
+      Data: true
+    - Name: IsClearCache
+      Entry: 5
+      Data: true
+    - Name: IsCloseDialog
+      Entry: 5
+      Data: true
+    - Name: IsCloseBlack
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|Novels.DialogueContent, Assembly-CSharp
+    - Name: ShowStr
+      Entry: 1
+      Data: CH03_R
+    - Name: Expression
+      Entry: 3
+      Data: 7
+    - Name: CharaName
+      Entry: 6
+      Data: 
+    - Name: Close
+      Entry: 3
+      Data: 0
+    - Name: TextEffect
+      Entry: 3
+      Data: 2
+    - Name: EffectTime
+      Entry: 4
+      Data: 0
+    - Name: LeaveWait
+      Entry: 4
+      Data: 0
+    - Name: Str
+      Entry: 1
+      Data: "ai\u7B2C\u4E09\u6B21\u66F4\u6362\u7ACB\u7ED8\u6D4B\u8BD5 \u6587\u5B57\u6DE1\u5165\u6548\u679C"
+    - Name: DialogBoxType
+      Entry: 3
+      Data: 0
+    - Name: IsNextLine
+      Entry: 5
+      Data: true
+    - Name: IsNeedClick
+      Entry: 5
+      Data: true
+    - Name: IsClearCache
+      Entry: 5
+      Data: true
+    - Name: IsCloseDialog
+      Entry: 5
+      Data: true
+    - Name: IsCloseBlack
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 12|Novels.SetNodeData, Assembly-CSharp
+    - Name: SetData
+      Entry: 7
+      Data: 13|SetSpinePos, Assembly-CSharp
+    - Name: StartPos
+      Entry: 1
+      Data: Left
+    - Name: EndPos
+      Entry: 1
+      Data: Middle
+    - Name: StartAlpha
+      Entry: 4
+      Data: 0
+    - Name: EndAlpha
+      Entry: 4
+      Data: 0
+    - Name: time
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 14|Novels.SetNodeData, Assembly-CSharp
+    - Name: SetData
+      Entry: 7
+      Data: 15|SetSpineAction, Assembly-CSharp
+    - Name: SpineAsset
+      Entry: 1
+      Data: Prefabs/Spine/Dragon/dragon_SkeletonData
+    - Name: ActionName
+      Entry: 1
+      Data: flying
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

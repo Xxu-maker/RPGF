@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Type
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 512
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 630a0df4384f0a84cb48f8b16f46d381, type: 3}
+    - {fileID: 2800000, guid: d0f709402ca3c444e8a38b32353fd90f, type: 3}
+    - {fileID: 2800000, guid: 9946685ea4a817f4b88f624266dd5186, type: 3}
+    - {fileID: 2800000, guid: 3b9c85944b6142441823588445e6c8e2, type: 3}
+    - {fileID: 2800000, guid: 61098792d196e57419b6e01ecfa3e3b6, type: 3}
+    - {fileID: 2800000, guid: 1864a59600d0c8b42af06be77814fb57, type: 3}
+    - {fileID: 2800000, guid: 3c40aba75635b4b4d9ac2395a064f5dd, type: 3}
+    - {fileID: 2800000, guid: 5d8e1374d9fc60f45ae7c972bb19b3d8, type: 3}
+    - {fileID: 2800000, guid: 55eed90cd163ed64ebf95e60cde5dc7d, type: 3}
+    - {fileID: 2800000, guid: 0dcd7154427003b4194c37fdd0034408, type: 3}
+    - {fileID: 2800000, guid: e584973bafe657f47b266317014b9d4e, type: 3}
+    - {fileID: 2800000, guid: 7c10a8b4bb6f7a44588ac54b2168ba91, type: 3}
+    - {fileID: 2800000, guid: 6c3e1e0dca63bad418eb6950d818e727, type: 3}
+    - {fileID: 2800000, guid: c49c438ba2f3a414fa84ef45060fbf1d, type: 3}
+    - {fileID: 2800000, guid: d40800c23a08aa649a3287d6c4897207, type: 3}
+    - {fileID: 2800000, guid: d9eff52fa0fb74d4fa70025eb6b72a9d, type: 3}
+    - {fileID: 2800000, guid: de59a45a5356dd64b90845d95893c425, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: d0f709402ca3c444e8a38b32353fd90f, type: 3}
+  - {fileID: 21300000, guid: 61098792d196e57419b6e01ecfa3e3b6, type: 3}
+  - {fileID: 21300000, guid: d40800c23a08aa649a3287d6c4897207, type: 3}
+  - {fileID: 21300000, guid: 0dcd7154427003b4194c37fdd0034408, type: 3}
+  - {fileID: 21300000, guid: 5d8e1374d9fc60f45ae7c972bb19b3d8, type: 3}
+  - {fileID: 21300000, guid: 3b9c85944b6142441823588445e6c8e2, type: 3}
+  - {fileID: 21300000, guid: 7c10a8b4bb6f7a44588ac54b2168ba91, type: 3}
+  - {fileID: 21300000, guid: 630a0df4384f0a84cb48f8b16f46d381, type: 3}
+  - {fileID: 21300000, guid: 1864a59600d0c8b42af06be77814fb57, type: 3}
+  - {fileID: 21300000, guid: 3c40aba75635b4b4d9ac2395a064f5dd, type: 3}
+  - {fileID: 21300000, guid: de59a45a5356dd64b90845d95893c425, type: 3}
+  - {fileID: 21300000, guid: e584973bafe657f47b266317014b9d4e, type: 3}
+  - {fileID: 21300000, guid: c49c438ba2f3a414fa84ef45060fbf1d, type: 3}
+  - {fileID: 21300000, guid: 55eed90cd163ed64ebf95e60cde5dc7d, type: 3}
+  - {fileID: 21300000, guid: 6c3e1e0dca63bad418eb6950d818e727, type: 3}
+  - {fileID: 21300000, guid: 9946685ea4a817f4b88f624266dd5186, type: 3}
+  - {fileID: 21300000, guid: d9eff52fa0fb74d4fa70025eb6b72a9d, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - hyp
+  - frz
+  - 15
+  - 10
+  - 8
+  - slp
+  - 12
+  - psn
+  - par
+  - 7
+  - 17
+  - 11
+  - 14
+  - 9
+  - 13
+  - brn
+  - 16
+  m_RenderDataMap: {}
+  m_Tag: Type
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

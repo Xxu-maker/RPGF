@@ -1,0 +1,7032 @@
+fileFormatVersion: 2
+guid: c66e5227c2e2fdc478f19b5db54537f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2553909608028365345
+    second: NormalGround_0
+  - first:
+      213: -1039540712827053762
+    second: NormalGround_1
+  - first:
+      213: -4023206363429950525
+    second: NormalGround_2
+  - first:
+      213: 9031823197337797817
+    second: NormalGround_3
+  - first:
+      213: -8440270382288549574
+    second: NormalGround_4
+  - first:
+      213: -5006341833287754990
+    second: NormalGround_5
+  - first:
+      213: -342917888950780698
+    second: NormalGround_6
+  - first:
+      213: 6337281985317846934
+    second: NormalGround_7
+  - first:
+      213: -6983803109415264739
+    second: NormalGround_8
+  - first:
+      213: 1856306330875104407
+    second: NormalGround_9
+  - first:
+      213: -6344847367993751654
+    second: NormalGround_10
+  - first:
+      213: -7483629694169928786
+    second: NormalGround_11
+  - first:
+      213: 163688993863770959
+    second: NormalGround_12
+  - first:
+      213: 6875649552516010510
+    second: NormalGround_13
+  - first:
+      213: 3817104434631035729
+    second: NormalGround_14
+  - first:
+      213: -8520222335436653521
+    second: NormalGround_15
+  - first:
+      213: -7396139034503339493
+    second: NormalGround_16
+  - first:
+      213: -3399099137812436244
+    second: NormalGround_17
+  - first:
+      213: 2863085924987345548
+    second: NormalGround_18
+  - first:
+      213: -1328050812501527867
+    second: NormalGround_19
+  - first:
+      213: -6137441552105160733
+    second: NormalGround_20
+  - first:
+      213: -1432643774498119331
+    second: NormalGround_21
+  - first:
+      213: -5399414256143935388
+    second: NormalGround_22
+  - first:
+      213: 5920987049782801250
+    second: NormalGround_23
+  - first:
+      213: -344337393656986145
+    second: NormalGround_24
+  - first:
+      213: -4436355262908201458
+    second: NormalGround_25
+  - first:
+      213: 2976622236897551384
+    second: NormalGround_26
+  - first:
+      213: 1606910005414331638
+    second: NormalGround_27
+  - first:
+      213: -7890925318521213820
+    second: NormalGround_28
+  - first:
+      213: -8387831121043422897
+    second: NormalGround_29
+  - first:
+      213: -8444574912184727142
+    second: NormalGround_30
+  - first:
+      213: 4396091160246211887
+    second: NormalGround_31
+  - first:
+      213: -7426162079511183003
+    second: NormalGround_32
+  - first:
+      213: 6917134039043877807
+    second: NormalGround_33
+  - first:
+      213: 858813267226480666
+    second: NormalGround_34
+  - first:
+      213: -4691126472626510550
+    second: NormalGround_35
+  - first:
+      213: -2685813932235135757
+    second: NormalGround_36
+  - first:
+      213: 6632699813964745097
+    second: NormalGround_37
+  - first:
+      213: 901930797964463778
+    second: NormalGround_38
+  - first:
+      213: -3489415280452018277
+    second: NormalGround_39
+  - first:
+      213: 7445278588089642810
+    second: NormalGround_40
+  - first:
+      213: 606622297777038852
+    second: NormalGround_41
+  - first:
+      213: -4358759008358738583
+    second: NormalGround_42
+  - first:
+      213: -1159835587240720094
+    second: NormalGround_43
+  - first:
+      213: -7614830042877743465
+    second: NormalGround_44
+  - first:
+      213: 7967579668131643254
+    second: NormalGround_45
+  - first:
+      213: 1011993106086134592
+    second: NormalGround_46
+  - first:
+      213: 6012652471862703493
+    second: NormalGround_47
+  - first:
+      213: -6186706362471858598
+    second: NormalGround_48
+  - first:
+      213: -4011268530247044192
+    second: NormalGround_49
+  - first:
+      213: 4264302942363605799
+    second: NormalGround_50
+  - first:
+      213: -5130919361532019053
+    second: NormalGround_51
+  - first:
+      213: 3168637033083690409
+    second: NormalGround_52
+  - first:
+      213: -6301334220606832755
+    second: NormalGround_53
+  - first:
+      213: -1895984464779531227
+    second: NormalGround_54
+  - first:
+      213: -6768358300370049081
+    second: NormalGround_55
+  - first:
+      213: 6738719803010478842
+    second: NormalGround_56
+  - first:
+      213: 6435472076464369851
+    second: NormalGround_57
+  - first:
+      213: 329880071082707713
+    second: NormalGround_58
+  - first:
+      213: 4812668219353378719
+    second: NormalGround_59
+  - first:
+      213: 7715084839990335285
+    second: NormalGround_60
+  - first:
+      213: 2185967538467012422
+    second: NormalGround_61
+  - first:
+      213: -2307191988787120750
+    second: NormalGround_62
+  - first:
+      213: 5898362370905238959
+    second: NormalGround_63
+  - first:
+      213: -2414875227215227785
+    second: NormalGround_64
+  - first:
+      213: 8096969090651376826
+    second: NormalGround_65
+  - first:
+      213: 5697404801862610003
+    second: NormalGround_66
+  - first:
+      213: 7593676427061292465
+    second: NormalGround_67
+  - first:
+      213: -3669682756464778646
+    second: NormalGround_68
+  - first:
+      213: 4858702053659442839
+    second: NormalGround_69
+  - first:
+      213: -4134262454370712452
+    second: NormalGround_70
+  - first:
+      213: -4594468311304988538
+    second: NormalGround_71
+  - first:
+      213: -453207583982284245
+    second: NormalGround_72
+  - first:
+      213: 1422669554990875075
+    second: NormalGround_73
+  - first:
+      213: -5780469432811719396
+    second: NormalGround_74
+  - first:
+      213: 3265254237454852546
+    second: NormalGround_75
+  - first:
+      213: -8509940188957116882
+    second: NormalGround_76
+  - first:
+      213: -9201036353833162809
+    second: NormalGround_77
+  - first:
+      213: -244663777343736915
+    second: NormalGround_78
+  - first:
+      213: -5184247026286278954
+    second: NormalGround_79
+  - first:
+      213: 7061669981839782262
+    second: NormalGround_80
+  - first:
+      213: -4037554061141239705
+    second: NormalGround_81
+  - first:
+      213: 7625063001067646363
+    second: NormalGround_82
+  - first:
+      213: 2114288197017580597
+    second: NormalGround_83
+  - first:
+      213: 3258115619277671342
+    second: NormalGround_84
+  - first:
+      213: 6443169366691267566
+    second: NormalGround_85
+  - first:
+      213: -7545651395089047101
+    second: NormalGround_86
+  - first:
+      213: 4668121329511643866
+    second: NormalGround_87
+  - first:
+      213: -5981294476420952457
+    second: NormalGround_88
+  - first:
+      213: -897778810215518426
+    second: NormalGround_89
+  - first:
+      213: -3856698013024774669
+    second: NormalGround_90
+  - first:
+      213: 2044693885818836059
+    second: NormalGround_91
+  - first:
+      213: 8567771419968205691
+    second: NormalGround_92
+  - first:
+      213: -6177349765696180209
+    second: NormalGround_93
+  - first:
+      213: 2822978659793425158
+    second: NormalGround_94
+  - first:
+      213: -455899503617442785
+    second: NormalGround_95
+  - first:
+      213: -405276796986650876
+    second: NormalGround_96
+  - first:
+      213: 8398423069768219405
+    second: NormalGround_97
+  - first:
+      213: -7382352933718078377
+    second: NormalGround_98
+  - first:
+      213: -8010545446776337462
+    second: NormalGround_99
+  - first:
+      213: -7659724031780151579
+    second: NormalGround_100
+  - first:
+      213: 1377744282609016778
+    second: NormalGround_101
+  - first:
+      213: -1229965554783320509
+    second: NormalGround_102
+  - first:
+      213: -3881646285189678361
+    second: NormalGround_103
+  - first:
+      213: 791579862473649083
+    second: NormalGround_104
+  - first:
+      213: 2557587840939611358
+    second: NormalGround_105
+  - first:
+      213: -2763900791227104972
+    second: NormalGround_106
+  - first:
+      213: -5386846181151676834
+    second: NormalGround_107
+  - first:
+      213: 7218781082255503007
+    second: NormalGround_108
+  - first:
+      213: 1715353927983266318
+    second: NormalGround_109
+  - first:
+      213: 8556467672902386169
+    second: NormalGround_110
+  - first:
+      213: -8560965624149265408
+    second: NormalGround_111
+  - first:
+      213: -3978522622159455476
+    second: NormalGround_112
+  - first:
+      213: -4520940813572013094
+    second: NormalGround_113
+  - first:
+      213: -852136263981968709
+    second: NormalGround_114
+  - first:
+      213: -2850938577606216170
+    second: NormalGround_115
+  - first:
+      213: 4684636646180449117
+    second: NormalGround_116
+  - first:
+      213: -5243284422990032989
+    second: NormalGround_117
+  - first:
+      213: 752606565386342273
+    second: NormalGround_118
+  - first:
+      213: 6961927393015594990
+    second: NormalGround_119
+  - first:
+      213: 8927982130011580372
+    second: NormalGround_120
+  - first:
+      213: 7412221166524496711
+    second: NormalGround_121
+  - first:
+      213: -5483242412277817912
+    second: NormalGround_122
+  - first:
+      213: 956003359614427094
+    second: NormalGround_123
+  - first:
+      213: -124822316131477256
+    second: NormalGround_124
+  - first:
+      213: -1698331008070038947
+    second: NormalGround_125
+  - first:
+      213: -8653610984363418748
+    second: NormalGround_126
+  - first:
+      213: -1692898980255938249
+    second: NormalGround_127
+  - first:
+      213: -6673966806158650505
+    second: NormalGround_128
+  - first:
+      213: -7443199887027753355
+    second: NormalGround_129
+  - first:
+      213: -4734914158773660563
+    second: NormalGround_130
+  - first:
+      213: -462438266653777205
+    second: NormalGround_131
+  - first:
+      213: 396063352525069279
+    second: NormalGround_132
+  - first:
+      213: -3270809747885100086
+    second: NormalGround_133
+  - first:
+      213: -5702571232849416970
+    second: NormalGround_134
+  - first:
+      213: -7666301184983397615
+    second: NormalGround_135
+  - first:
+      213: -8256707967911540089
+    second: NormalGround_136
+  - first:
+      213: -1935924229026913989
+    second: NormalGround_137
+  - first:
+      213: -6800901038519926198
+    second: NormalGround_138
+  - first:
+      213: 1972741692607852977
+    second: NormalGround_139
+  - first:
+      213: 1876736502567633147
+    second: NormalGround_140
+  - first:
+      213: 55281221139168257
+    second: NormalGround_141
+  - first:
+      213: 8093711089128260568
+    second: NormalGround_142
+  - first:
+      213: -5931144661506115522
+    second: NormalGround_143
+  - first:
+      213: 1185675717670863857
+    second: NormalGround_144
+  - first:
+      213: -28415368709301831
+    second: NormalGround_145
+  - first:
+      213: 3236074658474157012
+    second: NormalGround_146
+  - first:
+      213: -1325516172196282790
+    second: NormalGround_147
+  - first:
+      213: -7149555209158445284
+    second: NormalGround_148
+  - first:
+      213: 2113232291940320000
+    second: NormalGround_149
+  - first:
+      213: 8501286387563390096
+    second: NormalGround_150
+  - first:
+      213: 5128030454296947857
+    second: NormalGround_151
+  - first:
+      213: 4741683908020573739
+    second: NormalGround_152
+  - first:
+      213: 28487557425412617
+    second: NormalGround_153
+  - first:
+      213: 6604425730245254088
+    second: NormalGround_154
+  - first:
+      213: 4952793157973458630
+    second: NormalGround_155
+  - first:
+      213: -4504504134902262099
+    second: NormalGround_156
+  - first:
+      213: -4361269638029776400
+    second: NormalGround_157
+  - first:
+      213: 8852265179707740094
+    second: NormalGround_158
+  - first:
+      213: -5739430731823034756
+    second: NormalGround_159
+  - first:
+      213: -1743175184144574134
+    second: NormalGround_160
+  - first:
+      213: 3641407297320042047
+    second: NormalGround_161
+  - first:
+      213: 6951157906870039873
+    second: NormalGround_162
+  - first:
+      213: 2383701688625176634
+    second: NormalGround_163
+  - first:
+      213: 1210367268674041490
+    second: NormalGround_164
+  - first:
+      213: 6691672759543118029
+    second: NormalGround_165
+  - first:
+      213: 3078340070848045673
+    second: NormalGround_166
+  - first:
+      213: -6709762588159030727
+    second: NormalGround_167
+  - first:
+      213: -3893150262548676029
+    second: NormalGround_168
+  - first:
+      213: -3031111736668861173
+    second: NormalGround_169
+  - first:
+      213: -4946435115799778213
+    second: NormalGround_170
+  - first:
+      213: 4150020681348113904
+    second: NormalGround_171
+  - first:
+      213: -2306895827649459376
+    second: NormalGround_172
+  - first:
+      213: -7569210101054124866
+    second: NormalGround_173
+  - first:
+      213: 6375848461491457450
+    second: NormalGround_174
+  - first:
+      213: 374275253732466236
+    second: NormalGround_175
+  - first:
+      213: 8720652215376346408
+    second: NormalGround_176
+  - first:
+      213: 3261295140772101372
+    second: NormalGround_177
+  - first:
+      213: 6435428981978866232
+    second: NormalGround_178
+  - first:
+      213: 2006186046091728693
+    second: NormalGround_179
+  - first:
+      213: -7679429931162450363
+    second: NormalGround_180
+  - first:
+      213: 1693144413620797448
+    second: NormalGround_181
+  - first:
+      213: -4302606615636526260
+    second: NormalGround_182
+  - first:
+      213: 1856607379266952728
+    second: NormalGround_183
+  - first:
+      213: -8725492442490852842
+    second: NormalGround_184
+  - first:
+      213: 1160192686951361931
+    second: NormalGround_185
+  - first:
+      213: 7971145089418970733
+    second: NormalGround_186
+  - first:
+      213: 8741394490615586815
+    second: NormalGround_187
+  - first:
+      213: -3211320449529995212
+    second: NormalGround_188
+  - first:
+      213: 4459226107501222157
+    second: NormalGround_189
+  - first:
+      213: 3891204534401048282
+    second: NormalGround_190
+  - first:
+      213: -646636075076360200
+    second: NormalGround_191
+  - first:
+      213: -670400483151981064
+    second: NormalGround_192
+  - first:
+      213: -3963272204952804521
+    second: NormalGround_193
+  - first:
+      213: -161485675732179906
+    second: NormalGround_194
+  - first:
+      213: 7028673113566690943
+    second: NormalGround_195
+  - first:
+      213: 251511619879107982
+    second: NormalGround_196
+  - first:
+      213: -1144572958150771787
+    second: NormalGround_197
+  - first:
+      213: -7163436557095478020
+    second: NormalGround_198
+  - first:
+      213: 430106999482593240
+    second: NormalGround_199
+  - first:
+      213: 589967181540925792
+    second: NormalGround_200
+  - first:
+      213: -5157283985242310091
+    second: NormalGround_201
+  - first:
+      213: 6330407752002069074
+    second: NormalGround_202
+  - first:
+      213: -6221750985512515405
+    second: NormalGround_203
+  - first:
+      213: 8189103925226292749
+    second: NormalGround_204
+  - first:
+      213: -8710875895211346833
+    second: NormalGround_205
+  - first:
+      213: 8146665351793683580
+    second: NormalGround_206
+  - first:
+      213: 5387913985152965053
+    second: NormalGround_207
+  - first:
+      213: 3922074625014772932
+    second: NormalGround_208
+  - first:
+      213: -8112069672406104017
+    second: NormalGround_209
+  - first:
+      213: 3006575993098882958
+    second: NormalGround_210
+  - first:
+      213: 7377582649129151672
+    second: NormalGround_211
+  - first:
+      213: -8276057195737418102
+    second: NormalGround_212
+  - first:
+      213: 4451794348249267198
+    second: NormalGround_213
+  - first:
+      213: -4762019728071162030
+    second: NormalGround_214
+  - first:
+      213: 5478812282708775347
+    second: NormalGround_215
+  - first:
+      213: -3456165613906910138
+    second: NormalGround_216
+  - first:
+      213: 8815994686030841849
+    second: NormalGround_217
+  - first:
+      213: 7363130965821455168
+    second: NormalGround_218
+  - first:
+      213: 8982504653503796152
+    second: NormalGround_219
+  - first:
+      213: 4842532952255045055
+    second: NormalGround_220
+  - first:
+      213: 3958718038387944709
+    second: NormalGround_221
+  - first:
+      213: 2008739562454579028
+    second: NormalGround_222
+  - first:
+      213: -4566512698024849943
+    second: NormalGround_223
+  - first:
+      213: -1951010805962314630
+    second: NormalGround_224
+  - first:
+      213: -7506366304715070606
+    second: NormalGround_225
+  - first:
+      213: -3072754554830607832
+    second: NormalGround_226
+  - first:
+      213: -3739992758997369255
+    second: NormalGround_227
+  - first:
+      213: 7506607197919649004
+    second: NormalGround_228
+  - first:
+      213: -5437540479506485256
+    second: NormalGround_229
+  - first:
+      213: -6102891071426272075
+    second: NormalGround_230
+  - first:
+      213: -8834911548828345695
+    second: NormalGround_231
+  - first:
+      213: 5106417961078475434
+    second: NormalGround_232
+  - first:
+      213: -3404827389290584440
+    second: NormalGround_233
+  - first:
+      213: 3257169467519762640
+    second: NormalGround_234
+  - first:
+      213: -1357755101985295387
+    second: NormalGround_235
+  - first:
+      213: 4005659095313486384
+    second: NormalGround_236
+  - first:
+      213: 6292851272151694605
+    second: NormalGround_237
+  - first:
+      213: -7764088755398458473
+    second: NormalGround_238
+  - first:
+      213: -8726343477938324495
+    second: NormalGround_239
+  - first:
+      213: 6472268374673650893
+    second: NormalGround_240
+  - first:
+      213: 1813821807062785469
+    second: NormalGround_241
+  - first:
+      213: 7478451817182527849
+    second: NormalGround_242
+  - first:
+      213: -204816512102780802
+    second: NormalGround_243
+  - first:
+      213: 5757050428628531218
+    second: NormalGround_244
+  - first:
+      213: -2143458962193748689
+    second: NormalGround_245
+  - first:
+      213: 8884971372906394694
+    second: NormalGround_246
+  - first:
+      213: 6939655678384656031
+    second: NormalGround_247
+  - first:
+      213: -3929258965580429059
+    second: NormalGround_248
+  - first:
+      213: -8117552665825453596
+    second: NormalGround_249
+  - first:
+      213: 5981928981607647622
+    second: NormalGround_250
+  - first:
+      213: -1860788358376848615
+    second: NormalGround_251
+  - first:
+      213: 3585748468186920740
+    second: NormalGround_252
+  - first:
+      213: -3379932150140891465
+    second: NormalGround_253
+  - first:
+      213: 6681070966367853394
+    second: NormalGround_254
+  - first:
+      213: 6926746689825530589
+    second: NormalGround_255
+  - first:
+      213: -7225744153242967840
+    second: NormalGround_1_0
+  - first:
+      213: 1719794300492161846
+    second: NormalGround_1_1
+  - first:
+      213: -5618686213194569491
+    second: NormalGround_1_2
+  - first:
+      213: 1283402743967341490
+    second: NormalGround_1_3
+  - first:
+      213: 964114803418606563
+    second: NormalGround_1_4
+  - first:
+      213: 2398136696838576223
+    second: NormalGround_1_5
+  - first:
+      213: -5064916609769756068
+    second: NormalGround_1_6
+  - first:
+      213: 4961668405409259921
+    second: NormalGround_1_7
+  - first:
+      213: -3148500380701901838
+    second: NormalGround_1_8
+  - first:
+      213: -3254875197454481909
+    second: NormalGround_1_9
+  - first:
+      213: -2031657920162772146
+    second: NormalGround_1_10
+  - first:
+      213: -6741318512336189545
+    second: NormalGround_1_11
+  - first:
+      213: -7345619926783171467
+    second: NormalGround_1_12
+  - first:
+      213: 6426454662290912955
+    second: NormalGround_1_13
+  - first:
+      213: 3422924611485224968
+    second: NormalGround_1_14
+  - first:
+      213: 3432869597223578693
+    second: NormalGround_1_15
+  - first:
+      213: -1143133192297109287
+    second: NormalGround_1_16
+  - first:
+      213: 8165166637720832360
+    second: NormalGround_1_17
+  - first:
+      213: 4730892795288179954
+    second: NormalGround_1_18
+  - first:
+      213: -3279109681121250244
+    second: NormalGround_1_19
+  - first:
+      213: 5469821697838296812
+    second: NormalGround_1_20
+  - first:
+      213: 7159167472612361408
+    second: NormalGround_1_21
+  - first:
+      213: 2739591356186971602
+    second: NormalGround_1_22
+  - first:
+      213: -3175160653951252961
+    second: NormalGround_1_23
+  - first:
+      213: -7125337708858387900
+    second: NormalGround_1_24
+  - first:
+      213: 6516375622265923319
+    second: NormalGround_1_25
+  - first:
+      213: -8813693090378289818
+    second: NormalGround_1_26
+  - first:
+      213: -124990750189835500
+    second: NormalGround_1_27
+  - first:
+      213: -827321023779270343
+    second: NormalGround_1_28
+  - first:
+      213: 8498966443931008932
+    second: NormalGround_1_29
+  - first:
+      213: 5870221520141920176
+    second: NormalGround_1_30
+  - first:
+      213: -3336671362763227667
+    second: NormalGround_1_31
+  - first:
+      213: 3559291483402306442
+    second: NormalGround_1_32
+  - first:
+      213: -290820091824446890
+    second: NormalGround_1_33
+  - first:
+      213: -3204599434674560676
+    second: NormalGround_1_34
+  - first:
+      213: 8323922755895213910
+    second: NormalGround_1_35
+  - first:
+      213: 4171702374525023639
+    second: NormalGround_1_36
+  - first:
+      213: 4439413429380565258
+    second: NormalGround_1_37
+  - first:
+      213: 8276996413310806416
+    second: NormalGround_1_38
+  - first:
+      213: 1824330423892261206
+    second: NormalGround_1_39
+  - first:
+      213: -5211325658702134063
+    second: NormalGround_1_40
+  - first:
+      213: -4934836584631413890
+    second: NormalGround_1_41
+  - first:
+      213: 2033770490283047434
+    second: NormalGround_1_42
+  - first:
+      213: -803921405248903963
+    second: NormalGround_1_43
+  - first:
+      213: -7441259711722135724
+    second: NormalGround_1_44
+  - first:
+      213: -1622643030369990205
+    second: NormalGround_1_45
+  - first:
+      213: 4422789612128718185
+    second: NormalGround_1_46
+  - first:
+      213: -2320734241360383422
+    second: NormalGround_1_47
+  - first:
+      213: -264238751871630961
+    second: NormalGround_1_48
+  - first:
+      213: -8420530030869837314
+    second: NormalGround_1_49
+  - first:
+      213: -6968763888660225615
+    second: NormalGround_1_50
+  - first:
+      213: 5472801652635117840
+    second: NormalGround_1_51
+  - first:
+      213: -2634247169651384469
+    second: NormalGround_1_52
+  - first:
+      213: -8138906469405628536
+    second: NormalGround_1_53
+  - first:
+      213: -1175501609973914713
+    second: NormalGround_1_54
+  - first:
+      213: -6234374976498202832
+    second: NormalGround_1_55
+  - first:
+      213: -1941981945695983046
+    second: NormalGround_1_56
+  - first:
+      213: 5824855130576282266
+    second: NormalGround_1_57
+  - first:
+      213: 8562293035901565912
+    second: NormalGround_1_58
+  - first:
+      213: -2968066738395003460
+    second: NormalGround_1_59
+  - first:
+      213: -6805579449821260898
+    second: NormalGround_1_60
+  - first:
+      213: 1295476738476531537
+    second: NormalGround_1_61
+  - first:
+      213: 5561816421525026730
+    second: NormalGround_1_62
+  - first:
+      213: 2906891598425228659
+    second: NormalGround_1_63
+  - first:
+      213: -1945251572022699963
+    second: NormalGround_1_64
+  - first:
+      213: 8337506259630555459
+    second: NormalGround_1_65
+  - first:
+      213: -8905615615544840897
+    second: NormalGround_1_66
+  - first:
+      213: -7820835972694605242
+    second: NormalGround_1_67
+  - first:
+      213: -7921366910910508523
+    second: NormalGround_1_68
+  - first:
+      213: 6567137727641386981
+    second: NormalGround_1_69
+  - first:
+      213: 7287613705181550879
+    second: NormalGround_1_70
+  - first:
+      213: -9083345737255569210
+    second: NormalGround_1_71
+  - first:
+      213: 751829228764839057
+    second: NormalGround_1_72
+  - first:
+      213: -6617973254566223252
+    second: NormalGround_1_73
+  - first:
+      213: 140181805648234278
+    second: NormalGround_1_74
+  - first:
+      213: 8300202489902957690
+    second: NormalGround_1_75
+  - first:
+      213: -2395641488989901304
+    second: NormalGround_1_76
+  - first:
+      213: 1509408913805612545
+    second: NormalGround_1_77
+  - first:
+      213: 1952641592585301181
+    second: NormalGround_1_78
+  - first:
+      213: 4450162602188238586
+    second: NormalGround_1_79
+  - first:
+      213: -4026364591711171322
+    second: NormalGround_1_80
+  - first:
+      213: -8982929410587460777
+    second: NormalGround_1_81
+  - first:
+      213: 1988647741187524713
+    second: NormalGround_1_82
+  - first:
+      213: -8616907932914485910
+    second: NormalGround_1_83
+  - first:
+      213: -5009625662627945375
+    second: NormalGround_1_84
+  - first:
+      213: -237168081164356973
+    second: NormalGround_1_85
+  - first:
+      213: -2120857033736862089
+    second: NormalGround_1_86
+  - first:
+      213: 4457284764223941769
+    second: NormalGround_1_87
+  - first:
+      213: 760059703962723057
+    second: NormalGround_1_88
+  - first:
+      213: -5116243766320809018
+    second: NormalGround_1_89
+  - first:
+      213: -2980150164480851163
+    second: NormalGround_1_90
+  - first:
+      213: 8289242096748741329
+    second: NormalGround_1_91
+  - first:
+      213: 3286669307676915601
+    second: NormalGround_1_92
+  - first:
+      213: 1375634474705345995
+    second: NormalGround_1_93
+  - first:
+      213: -59491430483328645
+    second: NormalGround_1_94
+  - first:
+      213: -1683735476783433083
+    second: NormalGround_1_95
+  - first:
+      213: 71629977172178889
+    second: NormalGround_1_96
+  - first:
+      213: -5747120277536705872
+    second: NormalGround_1_97
+  - first:
+      213: -1159999650631787595
+    second: NormalGround_1_98
+  - first:
+      213: 4308057501166380153
+    second: NormalGround_1_99
+  - first:
+      213: -1056483573325515215
+    second: NormalGround_1_100
+  - first:
+      213: 3952248844358240024
+    second: NormalGround_1_101
+  - first:
+      213: 2199771593615978338
+    second: NormalGround_1_102
+  - first:
+      213: 5856486017503299893
+    second: NormalGround_1_103
+  - first:
+      213: 4352557367594715222
+    second: NormalGround_1_104
+  - first:
+      213: 582059129823038524
+    second: NormalGround_1_105
+  - first:
+      213: -5349755973974389817
+    second: NormalGround_1_106
+  - first:
+      213: 756437412275802403
+    second: NormalGround_1_107
+  - first:
+      213: -6931756632436825795
+    second: NormalGround_1_108
+  - first:
+      213: 7480984969929655183
+    second: NormalGround_1_109
+  - first:
+      213: -5858933849057691755
+    second: NormalGround_1_110
+  - first:
+      213: -5774832251044957087
+    second: NormalGround_1_111
+  - first:
+      213: 1383145936984582751
+    second: NormalGround_1_112
+  - first:
+      213: -8128176141609631551
+    second: NormalGround_1_113
+  - first:
+      213: 1171725211338186363
+    second: NormalGround_1_114
+  - first:
+      213: -350980576408891126
+    second: NormalGround_1_115
+  - first:
+      213: -2848919578452928741
+    second: NormalGround_1_116
+  - first:
+      213: 1356646033367129384
+    second: NormalGround_1_117
+  - first:
+      213: -1754807453400909161
+    second: NormalGround_1_118
+  - first:
+      213: 8720697630917141936
+    second: NormalGround_1_119
+  - first:
+      213: -4252159810384065775
+    second: NormalGround_1_120
+  - first:
+      213: -8372883320007696346
+    second: NormalGround_1_121
+  - first:
+      213: -5748862997109660769
+    second: NormalGround_1_122
+  - first:
+      213: 1248985131714342575
+    second: NormalGround_1_123
+  - first:
+      213: 1230439571107089097
+    second: NormalGround_1_124
+  - first:
+      213: -173759896208328884
+    second: NormalGround_1_125
+  - first:
+      213: 3217833961305502446
+    second: NormalGround_1_126
+  - first:
+      213: -2111730882053932273
+    second: NormalGround_1_127
+  - first:
+      213: 7287933754122593267
+    second: NormalGround_1_128
+  - first:
+      213: -2586316508107403927
+    second: NormalGround_1_129
+  - first:
+      213: 3440111789322348934
+    second: NormalGround_1_130
+  - first:
+      213: -3240637755535752959
+    second: NormalGround_1_131
+  - first:
+      213: 3635438040818053046
+    second: NormalGround_1_132
+  - first:
+      213: -960227395258116001
+    second: NormalGround_1_133
+  - first:
+      213: -6367307216741494888
+    second: NormalGround_1_134
+  - first:
+      213: -8001452033438547035
+    second: NormalGround_1_135
+  - first:
+      213: 8904409429418659666
+    second: NormalGround_1_136
+  - first:
+      213: -8543780969937093610
+    second: NormalGround_1_137
+  - first:
+      213: -1141857796003421427
+    second: NormalGround_1_138
+  - first:
+      213: 948243329420115322
+    second: NormalGround_1_139
+  - first:
+      213: -4813931295989056061
+    second: NormalGround_1_140
+  - first:
+      213: 6380399818057658586
+    second: NormalGround_1_141
+  - first:
+      213: -1079465798689074231
+    second: NormalGround_1_142
+  - first:
+      213: 3434072882479719030
+    second: NormalGround_1_143
+  - first:
+      213: 3859658246444774923
+    second: NormalGround_1_144
+  - first:
+      213: 634298003874550938
+    second: NormalGround_1_145
+  - first:
+      213: 5425665128524999890
+    second: NormalGround_1_146
+  - first:
+      213: 5033626432052621778
+    second: NormalGround_1_147
+  - first:
+      213: -311999459800512276
+    second: NormalGround_1_148
+  - first:
+      213: 7257136261429715733
+    second: NormalGround_1_149
+  - first:
+      213: -1924059295704881036
+    second: NormalGround_1_150
+  - first:
+      213: 1254910643091157594
+    second: NormalGround_1_151
+  - first:
+      213: -8321857154188671269
+    second: NormalGround_1_152
+  - first:
+      213: -5552366264263636774
+    second: NormalGround_1_153
+  - first:
+      213: -8513469354110476735
+    second: NormalGround_1_154
+  - first:
+      213: -791926671420057922
+    second: NormalGround_1_155
+  - first:
+      213: 2323048065934596798
+    second: NormalGround_1_156
+  - first:
+      213: 1494111681532020381
+    second: NormalGround_1_157
+  - first:
+      213: -3217745367330187174
+    second: NormalGround_1_158
+  - first:
+      213: -3951172573515268826
+    second: NormalGround_1_159
+  - first:
+      213: 1558522739851232116
+    second: NormalGround_1_160
+  - first:
+      213: -8621280422215999009
+    second: NormalGround_1_161
+  - first:
+      213: -8156226930110825561
+    second: NormalGround_1_162
+  - first:
+      213: 8368222792618972228
+    second: NormalGround_1_163
+  - first:
+      213: 5159610126894402444
+    second: NormalGround_1_164
+  - first:
+      213: 3272409090786013137
+    second: NormalGround_1_165
+  - first:
+      213: -3527883966997542177
+    second: NormalGround_1_166
+  - first:
+      213: 6928321628087511947
+    second: NormalGround_1_167
+  - first:
+      213: -6638294122951619757
+    second: NormalGround_1_168
+  - first:
+      213: 3826616489106070661
+    second: NormalGround_1_169
+  - first:
+      213: 1650650978060752658
+    second: NormalGround_1_170
+  - first:
+      213: -449025050069955831
+    second: NormalGround_1_171
+  - first:
+      213: 5686518570904178818
+    second: NormalGround_1_172
+  - first:
+      213: -7722514949623718098
+    second: NormalGround_1_173
+  - first:
+      213: -3836241059942303661
+    second: NormalGround_1_174
+  - first:
+      213: -6777059126571078478
+    second: NormalGround_1_175
+  - first:
+      213: 965373675266486527
+    second: NormalGround_1_176
+  - first:
+      213: 755199550249392013
+    second: NormalGround_1_177
+  - first:
+      213: 6886404943998046568
+    second: NormalGround_1_178
+  - first:
+      213: -993835148297206952
+    second: NormalGround_1_179
+  - first:
+      213: -5314716228893139271
+    second: NormalGround_1_180
+  - first:
+      213: -8264642933582340385
+    second: NormalGround_1_181
+  - first:
+      213: 2302116891683143263
+    second: NormalGround_1_182
+  - first:
+      213: 4176475331979041852
+    second: NormalGround_1_183
+  - first:
+      213: -9016361529575257409
+    second: NormalGround_1_184
+  - first:
+      213: 4233582928384043847
+    second: NormalGround_1_185
+  - first:
+      213: 8399731484515473653
+    second: NormalGround_1_186
+  - first:
+      213: -6529139325989149461
+    second: NormalGround_1_187
+  - first:
+      213: 272106430665424639
+    second: NormalGround_1_188
+  - first:
+      213: -8484478447437623545
+    second: NormalGround_1_189
+  - first:
+      213: -1839988491577681503
+    second: NormalGround_1_190
+  - first:
+      213: -3891854617627403611
+    second: NormalGround_1_191
+  - first:
+      213: -3626883957443460380
+    second: NormalGround_1_192
+  - first:
+      213: 8190102192289587963
+    second: NormalGround_1_193
+  - first:
+      213: -4098241954354892935
+    second: NormalGround_1_194
+  - first:
+      213: 5812517284564596604
+    second: NormalGround_1_195
+  - first:
+      213: 6000279879110100377
+    second: NormalGround_1_196
+  - first:
+      213: -6948406426526150893
+    second: NormalGround_1_197
+  - first:
+      213: 3204171223304645119
+    second: NormalGround_1_198
+  - first:
+      213: -9140167750868963062
+    second: NormalGround_1_199
+  - first:
+      213: -1709729858597216039
+    second: NormalGround_1_200
+  - first:
+      213: -6225463672707045549
+    second: NormalGround_1_201
+  - first:
+      213: -4435060528872248094
+    second: NormalGround_1_202
+  - first:
+      213: 8832718408155438313
+    second: NormalGround_1_203
+  - first:
+      213: 6909703236350533742
+    second: NormalGround_1_204
+  - first:
+      213: 1789322484473846210
+    second: NormalGround_1_205
+  - first:
+      213: 2947664598641961858
+    second: NormalGround_1_206
+  - first:
+      213: 7456307923311286185
+    second: NormalGround_1_207
+  - first:
+      213: -1308711688485204681
+    second: NormalGround_1_208
+  - first:
+      213: -6228191960022793536
+    second: NormalGround_1_209
+  - first:
+      213: -2595960170514558874
+    second: NormalGround_1_210
+  - first:
+      213: -7084369217942845059
+    second: NormalGround_1_211
+  - first:
+      213: 5640205197292377303
+    second: NormalGround_1_212
+  - first:
+      213: 534243375899340041
+    second: NormalGround_1_213
+  - first:
+      213: 3288438963050743009
+    second: NormalGround_1_214
+  - first:
+      213: 4305339981021313354
+    second: NormalGround_1_215
+  - first:
+      213: -3973348012607179813
+    second: NormalGround_1_216
+  - first:
+      213: -185801379258950790
+    second: NormalGround_1_217
+  - first:
+      213: -8366191288773007460
+    second: NormalGround_1_218
+  - first:
+      213: 5511394510070269235
+    second: NormalGround_1_219
+  - first:
+      213: -8805101806022216941
+    second: NormalGround_1_220
+  - first:
+      213: 2361847544375539891
+    second: NormalGround_1_221
+  - first:
+      213: 6432407416684384192
+    second: NormalGround_1_222
+  - first:
+      213: -3460388924216143192
+    second: NormalGround_1_223
+  - first:
+      213: -1218623370640425379
+    second: NormalGround_1_224
+  - first:
+      213: 5636956659080259287
+    second: NormalGround_1_225
+  - first:
+      213: 3936131759199097360
+    second: NormalGround_1_226
+  - first:
+      213: 460071813006648743
+    second: NormalGround_1_227
+  - first:
+      213: -306186969674275145
+    second: NormalGround_1_228
+  - first:
+      213: 8096802096349465438
+    second: NormalGround_1_229
+  - first:
+      213: -3132289568806118697
+    second: NormalGround_1_230
+  - first:
+      213: -7820545239501896243
+    second: NormalGround_1_231
+  - first:
+      213: 9104144787906774488
+    second: NormalGround_1_232
+  - first:
+      213: -7671485958496504997
+    second: NormalGround_1_233
+  - first:
+      213: 1931108138620455032
+    second: NormalGround_1_234
+  - first:
+      213: 4236598475551304193
+    second: NormalGround_1_235
+  - first:
+      213: -3365432003239451007
+    second: NormalGround_1_236
+  - first:
+      213: -8692947638398938888
+    second: NormalGround_1_237
+  - first:
+      213: -4163633023302659403
+    second: NormalGround_1_238
+  - first:
+      213: -8812299076385006896
+    second: NormalGround_1_239
+  - first:
+      213: -4695371440377560163
+    second: NormalGround_1_240
+  - first:
+      213: 5643486265511809545
+    second: NormalGround_1_241
+  - first:
+      213: 520618489526751670
+    second: NormalGround_1_242
+  - first:
+      213: 1374577649495440858
+    second: NormalGround_1_243
+  - first:
+      213: 107166680269086273
+    second: NormalGround_1_244
+  - first:
+      213: 4191501033109074833
+    second: NormalGround_1_245
+  - first:
+      213: -1392677084818300024
+    second: NormalGround_1_246
+  - first:
+      213: 2785058244749940890
+    second: NormalGround_1_247
+  - first:
+      213: -345184878598337787
+    second: NormalGround_1_248
+  - first:
+      213: -5006732152412889923
+    second: NormalGround_1_249
+  - first:
+      213: 7813350017429615958
+    second: NormalGround_1_250
+  - first:
+      213: 2983307757627818378
+    second: NormalGround_1_251
+  - first:
+      213: -3167339921005580223
+    second: NormalGround_1_252
+  - first:
+      213: -6994186068837278759
+    second: NormalGround_1_253
+  - first:
+      213: -4292613437488655309
+    second: NormalGround_1_254
+  - first:
+      213: -6428967410304651689
+    second: NormalGround_1_255
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NormalGround_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0e81ce9fff8bb90800000000000000
+      internalID: -7225744153242967840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633a39fedcfedd710800000000000000
+      internalID: 1719794300492161846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8272e78aa6602b0800000000000000
+      internalID: -5618686213194569491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb5fe1feff8fc110800000000000000
+      internalID: 1283402743967341490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb267c3e49316d00800000000000000
+      internalID: 964114803418606563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5854e1be94e74120800000000000000
+      internalID: 2398136696838576223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5aa2b1bd2dc5b9b0800000000000000
+      internalID: -5064916609769756068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191a2bd60236bd440800000000000000
+      internalID: 4961668405409259921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbb411d5974e44d0800000000000000
+      internalID: -3148500380701901838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b060f73c04c54d2d0800000000000000
+      internalID: -3254875197454481909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bc693c2e91ec3e0800000000000000
+      internalID: -2031657920162772146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797cf62b7860272a0800000000000000
+      internalID: -6741318512336189545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574ee09689d1f0a90800000000000000
+      internalID: -7345619926783171467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6b00f677a5f2950800000000000000
+      internalID: 6426454662290912955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800d4887ccba08f20800000000000000
+      internalID: 3422924611485224968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cefb6e5b004af20800000000000000
+      internalID: 3432869597223578693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d82c2e0b66c220f0800000000000000
+      internalID: -1143133192297109287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869883dcbcf705170800000000000000
+      internalID: 8165166637720832360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f45b959ee187a140800000000000000
+      internalID: 4730892795288179954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3439355e134e72d0800000000000000
+      internalID: -3279109681121250244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee20649ad5b8eb40800000000000000
+      internalID: 5469821697838296812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4479ca2e87a5360800000000000000
+      internalID: 7159167472612361408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd414fc2dbf40620800000000000000
+      internalID: 2739591356186971602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16407c35309fe3d0800000000000000
+      internalID: -3175160653951252961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442dccefa17bd1d90800000000000000
+      internalID: -7125337708858387900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_25
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6ec2c6a11de6a50800000000000000
+      internalID: 6516375622265923319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66defacc4d87fa580800000000000000
+      internalID: -8813693090378289818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_27
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ba9be2391f34ef0800000000000000
+      internalID: -124990750189835500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9319c6689e3c484f0800000000000000
+      internalID: -827321023779270343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_29
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aff87883f462f570800000000000000
+      internalID: 8498966443931008932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_30
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7a9ecee57377150800000000000000
+      internalID: 5870221520141920176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_31
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded7742f213c1b1d0800000000000000
+      internalID: -3336671362763227667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8384480fb4256130800000000000000
+      internalID: 3559291483402306442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652e145daacc6fbf0800000000000000
+      internalID: -290820091824446890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c512ec8fac9f683d0800000000000000
+      internalID: -3204599434674560676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fbceaf4a3848370800000000000000
+      internalID: 8323922755895213910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795b73ef43dd4e930800000000000000
+      internalID: 4171702374525023639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09c3553ef6fb9d30800000000000000
+      internalID: 4439413429380565258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099a29e626ccdd270800000000000000
+      internalID: 8276996413310806416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_39
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6593905dad2515910800000000000000
+      internalID: 1824330423892261206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d44e289ce6ada7b0800000000000000
+      internalID: -5211325658702134063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_41
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73517ca540f38bb0800000000000000
+      internalID: -4934836584631413890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_42
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a3efb4c77693c10800000000000000
+      internalID: 2033770490283047434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_43
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e46ec4cdb5e7d4f0800000000000000
+      internalID: -803921405248903963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f5069b7b55bb890800000000000000
+      internalID: -7441259711722135724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_45
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c98881d2c63b79e0800000000000000
+      internalID: -1622643030369990205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_46
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d483328b7e06d30800000000000000
+      internalID: 4422789612128718185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_47
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242f0a5d0881bcfd0800000000000000
+      internalID: -2320734241360383422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f818cc2514c355cf0800000000000000
+      internalID: -264238751871630961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef98e710d84442b80800000000000000
+      internalID: -8420530030869837314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_50
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b166d45a2af94f90800000000000000
+      internalID: -6968763888660225615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019ac7f5b1c43fb40800000000000000
+      internalID: 5472801652635117840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fd952f726417bd0800000000000000
+      internalID: -2634247169651384469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_53
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887e2f610bbcc0f80800000000000000
+      internalID: -8138906469405628536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3ea988387cfafe0800000000000000
+      internalID: -1175501609973914713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_55
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0378d317dfc0b79a0800000000000000
+      internalID: -6234374976498202832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3aa19e95b1bc05e0800000000000000
+      internalID: -1941981945695983046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_57
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a926c1e31ea06d050800000000000000
+      internalID: 5824855130576282266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_58
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbb6b3b62063d670800000000000000
+      internalID: 8562293035901565912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_59
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb54054e60f4fc6d0800000000000000
+      internalID: -2968066738395003460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_60
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9394b24c89bd81a0800000000000000
+      internalID: -6805579449821260898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_61
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fdcabda357af110800000000000000
+      internalID: 1295476738476531537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_62
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7feee419a8f2d40800000000000000
+      internalID: 5561816421525026730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_63
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37504b4e18a575820800000000000000
+      internalID: 2906891598425228659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54811da60041105e0800000000000000
+      internalID: -1945251572022699963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_65
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34100e5e4c5c4b370800000000000000
+      internalID: 8337506259630555459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_66
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d274918c5e86480800000000000000
+      internalID: -8905615615544840897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_67
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64201f09e1fc67390800000000000000
+      internalID: -7820835972694605242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_68
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51255a383c6a11290800000000000000
+      internalID: -7921366910910508523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_69
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef712718f8232b50800000000000000
+      internalID: 6567137727641386981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_70
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f195d9dad0ec22560800000000000000
+      internalID: 7287613705181550879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_71
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8b2d67d2971f180800000000000000
+      internalID: -9083345737255569210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_72
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cb84043b80f6a00800000000000000
+      internalID: 751829228764839057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_73
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c626b84736c3824a0800000000000000
+      internalID: -6617973254566223252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_74
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627c2a90c9602f100800000000000000
+      internalID: 140181805648234278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_75
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a748a7e203e303370800000000000000
+      internalID: 8300202489902957690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_76
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ea19722c8f0ced0800000000000000
+      internalID: -2395641488989901304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_77
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1061130f86f72f410800000000000000
+      internalID: 1509408913805612545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_78
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc23b3de2d291b10800000000000000
+      internalID: 1952641592585301181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_79
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe68280f4722cd30800000000000000
+      internalID: 4450162602188238586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d48d68cba7f18c0800000000000000
+      internalID: -4026364591711171322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_81
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b768f6b49365380800000000000000
+      internalID: -8982929410587460777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_82
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9688dd49598199b10800000000000000
+      internalID: 1988647741187524713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_83
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65f26ca3e79a6880800000000000000
+      internalID: -8616907932914485910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_84
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1646161800c3a7ab0800000000000000
+      internalID: -5009625662627945375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_85
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392332203e865bcf0800000000000000
+      internalID: -237168081164356973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_86
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776c9bcb3c33192e0800000000000000
+      internalID: -2120857033736862089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_87
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c245a90e47bdd30800000000000000
+      internalID: 4457284764223941769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f269c616464c8a00800000000000000
+      internalID: 760059703962723057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_89
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb342cc6637ff8b0800000000000000
+      internalID: -5116243766320809018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_90
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5230cc4073164a6d0800000000000000
+      internalID: -2980150164480851163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_91
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d24ce9c4cd490370800000000000000
+      internalID: 8289242096748741329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_92
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197f24262589c9d20800000000000000
+      internalID: 3286669307676915601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_93
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcdd79d244c371310800000000000000
+      internalID: 1375634474705345995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_94
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b718cd2fbd4ac2ff0800000000000000
+      internalID: -59491430483328645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_95
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ab992318b22a8e0800000000000000
+      internalID: -1683735476783433083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7fd90b51b7ef000800000000000000
+      internalID: 71629977172178889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_97
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2faff9e802e30b0800000000000000
+      internalID: -5747120277536705872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_98
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbd384b67ad6efe0800000000000000
+      internalID: -1159999650631787595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_99
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974aaf4e87b49cb30800000000000000
+      internalID: 4308057501166380153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_100
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136b5ec99cd9651f0800000000000000
+      internalID: -1056483573325515215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_101
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817cbef426539d630800000000000000
+      internalID: 3952248844358240024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_102
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fa9780c98278e10800000000000000
+      internalID: 2199771593615978338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_103
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5398351010b664150800000000000000
+      internalID: 5856486017503299893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_104
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6580eff6dd3676c30800000000000000
+      internalID: 4352557367594715222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_105
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c0067d1b3e31800800000000000000
+      internalID: 582059129823038524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_106
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb8b303949d1c5b0800000000000000
+      internalID: -5349755973974389817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_107
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321d38591d76f7a00800000000000000
+      internalID: 756437412275802403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_108
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31252e91147dcf90800000000000000
+      internalID: -6931756632436825795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_109
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8381b6b13cc1d760800000000000000
+      internalID: 7480984969929655183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_110
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597776cc4b2e0bea0800000000000000
+      internalID: -5858933849057691755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_111
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164fefef9acabdfa0800000000000000
+      internalID: -5774832251044957087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5aad76c6ebe13310800000000000000
+      internalID: 1383145936984582751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_113
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c08d873ddae23f80800000000000000
+      internalID: -8128176141609631551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_114
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e9e242fddc24010800000000000000
+      internalID: 1171725211338186363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_115
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01161c7601112bf0800000000000000
+      internalID: -350980576408891126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_116
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1758a4dcba9678d0800000000000000
+      internalID: -2848919578452928741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_117
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d5ac82166c3d210800000000000000
+      internalID: 1356646033367129384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_118
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ab4d22beba5a7e0800000000000000
+      internalID: -1754807453400909161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_119
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b528648a44260970800000000000000
+      internalID: 8720697630917141936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_120
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b8ddd6e2b4df4c0800000000000000
+      internalID: -4252159810384065775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_121
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620e52d5bfa8dcb80800000000000000
+      internalID: -8372883320007696346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_122
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9324ea109fe730b0800000000000000
+      internalID: -5748862997109660769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_123
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faee3912c59455110800000000000000
+      internalID: 1248985131714342575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_124
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca0c615546631110800000000000000
+      internalID: 1230439571107089097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_125
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c473b468b4ea69df0800000000000000
+      internalID: -173759896208328884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_126
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee27dc160fa08ac20800000000000000
+      internalID: 3217833961305502446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_127
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bf3f183ff91b2e0800000000000000
+      internalID: -2111730882053932273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f36e01e221f32560800000000000000
+      internalID: 7287933754122593267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_129
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d8789b6de8b1cd0800000000000000
+      internalID: -2586316508107403927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_130
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6892136227bbdbf20800000000000000
+      internalID: 3440111789322348934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_131
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10182978121f603d0800000000000000
+      internalID: -3240637755535752959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_132
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfe6e103aba37230800000000000000
+      internalID: 3635438040818053046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_133
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f589a0285469ca2f0800000000000000
+      internalID: -960227395258116001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_134
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f875262d7c2a7a0800000000000000
+      internalID: -6367307216741494888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_135
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a38193e4c125f090800000000000000
+      internalID: -8001452033438547035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_136
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f432fc231d29b70800000000000000
+      internalID: 8904409429418659666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_137
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c382889746e6980800000000000000
+      internalID: -8543780969937093610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_138
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03a435626e4720f0800000000000000
+      internalID: -1141857796003421427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_139
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d38bab846d82d00800000000000000
+      internalID: 948243329420115322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_140
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdbf69ddfa713db0800000000000000
+      internalID: -4813931295989056061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_141
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad03b4864dbbb8850800000000000000
+      internalID: 6380399818057658586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_142
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c354f94397f401f0800000000000000
+      internalID: -1079465798689074231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_143
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6726105971748af20800000000000000
+      internalID: 3434072882479719030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b067fbdc9b2409530800000000000000
+      internalID: 3859658246444774923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_145
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a949ea28caa7dc800800000000000000
+      internalID: 634298003874550938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_146
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dce4ff10b5db4b40800000000000000
+      internalID: 5425665128524999890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_147
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1738612980bd540800000000000000
+      internalID: 5033626432052621778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_148
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce80a74f42e8babf0800000000000000
+      internalID: -311999459800512276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_149
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513ef15daf686b460800000000000000
+      internalID: 7257136261429715733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_150
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478e8b0c34e5c45e0800000000000000
+      internalID: -1924059295704881036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_151
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a523e42c4965a6110800000000000000
+      internalID: 1254910643091157594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_152
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd68a056203d28c80800000000000000
+      internalID: -8321857154188671269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_153
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad804b3ec4802f2b0800000000000000
+      internalID: -5552366264263636774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_154
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e121e8ab41ad980800000000000000
+      internalID: -8513469354110476735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_155
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb699dd53e28205f0800000000000000
+      internalID: -791926671420057922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_156
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba903e68ef1d3020800000000000000
+      internalID: 2323048065934596798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_157
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d964a7088a62cb410800000000000000
+      internalID: 1494111681532020381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_158
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5810a203a54853d0800000000000000
+      internalID: -3217745367330187174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_159
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d3b558a7d9a29c0800000000000000
+      internalID: -3951172573515268826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473833bac2cf0a510800000000000000
+      internalID: 1558522739851232116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_161
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd129cc222f0b5880800000000000000
+      internalID: -8621280422215999009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_162
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abf44312d24fce80800000000000000
+      internalID: -8156226930110825561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_163
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444916b0b46e12470800000000000000
+      internalID: 8368222792618972228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_164
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b8c09d21e9a9740800000000000000
+      internalID: 5159610126894402444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_165
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df2f08eabee96d20800000000000000
+      internalID: 3272409090786013137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_166
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdac05a39307a0fc0800000000000000
+      internalID: -3527883966997542177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_167
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8befcb10d7562060800000000000000
+      internalID: 6928321628087511947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_168
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bc7e69aaa00e3a0800000000000000
+      internalID: -6638294122951619757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_169
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cd1dc2c6fda1530800000000000000
+      internalID: 3826616489106070661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_170
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217567ba15a48e610800000000000000
+      internalID: 1650650978060752658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_171
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b0453981eb4c9f0800000000000000
+      internalID: -449025050069955831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_172
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280d76303829aee40800000000000000
+      internalID: 5686518570904178818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_173
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fd807a19d14d490800000000000000
+      internalID: -7722514949623718098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_174
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358fe5dc41fe2cac0800000000000000
+      internalID: -3836241059942303661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_175
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc69ea71ac03f1a0800000000000000
+      internalID: -6777059126571078478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0b5cd2e32b56d00800000000000000
+      internalID: 965373675266486527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_177
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87562f5df10b7a00800000000000000
+      internalID: 755199550249392013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_178
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8615f729fcc619f50800000000000000
+      internalID: 6886404943998046568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_179
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853827cb2303532f0800000000000000
+      internalID: -993835148297206952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_180
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be12d69fb55e36b0800000000000000
+      internalID: -5314716228893139271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_181
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fded1643a071e4d80800000000000000
+      internalID: -8264642933582340385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_182
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e3338ad13c2ff10800000000000000
+      internalID: 2302116891683143263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_183
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cdacfbf22d5f930800000000000000
+      internalID: 4176475331979041852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_184
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba4b27a5f27fd280800000000000000
+      internalID: -9016361529575257409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_185
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b2d7d2e35b0ca30800000000000000
+      internalID: 4233582928384043847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_186
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8953f0847d19470800000000000000
+      internalID: 8399731484515473653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_187
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be422693066d365a0800000000000000
+      internalID: -6529139325989149461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_188
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe79e46b57b6c300800000000000000
+      internalID: 272106430665424639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_189
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fc5040ec3114a80800000000000000
+      internalID: -8484478447437623545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_190
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a994b0373c0776e0800000000000000
+      internalID: -1839988491577681503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_191
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aadade58da5df9c0800000000000000
+      internalID: -3891854617627403611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2050bb148baadc0800000000000000
+      internalID: -3626883957443460380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_193
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2a1950d8619a170800000000000000
+      internalID: 8190102192289587963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_194
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97fe21be7ae1027c0800000000000000
+      internalID: -4098241954354892935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_195
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c777a4d9ca53aa050800000000000000
+      internalID: 5812517284564596604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_196
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995084b52c6454350800000000000000
+      internalID: 6000279879110100377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_197
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f0ed75b2d429f90800000000000000
+      internalID: -6948406426526150893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_198
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff92a9c40c0877c20800000000000000
+      internalID: 3204171223304645119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_199
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0179f57bd9972180800000000000000
+      internalID: -9140167750868963062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_200
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d02f6c80c1d548e0800000000000000
+      internalID: -1709729858597216039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_201
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357a23a06c5ba99a0800000000000000
+      internalID: -6225463672707045549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_202
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eca63b62ff7372c0800000000000000
+      internalID: -4435060528872248094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_203
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec982f289e149a70800000000000000
+      internalID: 8832718408155438313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_204
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e606a0afb7234ef50800000000000000
+      internalID: 6909703236350533742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_205
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9dea3c153f4d810800000000000000
+      internalID: 1789322484473846210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_206
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b6c07c55538e820800000000000000
+      internalID: 2947664598641961858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_207
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a756e01d802a7760800000000000000
+      internalID: 7456307923311286185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_208
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d007637a586dde0800000000000000
+      internalID: -1308711688485204681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_209
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2c5e529640199a0800000000000000
+      internalID: -6228191960022793536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_210
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660da699afb49fbd0800000000000000
+      internalID: -2595960170514558874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_211
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d790eca1bb34fad90800000000000000
+      internalID: -7084369217942845059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_212
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d49cec6eb8064e40800000000000000
+      internalID: 5640205197292377303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_213
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90de51415830a6700800000000000000
+      internalID: 534243375899340041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_214
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4813260d1e2ad20800000000000000
+      internalID: 3288438963050743009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_215
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49ff0ee6e3afbb30800000000000000
+      internalID: 4305339981021313354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_216
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd37b83c805dbd8c0800000000000000
+      internalID: -3973348012607179813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_217
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b1e7641a6eb6df0800000000000000
+      internalID: -185801379258950790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_218
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97a7bd495155eb80800000000000000
+      internalID: -8366191288773007460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_219
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335c6c53b186c7c40800000000000000
+      internalID: 5511394510070269235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_220
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31335e01f8efdc580800000000000000
+      internalID: -8805101806022216941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_221
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8f128f3d7f6c020800000000000000
+      internalID: 2361847544375539891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_222
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf8f021770844950800000000000000
+      internalID: 6432407416684384192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_223
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2966b7b9a3affc0800000000000000
+      internalID: -3460388924216143192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5efcfd3084961fe0800000000000000
+      internalID: -1218623370640425379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_225
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d660ce273e7a3e40800000000000000
+      internalID: 5636956659080259287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_226
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01212300bf2ff9630800000000000000
+      internalID: 3936131759199097360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_227
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a56e6950e0826600800000000000000
+      internalID: 460071813006648743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_228
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b626b5c29430cbf0800000000000000
+      internalID: -306186969674275145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_229
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b4c81ab9e9d5070800000000000000
+      internalID: 8096802096349465438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_230
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da56a59b3fd784d0800000000000000
+      internalID: -3132289568806118697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_231
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc50e992a87d77390800000000000000
+      internalID: -7820545239501896243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_232
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d548e2e27b685e70800000000000000
+      internalID: 9104144787906774488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_233
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b533b608a28698590800000000000000
+      internalID: -7671485958496504997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_234
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8788651ee9cacca10800000000000000
+      internalID: 1931108138620455032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_235
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a6237fddb6bca30800000000000000
+      internalID: 4236598475551304193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_236
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1866e238c659b41d0800000000000000
+      internalID: -3365432003239451007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_237
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0192a1e227c5780800000000000000
+      internalID: -8692947638398938888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_238
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b295fe33ddc736c0800000000000000
+      internalID: -4163633023302659403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_239
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da9199fdac64b580800000000000000
+      internalID: -8812299076385006896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9308c75d80b6deb0800000000000000
+      internalID: -4695371440377560163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_241
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90290a6abd0b15e40800000000000000
+      internalID: 5643486265511809545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_242
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b11eb302cb993700800000000000000
+      internalID: 520618489526751670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_243
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addfd52e61b731310800000000000000
+      internalID: 1374577649495440858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_244
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e5235278bbc7100800000000000000
+      internalID: 107166680269086273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_245
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193362a6bf33b2a30800000000000000
+      internalID: 4191501033109074833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_246
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8832490f1973cace0800000000000000
+      internalID: -1392677084818300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_247
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98d71db7b386a620800000000000000
+      internalID: 2785058244749940890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_248
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b4f498e28a53bf0800000000000000
+      internalID: -345184878598337787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_249
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc17e952a3848ab0800000000000000
+      internalID: -5006732152412889923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_250
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6553fa6a1789e6c60800000000000000
+      internalID: 7813350017429615958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_251
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81c21d6996d66920800000000000000
+      internalID: 2983307757627818378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_252
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1407c858f195b04d0800000000000000
+      internalID: -3167339921005580223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_253
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbd7f1c3d8afee90800000000000000
+      internalID: -6994186068837278759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_254
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3349b6462d29d64c0800000000000000
+      internalID: -4292613437488655309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGround_1_255
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e6a34d338b7c6a0800000000000000
+      internalID: -6428967410304651689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

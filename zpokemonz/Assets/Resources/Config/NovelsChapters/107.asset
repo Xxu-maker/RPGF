@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a8069ad651919e40886945bb90fcbe8, type: 3}
+  m_Name: 107
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: EventNodes
+      Entry: 7
+      Data: 0|Novels.INovelsNode[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 1|Novels.SetNodeData, Assembly-CSharp
+    - Name: SetData
+      Entry: 7
+      Data: 2|LoadScene, Assembly-CSharp
+    - Name: SceneId
+      Entry: 1
+      Data: 10001
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|Novels.SetNodeData, Assembly-CSharp
+    - Name: SetData
+      Entry: 7
+      Data: 4|BlackScreen, Assembly-CSharp
+    - Name: IsShow
+      Entry: 5
+      Data: true
+    - Name: FadeTime
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|Novels.NovelsNodeData, Assembly-CSharp
+    - Name: Contents
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[Novels.IContent, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 7|Novels.BlackScreenContent, Assembly-CSharp
+    - Name: Str
+      Entry: 6
+      Data: 
+    - Name: IsNeedClick
+      Entry: 5
+      Data: true
+    - Name: IsClose
+      Entry: 5
+      Data: false
+    - Name: EnterFade
+      Entry: 4
+      Data: 0.5
+    - Name: StayTime
+      Entry: 4
+      Data: 1
+    - Name: LeaveFade
+      Entry: 4
+      Data: 0.5
+    - Name: TextEffect
+      Entry: 3
+      Data: 2
+    - Name: EffectTime
+      Entry: 4
+      Data: 0.5
+    - Name: BGType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 8|Novels.SetNodeData, Assembly-CSharp
+    - Name: SetData
+      Entry: 7
+      Data: 9|PlayTimeline, Assembly-CSharp
+    - Name: Playable
+      Entry: 6
+      Data: 
+    - Name: IsAwakePlay
+      Entry: 5
+      Data: false
+    - Name: OverCheck
+      Entry: 7
+      Data: 10|OverConditionSet, Assembly-CSharp
+    - Name: OverCheck
+      Entry: 7
+      Data: 11|System.Collections.Generic.List`1[[Novels.INovelsCheck, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 12|Novels.ClickConfireOver, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

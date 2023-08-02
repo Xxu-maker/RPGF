@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d846dd021eecdb048a4e4348568007f2, type: 3}
+  m_Name: "12\u8FDF\u949D"
+  m_EditorClassIdentifier: 
+  id: 12
+  abilityName: "\u8FDF\u949D"
+  description: "\u56E0\u4E3A\u611F\u89C9\u8FDF\u949D\uFF0C\u4E0D\u4F1A\u53D8\u4E3A\u7740\u8FF7\u548C\u88AB\u6311\u8845\u72B6\u6001\u3002"
+  triggerType: 3
+  defenceType: 0
+  immunityConditionID: 09000000
+  pokemonType: 0

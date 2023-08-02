@@ -1,0 +1,7 @@
+//以实际测试为准
+BackGround:最底层地板
+ForeGround:碰撞物及建筑物, 地面的草(1)
+Player:人物, 可以盖过人的草 都在1层
+Roof:屋顶，桥
+Light:灯
+Sea是Default

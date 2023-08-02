@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb16fd8a11edc4a44a1f18cf2b6bcdd5, type: 3}
+  m_Name: SeaTile
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -2760148759867663336, guid: c00fea6a4638b5c4baa88cae1fa8ce5f, type: 3}
+  - {fileID: 3323539897903606346, guid: c00fea6a4638b5c4baa88cae1fa8ce5f, type: 3}
+  - {fileID: 6956495515619392360, guid: c00fea6a4638b5c4baa88cae1fa8ce5f, type: 3}
+  - {fileID: -6797383510523807677, guid: c00fea6a4638b5c4baa88cae1fa8ce5f, type: 3}
+  - {fileID: -7960840173774979953, guid: c00fea6a4638b5c4baa88cae1fa8ce5f, type: 3}
+  - {fileID: 4217509359720222904, guid: c00fea6a4638b5c4baa88cae1fa8ce5f, type: 3}
+  m_MinSpeed: 1
+  m_MaxSpeed: 1
+  m_AnimationStartTime: 0
+  m_TileColliderType: 0

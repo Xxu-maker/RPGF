@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52a480268fce5164e8afda49a5005636, type: 3}
+  m_Name: fire
+  m_EditorClassIdentifier: 
+  objectSprite: {fileID: 0}
+  building: {fileID: 769007300844027462, guid: d80bd42a84304a84598156fc8464c0e2, type: 3}
+  occupancyGrid: {x: 1, y: 1}

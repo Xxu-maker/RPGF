@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 029c96819faf89c42b758c023b8c0003, type: 3}
+  m_Name: "27\u5B62\u5B50"
+  m_EditorClassIdentifier: 
+  id: 27
+  abilityName: "\u5B62\u5B50"
+  description: "\u53D7\u5230\u653B\u51FB\u65F6\uFF0C\u6709\u65F6\u4F1A\u628A\u63A5\u89E6\u5230\u81EA\u5DF1\u7684\u5BF9\u624B\u53D8\u4E3A\u4E2D\u6BD2\u3001\u9EBB\u75F9\u6216\u7761\u7720\u72B6\u6001\u3002(\u8FDE\u7EED\u62DB\u5F0F\u7684\u6BCF\u4E00\u51FB\u90FD\u4F1A\u5355\u72EC\u89E6\u53D1\u8BE5\u7279\u6027\u3002\r\u6B64\u7279\u6027\u5BF9\u8349\u5C5E\u6027\u5B9D\u53EF\u68A6\u3001\u62E5\u6709\u9632\u5C18\u7279\u6027\u7684\u5B9D\u53EF\u68A6\u3001\u4EE5\u53CA\u643A\u5E26\u9632\u5C18\u62A4\u76EE\u955C\u7684\u5B9D\u53EF\u68A6\u65E0\u6548\u3002\u56E0\u6B64\uFF0C\u8BE5\u7279\u6027\u5C5E\u4E8E\u7C89\u672B\u7C7B\u7279\u6027\u3002)"
+  triggerType: 4
+  touchAbilityType: 1
+  percent: 30
+  isVolatileStatus: 0
+  isRandomCondition: 1
+  conditions: 010000000500000004000000
+  thornDamage: 0.125

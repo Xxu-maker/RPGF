@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce4f8d3f5a5247a47bf2f3a62dd34cc9, type: 3}
+  m_Name: "23\u8E29\u5F71"
+  m_EditorClassIdentifier: 
+  id: 23
+  abilityName: "\u8E29\u5F71"
+  description: "\u8E29\u4F4F\u5BF9\u624B\u7684\u5F71\u5B50\u4F7F\u5176\u65E0\u6CD5\u9003\u8D70\u6216\u66FF\u6362\u3002"
+  triggerType: 10
+  enemiesAbilityType: 0
+  typeUsedToCheckEscape: 0

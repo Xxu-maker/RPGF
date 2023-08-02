@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d846dd021eecdb048a4e4348568007f2, type: 3}
+  m_Name: "29\u6052\u51C0\u4E4B\u8EAF"
+  m_EditorClassIdentifier: 
+  id: 29
+  abilityName: "\u6052\u51C0\u4E4B\u8EAF"
+  description: "\u4E0D\u4F1A\u56E0\u4E3A\u5BF9\u624B\u7684\u62DB\u5F0F\u6216\u7279\u6027\u800C\u88AB\u964D\u4F4E\u80FD\u529B\u3002"
+  triggerType: 3
+  defenceType: 8
+  immunityConditionID: 
+  typeUsedToCheckDefence: 0

@@ -1,0 +1,4560 @@
+fileFormatVersion: 2
+guid: 3a8a914df1c5f034cbbe68a914e93d0f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -756086912130142780
+    second: dCloud_0
+  - first:
+      213: 4224032048883908910
+    second: dCloud_1
+  - first:
+      213: -6395091501174082560
+    second: dCloud_2
+  - first:
+      213: -2341401881195501082
+    second: dCloud_3
+  - first:
+      213: -9016963929786257197
+    second: dCloud_4
+  - first:
+      213: -8953570882060358751
+    second: dCloud_5
+  - first:
+      213: -8738452331418208737
+    second: dCloud_6
+  - first:
+      213: 7653402389345128147
+    second: dCloud_7
+  - first:
+      213: -8943728315797900839
+    second: dCloud_8
+  - first:
+      213: 2030015150749736954
+    second: dCloud_9
+  - first:
+      213: -3908518564880137972
+    second: dCloud_10
+  - first:
+      213: 6948226027332455617
+    second: dCloud_11
+  - first:
+      213: 5364533129463857758
+    second: dCloud_12
+  - first:
+      213: 5923098600445674989
+    second: dCloud_13
+  - first:
+      213: 8638177176847191292
+    second: dCloud_14
+  - first:
+      213: -1292950941867661518
+    second: dCloud_15
+  - first:
+      213: -6553088358674747871
+    second: dCloud_16
+  - first:
+      213: 2236583357650163289
+    second: dCloud_17
+  - first:
+      213: -2916740076063735163
+    second: dCloud_18
+  - first:
+      213: -2305455422054060071
+    second: dCloud_19
+  - first:
+      213: -3120928601039402847
+    second: dCloud_20
+  - first:
+      213: -3322973095748890937
+    second: dCloud_21
+  - first:
+      213: 3875345575316802473
+    second: dCloud_22
+  - first:
+      213: -4228150270750790902
+    second: dCloud_23
+  - first:
+      213: -4827967355877965666
+    second: dCloud_24
+  - first:
+      213: 8451202314303494628
+    second: dCloud_25
+  - first:
+      213: -5345822696329713849
+    second: dCloud_26
+  - first:
+      213: 6751270060950092673
+    second: dCloud_27
+  - first:
+      213: 9206306235218682072
+    second: dCloud_28
+  - first:
+      213: 7437343200101667282
+    second: dCloud_29
+  - first:
+      213: 7988840046473946584
+    second: dCloud_30
+  - first:
+      213: -7729102506440646112
+    second: dCloud_31
+  - first:
+      213: -6364748974066426458
+    second: dCloud_32
+  - first:
+      213: 1397138249136820199
+    second: dCloud_33
+  - first:
+      213: -8869091116162702678
+    second: dCloud_34
+  - first:
+      213: -3518331932045849398
+    second: dCloud_35
+  - first:
+      213: 787572689858534478
+    second: dCloud_36
+  - first:
+      213: 2409418580193042169
+    second: dCloud_37
+  - first:
+      213: -8444893183922797562
+    second: dCloud_38
+  - first:
+      213: 6697303732867295510
+    second: dCloud_39
+  - first:
+      213: -2791196604590765600
+    second: dCloud_40
+  - first:
+      213: 7455720432773746366
+    second: dCloud_41
+  - first:
+      213: 1080579383684643629
+    second: dCloud_42
+  - first:
+      213: -5625527956387862471
+    second: dCloud_43
+  - first:
+      213: -7074650006702595696
+    second: dCloud_44
+  - first:
+      213: -2660084916625805217
+    second: dCloud_45
+  - first:
+      213: -8950462291074967462
+    second: dCloud_46
+  - first:
+      213: 8807377275024784770
+    second: dCloud_47
+  - first:
+      213: -8793686045251958017
+    second: dCloud_48
+  - first:
+      213: -3673338064971111822
+    second: dCloud_49
+  - first:
+      213: 8292358781620186495
+    second: dCloud_50
+  - first:
+      213: -3276371599466896661
+    second: dCloud_51
+  - first:
+      213: 2061283318249591412
+    second: dCloud_52
+  - first:
+      213: -5840396834578611969
+    second: dCloud_53
+  - first:
+      213: 8885185658200810171
+    second: dCloud_54
+  - first:
+      213: 8152978146675704681
+    second: dCloud_55
+  - first:
+      213: 9145405832901938493
+    second: dCloud_56
+  - first:
+      213: -1166136972511662924
+    second: dCloud_57
+  - first:
+      213: -1650244297376714445
+    second: dCloud_58
+  - first:
+      213: 8686083163968691216
+    second: dCloud_59
+  - first:
+      213: -645489686155306629
+    second: dCloud_60
+  - first:
+      213: 6973602744417337006
+    second: dCloud_61
+  - first:
+      213: 1363935166517461024
+    second: dCloud_62
+  - first:
+      213: -117500563307344897
+    second: dCloud_63
+  - first:
+      213: -8884381129750484461
+    second: dCloud_64
+  - first:
+      213: -1069443825060176698
+    second: dCloud_65
+  - first:
+      213: -2378284956182523819
+    second: dCloud_66
+  - first:
+      213: -8235648031677606970
+    second: dCloud_67
+  - first:
+      213: -620196861281036280
+    second: dCloud_68
+  - first:
+      213: 7617634067001569436
+    second: dCloud_69
+  - first:
+      213: -6748179522204155634
+    second: dCloud_70
+  - first:
+      213: -4836804071079718059
+    second: dCloud_71
+  - first:
+      213: 532878210091615830
+    second: dCloud_72
+  - first:
+      213: 1653246460647634121
+    second: dCloud_73
+  - first:
+      213: -2697306633984072603
+    second: dCloud_74
+  - first:
+      213: -1862399057876722319
+    second: dCloud_75
+  - first:
+      213: 3013158845130861500
+    second: dCloud_76
+  - first:
+      213: -3245938439018377956
+    second: dCloud_77
+  - first:
+      213: 5953263322717043104
+    second: dCloud_78
+  - first:
+      213: 1884529214078074705
+    second: dCloud_79
+  - first:
+      213: 7729910615773861139
+    second: dCloud_80
+  - first:
+      213: 5767549957831079358
+    second: dCloud_81
+  - first:
+      213: 7046571343275033622
+    second: dCloud_82
+  - first:
+      213: 2838691252890224501
+    second: dCloud_83
+  - first:
+      213: -5413108461961991408
+    second: dCloud_84
+  - first:
+      213: 742336356787374266
+    second: dCloud_85
+  - first:
+      213: -2024630963393365179
+    second: dCloud_86
+  - first:
+      213: -5315714505892810611
+    second: dCloud_87
+  - first:
+      213: -3592620133023075020
+    second: dCloud_88
+  - first:
+      213: -2060334173131348630
+    second: dCloud_89
+  - first:
+      213: -5775660704311934639
+    second: dCloud_90
+  - first:
+      213: -9031326217256018446
+    second: dCloud_91
+  - first:
+      213: -3102147814359723830
+    second: dCloud_92
+  - first:
+      213: -659106284940636048
+    second: dCloud_93
+  - first:
+      213: 4204894986766787799
+    second: dCloud_94
+  - first:
+      213: -7660298259972069908
+    second: dCloud_95
+  - first:
+      213: 6106925447601776767
+    second: dCloud_96
+  - first:
+      213: -4477030764068740012
+    second: dCloud_97
+  - first:
+      213: -6719079638404275993
+    second: dCloud_98
+  - first:
+      213: -8262771307391627339
+    second: dCloud_99
+  - first:
+      213: -5990500683747802096
+    second: dCloud_100
+  - first:
+      213: -4923492172147530088
+    second: dCloud_101
+  - first:
+      213: -6821714620354868798
+    second: dCloud_102
+  - first:
+      213: 4587975685871508715
+    second: dCloud_103
+  - first:
+      213: -2860543627667373011
+    second: dCloud_104
+  - first:
+      213: -8156281174543819799
+    second: dCloud_105
+  - first:
+      213: -2615440302150446580
+    second: dCloud_106
+  - first:
+      213: 8354660166314827430
+    second: dCloud_107
+  - first:
+      213: 1911914370180239287
+    second: dCloud_108
+  - first:
+      213: 3899237184164678850
+    second: dCloud_109
+  - first:
+      213: -2307285898410706544
+    second: dCloud_110
+  - first:
+      213: 6128610230857396874
+    second: dCloud_111
+  - first:
+      213: -2868533867106040788
+    second: dCloud_112
+  - first:
+      213: 6701694384805604888
+    second: dCloud_113
+  - first:
+      213: -1282144519931542086
+    second: dCloud_114
+  - first:
+      213: -6672399091904690587
+    second: dCloud_115
+  - first:
+      213: 2770500420107367681
+    second: dCloud_116
+  - first:
+      213: 243662239714835232
+    second: dCloud_117
+  - first:
+      213: -4213877478756243982
+    second: dCloud_118
+  - first:
+      213: -6167389256278757262
+    second: dCloud_119
+  - first:
+      213: -383016493365561422
+    second: dCloud_120
+  - first:
+      213: -7248575942612036191
+    second: dCloud_121
+  - first:
+      213: -109435942129789131
+    second: dCloud_122
+  - first:
+      213: 2146110639997462576
+    second: dCloud_123
+  - first:
+      213: 7939061666334989284
+    second: dCloud_124
+  - first:
+      213: -5402098439414932703
+    second: dCloud_125
+  - first:
+      213: 5369833943949960910
+    second: dCloud_126
+  - first:
+      213: 9144248699880219924
+    second: dCloud_127
+  - first:
+      213: 4662524782331249701
+    second: dCloud_128
+  - first:
+      213: 5726657325891171437
+    second: dCloud_129
+  - first:
+      213: 6675592358268739050
+    second: dCloud_130
+  - first:
+      213: -6161014199749116221
+    second: dCloud_131
+  - first:
+      213: -5083831661484131864
+    second: dCloud_132
+  - first:
+      213: 2433083606596555791
+    second: dCloud_133
+  - first:
+      213: -2045917377199451006
+    second: dCloud_134
+  - first:
+      213: -7930023929870645379
+    second: dCloud_135
+  - first:
+      213: 428314536811251996
+    second: dCloud_136
+  - first:
+      213: 2161336213842954860
+    second: dCloud_137
+  - first:
+      213: 8113893606436623987
+    second: dCloud_138
+  - first:
+      213: -5761555913074506064
+    second: dCloud_139
+  - first:
+      213: -2107329528074498196
+    second: dCloud_140
+  - first:
+      213: 2880487529620605143
+    second: dCloud_141
+  - first:
+      213: 372880712497353473
+    second: dCloud_142
+  - first:
+      213: -2024951854359101945
+    second: dCloud_143
+  - first:
+      213: -2049685054020350535
+    second: dCloud_144
+  - first:
+      213: 5945705476999932
+    second: dCloud_145
+  - first:
+      213: -322204684452899899
+    second: dCloud_146
+  - first:
+      213: -4241374663901972240
+    second: dCloud_147
+  - first:
+      213: -2913190662039489381
+    second: dCloud_148
+  - first:
+      213: -5334037213853646618
+    second: dCloud_149
+  - first:
+      213: 5619597532244993859
+    second: dCloud_150
+  - first:
+      213: -8905321795136372650
+    second: dCloud_151
+  - first:
+      213: 5996985240532674713
+    second: dCloud_152
+  - first:
+      213: -4053077688184468138
+    second: dCloud_153
+  - first:
+      213: 570240650010650178
+    second: dCloud_154
+  - first:
+      213: 217699242963428126
+    second: dCloud_155
+  - first:
+      213: -6518767133161159352
+    second: dCloud_156
+  - first:
+      213: 6975152119907031206
+    second: dCloud_157
+  - first:
+      213: -4075385079691102130
+    second: dCloud_158
+  - first:
+      213: -7785290498588800025
+    second: dCloud_159
+  - first:
+      213: -6340973219483444838
+    second: dCloud_160
+  - first:
+      213: -4382523121517926937
+    second: dCloud_161
+  - first:
+      213: -5670505607410670482
+    second: dCloud_162
+  - first:
+      213: -7942622596675235194
+    second: dCloud_163
+  - first:
+      213: 778792924713446682
+    second: dCloud_164
+  - first:
+      213: 4736698396996448286
+    second: dCloud_165
+  - first:
+      213: -1968173065804778707
+    second: dCloud_166
+  - first:
+      213: 6378094959957729350
+    second: dCloud_167
+  - first:
+      213: -8870927664171340793
+    second: dCloud_168
+  - first:
+      213: 3516323975794959750
+    second: dCloud_169
+  - first:
+      213: -6231966065259099579
+    second: dCloud_170
+  - first:
+      213: -8290854388433345644
+    second: dCloud_171
+  - first:
+      213: 5407116220658336636
+    second: dCloud_172
+  - first:
+      213: -1325242370186431095
+    second: dCloud_173
+  - first:
+      213: 5109170079771270403
+    second: dCloud_174
+  - first:
+      213: -3601059310078962910
+    second: dCloud_175
+  - first:
+      213: 8243994114944267105
+    second: dCloud_176
+  - first:
+      213: 1184641610311818184
+    second: dCloud_177
+  - first:
+      213: 4664100784354554816
+    second: dCloud_178
+  - first:
+      213: 3114906301425437938
+    second: dCloud_179
+  - first:
+      213: 9028244499666604701
+    second: dCloud_180
+  - first:
+      213: -8880928690623254253
+    second: dCloud_181
+  - first:
+      213: 8608753752130016004
+    second: dCloud_182
+  - first:
+      213: -6081803148747005473
+    second: dCloud_183
+  - first:
+      213: 8148985860355389296
+    second: dCloud_184
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 3
+    compressionQuality: 60
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 3
+    compressionQuality: 60
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 3
+    compressionQuality: 60
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dCloud_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 990
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd292795f6d185f0800000000000000
+      internalID: -756086912130142780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 990
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e214791c4c6ce9a30800000000000000
+      internalID: 4224032048883908910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 990
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004366e89221047a0800000000000000
+      internalID: -6395091501174082560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 990
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e929e2f46ba18fd0800000000000000
+      internalID: -2341401881195501082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 990
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0749c641f4dd280800000000000000
+      internalID: -9016963929786257197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 990
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abe28788b68eb380800000000000000
+      internalID: -8953570882060358751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 957
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16322327e7cab680800000000000000
+      internalID: -8738452331418208737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_7
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 957
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3deca047ce8563a60800000000000000
+      internalID: 7653402389345128147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 957
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d173419b7e71e380800000000000000
+      internalID: -8943728315797900839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_9
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 957
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff591d26001c2c10800000000000000
+      internalID: 2030015150749736954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 957
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01cc4ec21722c9c0800000000000000
+      internalID: -3908518564880137972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 957
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc464232ce0d6060800000000000000
+      internalID: 6948226027332455617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 924
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52028f6576a27a40800000000000000
+      internalID: 5364533129463857758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_13
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 924
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de58d219bc2133250800000000000000
+      internalID: 5923098600445674989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_14
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 924
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc0dd41068f0e770800000000000000
+      internalID: 8638177176847191292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_15
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 924
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237a8fdf7f38e0ee0800000000000000
+      internalID: -1292950941867661518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_16
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 924
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ea1778bd0ce05a0800000000000000
+      internalID: -6553088358674747871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_17
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 924
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956d94fb6b0f90f10800000000000000
+      internalID: 2236583357650163289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 891
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5824318ba58a587d0800000000000000
+      internalID: -2916740076063735163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_19
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 891
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df28fa22806100e0800000000000000
+      internalID: -2305455422054060071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_20
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 891
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a880b509fb30b4d0800000000000000
+      internalID: -3120928601039402847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_21
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 891
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce05b5439d62e1d0800000000000000
+      internalID: -3322973095748890937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_22
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 891
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abc3aea44ef7c530800000000000000
+      internalID: 3875345575316802473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_23
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 891
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b6deefab79255c0800000000000000
+      internalID: -4228150270750790902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 858
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9046bdf44d9ffcb0800000000000000
+      internalID: -4827967355877965666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_25
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 858
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9d40d7ab3b84570800000000000000
+      internalID: 8451202314303494628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_26
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 858
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747eb01c492dfc5b0800000000000000
+      internalID: -5345822696329713849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_27
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 858
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bf8a5c95451bd50800000000000000
+      internalID: 6751270060950092673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_28
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 858
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d06cab6ebe53cf70800000000000000
+      internalID: 9206306235218682072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_29
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 858
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d11aba5c30c63760800000000000000
+      internalID: 7437343200101667282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 825
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5ae7112bf0ede60800000000000000
+      internalID: 7988840046473946584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_31
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 825
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022260f8836bcb490800000000000000
+      internalID: -7729102506440646112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_32
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 825
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad1d3ca78edba7a0800000000000000
+      internalID: -6364748974066426458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_33
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 825
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef49e1d5d1a36310800000000000000
+      internalID: 1397138249136820199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_34
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 825
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2ac8cce98aae480800000000000000
+      internalID: -8869091116162702678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_35
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 825
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc4e7cafbf5c2fc0800000000000000
+      internalID: -3518331932045849398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 792
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c11dd40350eea00800000000000000
+      internalID: 787572689858534478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_37
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 792
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fed1abde69ff6120800000000000000
+      internalID: 2409418580193042169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_38
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 792
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6040a266466bdca80800000000000000
+      internalID: -8444893183922797562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_39
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 792
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619e37ed24a91fc50800000000000000
+      internalID: 6697303732867295510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_40
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 792
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9471df97da349d0800000000000000
+      internalID: -2791196604590765600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_41
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 792
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebec9144b3a087760800000000000000
+      internalID: 7455720432773746366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 759
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b322c693dfefe00800000000000000
+      internalID: 1080579383684643629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_43
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 759
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938e875012c1ee1b0800000000000000
+      internalID: -5625527956387862471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_44
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 759
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091e6405d4bc1dd90800000000000000
+      internalID: -7074650006702595696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_45
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 759
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50f420bcda751bd0800000000000000
+      internalID: -2660084916625805217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_46
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 759
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5892f4c7f199c380800000000000000
+      internalID: -8950462291074967462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_47
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 759
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d33b8d7f61a3a70800000000000000
+      internalID: 8807377275024784770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 726
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa827ef12d86f580800000000000000
+      internalID: -8793686045251958017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_49
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 726
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272e979fd7ea50dc0800000000000000
+      internalID: -3673338064971111822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_50
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 726
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7def888060641370800000000000000
+      internalID: 8292358781620186495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_51
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 726
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2e895a36df782d0800000000000000
+      internalID: -3276371599466896661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_52
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 726
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47294bdb1462b9c10800000000000000
+      internalID: 2061283318249591412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_53
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 726
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff040afc50eb2fea0800000000000000
+      internalID: -5840396834578611969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 693
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb26478c7458e4b70800000000000000
+      internalID: 8885185658200810171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_55
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 693
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963c0269d62352170800000000000000
+      internalID: 8152978146675704681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_56
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 693
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3dc7ec86220bee70800000000000000
+      internalID: 9145405832901938493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_57
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 693
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc2ef91a9c01dfe0800000000000000
+      internalID: -1166136972511662924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_58
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 693
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3313f3e0e872919e0800000000000000
+      internalID: -1650244297376714445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_59
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 693
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01cdad5ed9a2b8870800000000000000
+      internalID: 8686083163968691216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 660
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79d886ec82ca07f0800000000000000
+      internalID: -645489686155306629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_61
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 660
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae3fa19fb637c060800000000000000
+      internalID: 6973602744417337006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_62
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 660
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020cfe8becbade210800000000000000
+      internalID: 1363935166517461024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_63
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 660
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb48273cdd8e5ef0800000000000000
+      internalID: -117500563307344897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_64
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 660
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ae9081f6654b480800000000000000
+      internalID: -8884381129750484461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_65
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 660
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc9d0cd1829821f0800000000000000
+      internalID: -1069443825060176698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 627
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550d51cde62aefed0800000000000000
+      internalID: -2378284956182523819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_67
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 627
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c316b0efb915bd80800000000000000
+      internalID: -8235648031677606970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_68
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 627
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80818889d3e9467f0800000000000000
+      internalID: -620196861281036280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_69
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 627
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90fa80f2d547b960800000000000000
+      internalID: 7617634067001569436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_70
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 627
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01c47a5a76a952a0800000000000000
+      internalID: -6748179522204155634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_71
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 627
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5535127e25830ecb0800000000000000
+      internalID: -4836804071079718059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 594
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6568e05a8e9256700800000000000000
+      internalID: 532878210091615830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_73
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 594
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4f21d85e281f610800000000000000
+      internalID: 1653246460647634121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_74
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 594
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564231748ed319ad0800000000000000
+      internalID: -2697306633984072603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_75
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 594
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d5c3d9ced6726e0800000000000000
+      internalID: -1862399057876722319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_76
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 594
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbe9d75104e0d920800000000000000
+      internalID: 3013158845130861500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_77
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 594
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d068bff2c14f2d0800000000000000
+      internalID: -3245938439018377956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 561
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a939e4437d3e9250800000000000000
+      internalID: 5953263322717043104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_79
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 561
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f38f5e551372a10800000000000000
+      internalID: 1884529214078074705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_80
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 561
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315d8be00c8264b60800000000000000
+      internalID: 7729910615773861139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_81
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 561
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb537dcf0247a0050800000000000000
+      internalID: 5767549957831079358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_82
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 561
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6140b586d437ac160800000000000000
+      internalID: 7046571343275033622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_83
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 561
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577c78b87ae056720800000000000000
+      internalID: 2838691252890224501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b2812a886c0e4b0800000000000000
+      internalID: -5413108461961991408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_85
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 528
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab84b22cbfe4d4a00800000000000000
+      internalID: 742336356787374266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_86
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 528
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b7ea1add017e3e0800000000000000
+      internalID: -2024630963393365179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_87
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 528
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d803edc12d9ca36b0800000000000000
+      internalID: -5315714505892810611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_88
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 528
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4353e360603742ec0800000000000000
+      internalID: -3592620133023075020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_89
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 528
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6568e35cf83863e0800000000000000
+      internalID: -2060334173131348630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 495
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1510e40b03bb8dfa0800000000000000
+      internalID: -5775660704311934639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_91
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 495
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd58c9c7a84aa280800000000000000
+      internalID: -9031326217256018446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_92
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 495
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0955caff4f2f4d0800000000000000
+      internalID: -3102147814359723830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_93
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 495
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070d2e073526ad6f0800000000000000
+      internalID: -659106284940636048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_94
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 495
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d42e0446b9ca5a30800000000000000
+      internalID: 4204894986766787799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_95
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 495
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce562dc815721b590800000000000000
+      internalID: -7660298259972069908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 462
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78e816b65820c450800000000000000
+      internalID: 6106925447601776767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_97
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 462
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454ef2b8d346ed1c0800000000000000
+      internalID: -4477030764068740012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_98
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 462
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e06a570ba801c2a0800000000000000
+      internalID: -6719079638404275993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_99
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 462
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfc1a2264db45d80800000000000000
+      internalID: -8262771307391627339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_100
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 462
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0144a7efd577ddca0800000000000000
+      internalID: -5990500683747802096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_101
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 462
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896eab884fd3cabb0800000000000000
+      internalID: -4923492172147530088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 429
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9c8ae12b66451a0800000000000000
+      internalID: -6821714620354868798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_103
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 429
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec10820493cbaf30800000000000000
+      internalID: 4587975685871508715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_104
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 429
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d240168f9be4d48d0800000000000000
+      internalID: -2860543627667373011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_105
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 429
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb1c1f4c711fce80800000000000000
+      internalID: -8156281174543819799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_106
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 429
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02151307e614bbd0800000000000000
+      internalID: -2615440302150446580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_107
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 429
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae1d480827b1f370800000000000000
+      internalID: 8354660166314827430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 396
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfce8b6dfb788a10800000000000000
+      internalID: 1911914370180239287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_109
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 396
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc41295f8fdc1630800000000000000
+      internalID: 3899237184164678850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_110
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 396
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09936fd23bfdaffd0800000000000000
+      internalID: -2307285898410706544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_111
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 396
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a827411c8823d0550800000000000000
+      internalID: 6128610230857396874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_112
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 396
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2487f065abe038d0800000000000000
+      internalID: -2868533867106040788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_113
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 396
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e619f2983310d50800000000000000
+      internalID: 6701694384805604888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 363
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab544ca2a58e43ee0800000000000000
+      internalID: -1282144519931542086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_115
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 363
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566c167b060e663a0800000000000000
+      internalID: -6672399091904690587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_116
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 363
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105f19e047bc27620800000000000000
+      internalID: 2770500420107367681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_117
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 363
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02bf06b1489a16300800000000000000
+      internalID: 243662239714835232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_118
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 363
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f527b752cc4585c0800000000000000
+      internalID: -4213877478756243982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_119
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 363
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270b1fbc528096aa0800000000000000
+      internalID: -6167389256278757262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b774d157804faaf0800000000000000
+      internalID: -383016493365561422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_121
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 330
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5da25b592e76b90800000000000000
+      internalID: -7248575942612036191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_122
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 330
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53791b727943b7ef0800000000000000
+      internalID: -109435942129789131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_123
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 330
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0382cb9a14488cd10800000000000000
+      internalID: 2146110639997462576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_124
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 330
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb51d7c5863d2e60800000000000000
+      internalID: 7939061666334989284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_125
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 330
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b1bf44714e705b0800000000000000
+      internalID: -5402098439414932703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 297
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6e8fb758b758a40800000000000000
+      internalID: 5369833943949960910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_127
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 297
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41520368eb5e6ee70800000000000000
+      internalID: 9144248699880219924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_128
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 297
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5244f4f169d94b040800000000000000
+      internalID: 4662524782331249701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_129
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 297
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64b12c2f7c297f40800000000000000
+      internalID: 5726657325891171437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_130
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 297
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed9beb81e774ac50800000000000000
+      internalID: 6675592358268739050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_131
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 297
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cef0df4a3eaf7aa0800000000000000
+      internalID: -6161014199749116221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9ba570a0a9279b0800000000000000
+      internalID: -5083831661484131864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_133
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 264
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04930036ac04c120800000000000000
+      internalID: 2433083606596555791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_134
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 264
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2845a343cf07b93e0800000000000000
+      internalID: -2045917377199451006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_135
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 264
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7786b73045e2f190800000000000000
+      internalID: -7930023929870645379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_136
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 264
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1945ca4dcda1f500800000000000000
+      internalID: 428314536811251996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_137
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 264
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a0c42d5db9efd10800000000000000
+      internalID: 2161336213842954860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_138
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 231
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376d7fcee375a9070800000000000000
+      internalID: 8113893606436623987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_139
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 231
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b684af4c67da00b0800000000000000
+      internalID: -5761555913074506064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_140
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 231
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f8d6695f241c2e0800000000000000
+      internalID: -2107329528074498196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_141
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 231
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d88afe852c89f720800000000000000
+      internalID: 2880487529620605143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_142
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 231
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103dffb480dbc2500800000000000000
+      internalID: 372880712497353473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_143
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 231
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e38a1640de5e3e0800000000000000
+      internalID: -2024951854359101945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd80b59d4e0e83e0800000000000000
+      internalID: -2049685054020350535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_145
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 198
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa45ee669f151000800000000000000
+      internalID: 5945705476999932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_146
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 198
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3d73eeb8c478bf0800000000000000
+      internalID: -322204684452899899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_147
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 198
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8f7c6073c9325c0800000000000000
+      internalID: -4241374663901972240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_148
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 198
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94b62217844297d0800000000000000
+      internalID: -2913190662039489381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_149
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 198
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e00a893a61b9f5b0800000000000000
+      internalID: -5334037213853646618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 165
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347ef128e22dcfd40800000000000000
+      internalID: 5619597532244993859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_151
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 165
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6504a5e7201f96480800000000000000
+      internalID: -8905321795136372650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_152
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 165
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998e5398d42993350800000000000000
+      internalID: 5996985240532674713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_153
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 165
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d04b4115390c7c0800000000000000
+      internalID: -4053077688184468138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_154
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 165
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2466f5499d6e9e700800000000000000
+      internalID: 570240650010650178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_155
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 165
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13e4bcde4c650300800000000000000
+      internalID: 217699242963428126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845007e84dfa885a0800000000000000
+      internalID: -6518767133161159352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_157
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 132
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a81f59a5e7bcc060800000000000000
+      internalID: 6975152119907031206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_158
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 132
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48b512ccd25177c0800000000000000
+      internalID: -4075385079691102130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_159
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 132
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb046e2a8715f390800000000000000
+      internalID: -7785290498588800025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_160
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 132
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a999c6ae3765008a0800000000000000
+      internalID: -6340973219483444838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_161
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 132
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5ecf9c0762e23c0800000000000000
+      internalID: -4382523121517926937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_162
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e642d6591315e41b0800000000000000
+      internalID: -5670505607410670482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_163
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 99
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6829e2484d226c190800000000000000
+      internalID: -7942622596675235194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_164
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 99
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1de12fe904deca00800000000000000
+      internalID: 778792924713446682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_165
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 99
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10b22198122cb140800000000000000
+      internalID: 4736698396996448286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_166
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 99
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23f6344605afa4e0800000000000000
+      internalID: -1968173065804778707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_167
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 99
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6406dffc29b838850800000000000000
+      internalID: 6378094959957729350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ca1e42a4224e480800000000000000
+      internalID: -8870927664171340793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_169
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 66
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685a274960e7cc030800000000000000
+      internalID: 3516323975794959750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_170
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 66
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a41fbc1eb9389a0800000000000000
+      internalID: -6231966065259099579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_171
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 66
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49321fc4cd7f0fc80800000000000000
+      internalID: -8290854388433345644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_172
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 66
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73c797fd8fe90b40800000000000000
+      internalID: 5407116220658336636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_173
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 66
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985bdb3f51bcb9de0800000000000000
+      internalID: -1325242370186431095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_174
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d12d53e1b67e640800000000000000
+      internalID: 5109170079771270403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_175
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 33
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22351aff2a7760ec0800000000000000
+      internalID: -3601059310078962910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_176
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 33
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163f9af08fc886270800000000000000
+      internalID: 8243994114944267105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_177
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 33
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb58c0a441b07010800000000000000
+      internalID: 1184641610311818184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_178
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 33
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3f210b3f63ab040800000000000000
+      internalID: 4664100784354554816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_179
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 33
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcc61517ce5a3b20800000000000000
+      internalID: 3114906301425437938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92900ce984ca4d70800000000000000
+      internalID: 9028244499666604701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_181
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31173d7b86a90c480800000000000000
+      internalID: -8880928690623254253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_182
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403558a2def687770800000000000000
+      internalID: 8608753752130016004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_183
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1251d4248199ba0800000000000000
+      internalID: -6081803148747005473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dCloud_184
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 100
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077f92ef673071170800000000000000
+      internalID: 8148985860355389296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
