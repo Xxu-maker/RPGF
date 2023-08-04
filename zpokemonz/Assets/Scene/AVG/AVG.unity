@@ -175,20 +175,13 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
-    - Name: TitleBGM
-      Entry: 7
-      Data: 0|AudioClipData, Assembly-CSharp
-    - Name: AudioRes
-      Entry: 1
-      Data: "Music/Bgm/130\u65E0\u57CE"
-    - Name: Volume
-      Entry: 4
-      Data: 1
-    - Name: 
-      Entry: 8
+    - Name: AVGNamel
+      Entry: 6
+      Data: 
+    - Name: BGM
+      Entry: 6
       Data: 
   CurrentScene: {fileID: 0}
-  IsTimelineMode: 0
 --- !u!1 &686902092
 GameObject:
   m_ObjectHideFlags: 0

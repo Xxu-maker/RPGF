@@ -15,7 +15,8 @@ MonoBehaviour:
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects: []
+    ReferencedUnityObjects:
+    - {fileID: 21300000, guid: 5616ba326b0734e4298839d2dd1ab38a, type: 3}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -26,7 +27,7 @@ MonoBehaviour:
       Data: 0|Novels.INovelsNode[], Assembly-CSharp
     - Name: 
       Entry: 12
-      Data: 5
+      Data: 6
     - Name: 
       Entry: 7
       Data: 1|Novels.NovelsNodeData, Assembly-CSharp
@@ -114,17 +115,35 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 7|Novels.NovelsNodeData, Assembly-CSharp
+      Data: 7|Novels.SetNodeData, Assembly-CSharp
+    - Name: SetData
+      Entry: 7
+      Data: 8|ShowHide2DBackground, Assembly-CSharp
+    - Name: IsShow
+      Entry: 5
+      Data: true
+    - Name: SpriteData
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|Novels.NovelsNodeData, Assembly-CSharp
     - Name: Contents
       Entry: 7
-      Data: 8|System.Collections.Generic.List`1[[Novels.IContent, Assembly-CSharp]],
+      Data: 10|System.Collections.Generic.List`1[[Novels.IContent, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 3
     - Name: 
       Entry: 7
-      Data: 9|Novels.DialogueContent, Assembly-CSharp
+      Data: 11|Novels.DialogueContent, Assembly-CSharp
     - Name: ShowStr
       Entry: 1
       Data: CH04_L
@@ -172,7 +191,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 10|Novels.DialogueContent, Assembly-CSharp
+      Data: 12|Novels.DialogueContent, Assembly-CSharp
     - Name: ShowStr
       Entry: 1
       Data: CH03_R
@@ -220,7 +239,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 11|Novels.DialogueContent, Assembly-CSharp
+      Data: 13|Novels.DialogueContent, Assembly-CSharp
     - Name: ShowStr
       Entry: 1
       Data: CH03_R
@@ -277,10 +296,13 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 12|Novels.SetNodeData, Assembly-CSharp
+      Data: 14|Novels.SetNodeData, Assembly-CSharp
     - Name: SetData
       Entry: 7
-      Data: 13|SetSpinePos, Assembly-CSharp
+      Data: 15|SetSpinePos, Assembly-CSharp
+    - Name: SpineName
+      Entry: 1
+      Data: Prefabs/Spine/Hero/hero-pro_SkeletonData
     - Name: StartPos
       Entry: 1
       Data: Left
@@ -292,10 +314,10 @@ MonoBehaviour:
       Data: 0
     - Name: EndAlpha
       Entry: 4
-      Data: 0
+      Data: 1
     - Name: time
       Entry: 4
-      Data: 0
+      Data: 2
     - Name: 
       Entry: 8
       Data: 
@@ -304,10 +326,10 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 14|Novels.SetNodeData, Assembly-CSharp
+      Data: 16|Novels.SetNodeData, Assembly-CSharp
     - Name: SetData
       Entry: 7
-      Data: 15|SetSpineAction, Assembly-CSharp
+      Data: 17|SetSpineAction, Assembly-CSharp
     - Name: SpineAsset
       Entry: 1
       Data: Prefabs/Spine/Dragon/dragon_SkeletonData

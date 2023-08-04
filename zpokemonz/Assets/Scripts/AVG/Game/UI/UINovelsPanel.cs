@@ -546,6 +546,21 @@ public class UINovelsPanel : SerializedMonoBehaviour
        
     }
     
+    //Todo 设置游戏背景图
+    public void Show2DBackground(Sprite SpriteData)
+    {
+       var Background = BGMask.GetComponent<Image>();
+       Background.sprite = SpriteData;
+       Background.DOFade(1, 0);
+    }
+    
+    public void Hide2DBackground()
+    {
+        var Background = BGMask.GetComponent<Image>();
+        Background.DOFade(0, 0);
+    }
+   
+    
     public void LateUpdate()
     {
         if (Input.GetKeyDown(KeyCode.Space))

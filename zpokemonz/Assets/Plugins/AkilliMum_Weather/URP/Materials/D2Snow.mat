@@ -115,8 +115,8 @@ Material:
     - _SrcBlend: 5
     - _Surface: 1
     - _TopFade: 0
-    - _UVChangeX: 0
-    - _UVChangeY: 0
+    - _UVChangeX: 3
+    - _UVChangeY: 10
     - _UVSec: 0
     - _VSpeed: 0
     - _WorkflowMode: 1

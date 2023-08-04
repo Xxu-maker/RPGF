@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4276267002213111155}
   - component: {fileID: 4276267002213111154}
   - component: {fileID: 4276267002213111157}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: spineboy-pro_SkeletonData
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78,8 +78,8 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1369099565
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &4276267002213111157
@@ -116,6 +116,6 @@ MonoBehaviour:
     materialsInsideMask: []
     materialsOutsideMask: []
   disableRenderingOnOverride: 1
-  _animationName: 
+  _animationName: idle
   loop: 0
   timeScale: 1

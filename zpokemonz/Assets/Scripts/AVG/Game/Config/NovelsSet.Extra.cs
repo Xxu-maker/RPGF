@@ -421,6 +421,10 @@ public class PreLoadSpineAsset: INovelsSet
 [LabelText("Spine角色位置")]
 public class SetSpinePos : INovelsSet
 {
+    [ResourcePath(typeof(Spine.Unity.SkeletonDataAsset))]
+    [LabelText("Spine角色")]
+    public string SpineName;
+    
     [ValueDropdown("_dropItemList")]
     [LabelText("起始位置")]
     [InlineButton("FreshItem")]
@@ -459,7 +463,7 @@ public class SetSpinePos : INovelsSet
     public IEnumerator Run()
     {
         //Todo 缓动DT实现，可能角色透明底会分层，后续用RT实现
-        var spine = SpineManager.Instance.GetSpine(StartPos);
+        var spine = SpineManager.Instance.GetSpine(SpineName);
         spine.transform.localPosition = StartPosVec3;
         SkeletonAnimation skeletonAnimation = spine.GetComponent<SkeletonAnimation>();
         skeletonAnimation.skeleton.A = StartAlpha;

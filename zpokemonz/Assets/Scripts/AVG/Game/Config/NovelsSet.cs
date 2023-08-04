@@ -15,9 +15,6 @@ public interface INovelsSet
     IEnumerator Run();
 }
 
-
-
-
 #region 基础组件
 [Serializable]
 [LabelText("黑屏")]
@@ -131,6 +128,32 @@ public class AudioSet: INovelsSet
     }
 
 }
+
+
+[Serializable]
+[LabelText("显示/隐藏2D背景图")]
+public class ShowHide2DBackground : INovelsSet
+{
+    [LabelText("是否显示")]
+    public bool IsShow;
+    [LabelText("背景图")]
+    [ShowIf("@IsShow")]
+    public Sprite SpriteData;
+
+    public IEnumerator Run()
+    {
+        if (IsShow)
+        {
+            UINovelsPanel.Instance.Show2DBackground(SpriteData);
+        }
+        else
+        {
+            UINovelsPanel.Instance.Hide2DBackground();
+        }
+        yield break;
+    }
+}
+
 
 
 #endregion

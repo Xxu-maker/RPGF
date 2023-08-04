@@ -35,7 +35,7 @@ public class Quick : Editor
     [MenuItem("快速场景/开始游戏", priority = 1)]
     static void EnterGame()
     {
-        EditorSceneManager.OpenScene("Assets/Scenes/Demo.unity");
+        EditorSceneManager.OpenScene("Assets/Scene/StartScene.unity");
     }
 
     [MenuItem("Assets/项目/动画工具/合并AnimClips到控制器")]

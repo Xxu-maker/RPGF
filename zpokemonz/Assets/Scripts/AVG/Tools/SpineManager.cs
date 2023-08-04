@@ -8,7 +8,13 @@ using AnimationState = Spine.AnimationState;
 [AutoCreateSingleton]
 public class SpineManager : SingletonMono<SpineManager>
 {
-     /// <summary>
+    public static  float Standardscale = 100f;
+    private void Start()
+    {
+       DontDestroyOnLoad(this);
+    }
+
+    /// <summary>
     /// 播放Spine动画
     /// </summary>
     /// <param name="spine"></param>
@@ -126,6 +132,7 @@ public class SpineManager : SingletonMono<SpineManager>
         {
             GameObject spine = GameHelper.Alloc<GameObject>( spineName);
             spine.transform.RestTransform(UINovelsPanel.Instance.Spine_Root);
+            spine.transform.localScale = Vector3.one * Standardscale;
             //Todo 透明度设置为0
             SkeletonAnimation skeletonAnimation = spine.GetComponent<SkeletonAnimation>();
             skeletonAnimation.Skeleton.A = 0;
@@ -145,6 +152,7 @@ public class SpineManager : SingletonMono<SpineManager>
         {
             GameObject spine = GameHelper.Alloc<GameObject>("Prefabs/Spine/" + spineName);
             spine.transform.RestTransform(UINovelsPanel.Instance.Spine_Root);
+            spine.transform.localScale = Vector3.one * Standardscale;
             //Todo 透明度设置为0
             SkeletonAnimation skeletonAnimation = spine.GetComponent<SkeletonAnimation>();
             skeletonAnimation.Skeleton.A = 0;
@@ -157,6 +165,14 @@ public class SpineManager : SingletonMono<SpineManager>
     public void ClearSpineDic()
     {
         _spineDic.Clear();
+    }
+    
+    //剧情播放Spine动画
+    public void PlaySpineAnim(string spineName, string animName, bool loop, string skinName = "", Action callBack = null)
+    {
+        GameObject spine = GetSpine(spineName);
+        SkeletonAnimation skeletonAnimation = spine.GetComponent<SkeletonAnimation>();
+        PlayAnim(skeletonAnimation, 0, animName, loop, skinName, callBack);
     }
 }
 

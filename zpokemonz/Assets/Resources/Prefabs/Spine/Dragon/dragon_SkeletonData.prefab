@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5967432197830242114}
   - component: {fileID: 7252093817916530791}
   - component: {fileID: 2351383047944416581}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: dragon_SkeletonData
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,8 +90,8 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1369099565
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &2351383047944416581
@@ -128,6 +128,6 @@ MonoBehaviour:
     materialsInsideMask: []
     materialsOutsideMask: []
   disableRenderingOnOverride: 1
-  _animationName: 
+  _animationName: flying
   loop: 0
   timeScale: 1

@@ -65,13 +65,14 @@ public class AVGManager : MonoSingleton<AVGManager>
     private void _CreateNovelsMgr()
     {
         var novelsMgr = new GameObject("NovelsManager").AddComponent<NovelsManager>();
+        novelsMgr.transform.RestTransform(UIRoot.Instance.Trans_NovelsPoint);;
         novelsMgr.Install();
 
     }
 
-    private void _ClearNovelsMgr() 
+    private void _ClearNovelsMgr()
     {
-        if(NovelsManager.Instance!=null)
+        if (NovelsManager.Instance != null)
             GameHelper.Recycle(NovelsManager.Instance.gameObject);
     }
 
