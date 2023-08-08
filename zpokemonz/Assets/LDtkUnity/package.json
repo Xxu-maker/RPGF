@@ -1,0 +1,27 @@
+{
+  "name": "com.cammin.ldtkunity",
+  "version": "3.3.3",
+  "displayName": "LDtk to Unity",
+  "description": "A Unity importer system for the Level Designer Toolkit.",
+  "documentationUrl": "https://cammin.github.io/LDtkToUnity/",
+  "changelogUrl": "https://github.com/Cammin/LDtkToUnity/blob/master/Assets/LDtkUnity/CHANGELOG.md",
+  "licensesUrl": "https://github.com/Cammin/LDtkToUnity/blob/master/Assets/LDtkUnity/LICENSE.md",
+  "unity": "2019.3",
+  "keywords": [
+    "tools",
+    "editor",
+    "integration",
+    "importer"
+  ],
+  "author": {
+    "name": "Cammin"
+  },
+  "samples": [
+    {
+      "displayName": "Sample",
+      "description": "All of deepnight's example projects",
+      "path": "Samples~"
+    }
+  ],
+  "hideInEditor": false
+}

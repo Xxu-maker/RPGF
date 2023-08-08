@@ -42,7 +42,7 @@ MonoBehaviour:
       Data: 3|Novels.BlackScreenContent, Assembly-CSharp
     - Name: Str
       Entry: 1
-      Data: "\u6765\u5230108\u5267\u672C\u7247\u6BB5 0.5\u540E\u4F46\u4F1A\u4E3B\u573A\u666F"
+      Data: "\u6765\u5230108\u5267\u672C\u7247\u6BB5 0.5\u540E\u56DE\u5230\u4E3B\u573A\u666F"
     - Name: IsNeedClick
       Entry: 5
       Data: true
