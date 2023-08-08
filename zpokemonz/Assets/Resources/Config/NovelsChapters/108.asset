@@ -26,7 +26,71 @@ MonoBehaviour:
       Data: 0|Novels.INovelsNode[], Assembly-CSharp
     - Name: 
       Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 1|Novels.NovelsNodeData, Assembly-CSharp
+    - Name: Contents
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Novels.IContent, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 3|Novels.BlackScreenContent, Assembly-CSharp
+    - Name: Str
+      Entry: 1
+      Data: "\u6765\u5230108\u5267\u672C\u7247\u6BB5 0.5\u540E\u4F46\u4F1A\u4E3B\u573A\u666F"
+    - Name: IsNeedClick
+      Entry: 5
+      Data: true
+    - Name: IsClose
+      Entry: 5
+      Data: false
+    - Name: EnterFade
+      Entry: 4
+      Data: 0.5
+    - Name: StayTime
+      Entry: 4
+      Data: 1
+    - Name: LeaveFade
+      Entry: 4
+      Data: 0.5
+    - Name: TextEffect
+      Entry: 3
+      Data: 2
+    - Name: EffectTime
+      Entry: 4
+      Data: 0.5
+    - Name: BGType
+      Entry: 3
       Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|Novels.SetNodeData, Assembly-CSharp
+    - Name: SetData
+      Entry: 7
+      Data: 5|BackGameScene, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 

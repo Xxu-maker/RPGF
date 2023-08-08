@@ -61,10 +61,10 @@ public class BackGameScene : INovelsSet
     {
         yield return UINovelsPanel.Instance.BlackEnter(EBlackType.Black, 1f);
 
-        if (GameManager.Instance.CurrentScene != null)
-        {
-            GameHelper.Recycle(AVGManager.Instance.CurrentScene.gameObject);
-        }
+        //if (GameManager.Instance.CurrentScene != null)
+        //{
+            //GameHelper.Recycle(AVGManager.Instance.CurrentScene.gameObject);
+        //}
 
         AVGManager.Instance.EndAVGScene();
     }

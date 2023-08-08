@@ -27,7 +27,7 @@ MonoBehaviour:
       Data: 0|Novels.INovelsNode[], Assembly-CSharp
     - Name: 
       Entry: 12
-      Data: 6
+      Data: 8
     - Name: 
       Entry: 7
       Data: 1|Novels.NovelsNodeData, Assembly-CSharp
@@ -299,7 +299,25 @@ MonoBehaviour:
       Data: 14|Novels.SetNodeData, Assembly-CSharp
     - Name: SetData
       Entry: 7
-      Data: 15|SetSpinePos, Assembly-CSharp
+      Data: 15|SetSpineAction, Assembly-CSharp
+    - Name: SpineAsset
+      Entry: 1
+      Data: Prefabs/Spine/Dragon/dragon_SkeletonData
+    - Name: ActionName
+      Entry: 1
+      Data: flying
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 16|Novels.SetNodeData, Assembly-CSharp
+    - Name: SetData
+      Entry: 7
+      Data: 17|SetSpinePos, Assembly-CSharp
     - Name: SpineName
       Entry: 1
       Data: Prefabs/Spine/Hero/hero-pro_SkeletonData
@@ -326,16 +344,34 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 16|Novels.SetNodeData, Assembly-CSharp
+      Data: 18|Novels.SetNodeData, Assembly-CSharp
     - Name: SetData
       Entry: 7
-      Data: 17|SetSpineAction, Assembly-CSharp
-    - Name: SpineAsset
+      Data: 19|Delay, Assembly-CSharp
+    - Name: DelayTime
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 20|Novels.SetNodeData, Assembly-CSharp
+    - Name: SetData
+      Entry: 7
+      Data: 21|JumpNextAVGPlot, Assembly-CSharp
+    - Name: StartNovelName
+      Entry: 7
+      Data: 22|GlobalConfig+NovelsChapterData, Assembly-CSharp
+    - Name: SectionNodes
       Entry: 1
-      Data: Prefabs/Spine/Dragon/dragon_SkeletonData
-    - Name: ActionName
-      Entry: 1
-      Data: flying
+      Data: Config/NovelsChapters/108
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 8
       Data: 
