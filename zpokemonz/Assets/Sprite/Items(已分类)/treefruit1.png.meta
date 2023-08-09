@@ -195,7 +195,7 @@ TextureImporter:
       213: 7519268794971271581
     second: treefruit1_63
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -212,10 +212,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -254,6 +256,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -265,6 +269,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -277,6 +282,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -289,6 +295,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1648,9 +1668,73 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      treefruit1_0: -4474991644522844800
+      treefruit1_1: 5829057048049495510
+      treefruit1_10: 5148476002953249486
+      treefruit1_11: 6018419613925927980
+      treefruit1_12: 1637217527205829440
+      treefruit1_13: 2831878046086183331
+      treefruit1_14: -797978466143413772
+      treefruit1_15: 8095806464544298409
+      treefruit1_16: -3014859017015063496
+      treefruit1_17: -2450738994134518639
+      treefruit1_18: -2505279546201442970
+      treefruit1_19: -6547426786513112972
+      treefruit1_2: 2328039002812540919
+      treefruit1_20: 6130785916368923603
+      treefruit1_21: 5637924534586396826
+      treefruit1_22: 3960649297025482291
+      treefruit1_23: 5842088514136297080
+      treefruit1_24: 2295443245887703725
+      treefruit1_25: -5171156030109747629
+      treefruit1_26: -3203209052496330557
+      treefruit1_27: -191379839760730411
+      treefruit1_28: -8819926909371269315
+      treefruit1_29: -5303045536704015495
+      treefruit1_3: -3079688834865534041
+      treefruit1_30: 4304661804766692999
+      treefruit1_31: -7692086964566540206
+      treefruit1_32: 5914373985368060349
+      treefruit1_33: 4001914939432031773
+      treefruit1_34: -4249434275115782592
+      treefruit1_35: -4052762990501419861
+      treefruit1_36: 8627437555332241999
+      treefruit1_37: 3242126340021174303
+      treefruit1_38: -604345236449680573
+      treefruit1_39: 4386691436194155054
+      treefruit1_4: -2297822505167862267
+      treefruit1_40: -5049446714352480547
+      treefruit1_41: 2663230590613873916
+      treefruit1_42: 1071645217675269240
+      treefruit1_43: -6627279386202998538
+      treefruit1_44: 3525023322339336549
+      treefruit1_45: -6304835894687061702
+      treefruit1_46: 1037539419384491277
+      treefruit1_47: -1875297962088759943
+      treefruit1_48: -5642207116380135045
+      treefruit1_49: 5078563395767079327
+      treefruit1_5: 6790713016906038204
+      treefruit1_50: -7554843279755297699
+      treefruit1_51: 4229301708894777707
+      treefruit1_52: -918969153068902517
+      treefruit1_53: -5567367408528723687
+      treefruit1_54: -53609885267748164
+      treefruit1_55: -1074248342739357307
+      treefruit1_56: 1120464427822193005
+      treefruit1_57: 8432633062305976900
+      treefruit1_58: -8195071876086511721
+      treefruit1_59: 7334638622164682326
+      treefruit1_6: -3675788775507532348
+      treefruit1_60: 630084991600445377
+      treefruit1_61: 3228505185150046321
+      treefruit1_62: -7856391849285002290
+      treefruit1_63: 7519268794971271581
+      treefruit1_7: 5085418404840032907
+      treefruit1_8: -6824543602928012667
+      treefruit1_9: 7438792472285776640
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

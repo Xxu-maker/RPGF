@@ -114,7 +114,7 @@ TextureImporter:
       213: 5141987542261015631
     second: dm_36
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -131,10 +131,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -144,8 +146,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -173,6 +175,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -184,6 +188,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -196,6 +201,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -208,6 +214,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1000,9 +1020,46 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      dm_0: -946064947401753520
+      dm_1: 2815202484773917225
+      dm_10: -5808996405358155713
+      dm_11: 8510653047260773167
+      dm_12: 6437188114976412395
+      dm_13: 2565319451232647858
+      dm_14: 7986936375253001931
+      dm_15: 4323363737160446459
+      dm_16: -604100689341299540
+      dm_17: -5581408373242721727
+      dm_18: 3622626942306522129
+      dm_19: -276964969354709772
+      dm_2: -907323083685365492
+      dm_20: -8884348765495055076
+      dm_21: -8790181821735322834
+      dm_22: -3221943147355651463
+      dm_23: 6471820531060278047
+      dm_24: 6930081047873887557
+      dm_25: 8958026125767988315
+      dm_26: 8358565430637693008
+      dm_27: -4035930733369384452
+      dm_28: -5125998371959776047
+      dm_29: -6870469392005656907
+      dm_3: -2601181116556571944
+      dm_30: -1854178755267875567
+      dm_31: 9176193605883177364
+      dm_32: 7111387036000399494
+      dm_33: -3676270354430158863
+      dm_34: -3986090700423377428
+      dm_35: 107657860453865755
+      dm_36: 5141987542261015631
+      dm_4: 5778537755904609533
+      dm_5: 4926960111420472371
+      dm_6: -9088582608046621066
+      dm_7: -5845607510569038623
+      dm_8: 355685636470348572
+      dm_9: 8976605802731744394
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

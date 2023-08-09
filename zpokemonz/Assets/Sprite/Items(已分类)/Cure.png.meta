@@ -117,7 +117,7 @@ TextureImporter:
       213: -7611432737402418609
     second: Cure_37
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -134,10 +134,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -176,6 +178,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -187,6 +191,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -199,6 +204,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -211,6 +217,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -223,6 +230,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1036,9 +1057,47 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Cure_0: -7221063783963603834
+      Cure_1: -6544259613327367317
+      Cure_10: -6455512537481193040
+      Cure_11: 5226312942984702246
+      Cure_12: 5520444868261548310
+      Cure_13: -353331666089979797
+      Cure_14: -2208304171092496074
+      Cure_15: -6939443066435485758
+      Cure_16: -8148242202626532334
+      Cure_17: 4809683850395368064
+      Cure_18: 4411405361599383619
+      Cure_19: -7119820903222479329
+      Cure_2: 2999581586182733425
+      Cure_20: -5326811501085715324
+      Cure_21: 8556921521527033383
+      Cure_22: -5240808245064572002
+      Cure_23: -705134437360110412
+      Cure_24: -3961480793162757345
+      Cure_25: 8853218106356989323
+      Cure_26: -7042933330277435941
+      Cure_27: -125942236745620585
+      Cure_28: -2129210711010877901
+      Cure_29: -685616156196203861
+      Cure_3: -4300577526400154154
+      Cure_30: -5871364471082080809
+      Cure_31: 1568887703811322785
+      Cure_32: -1970713073752768690
+      Cure_33: 7478544759618610772
+      Cure_34: -2272040541424393394
+      Cure_35: -1099811705165460811
+      Cure_36: -2043379977410306390
+      Cure_37: -7611432737402418609
+      Cure_4: -4505459287760378017
+      Cure_5: 3976859735591005533
+      Cure_6: 7713085033080260318
+      Cure_7: -2224484397589807461
+      Cure_8: -3819069135114524489
+      Cure_9: 4899493937744277770
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -558,7 +558,7 @@ TextureImporter:
       213: 8148985860355389296
     second: dCloud_184
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -575,10 +575,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -617,6 +619,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -628,6 +632,7 @@ TextureImporter:
     crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -640,6 +645,7 @@ TextureImporter:
     crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -652,6 +658,20 @@ TextureImporter:
     crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 3
+    compressionQuality: 60
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -4552,9 +4572,194 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      dCloud_0: -756086912130142780
+      dCloud_1: 4224032048883908910
+      dCloud_10: -3908518564880137972
+      dCloud_100: -5990500683747802096
+      dCloud_101: -4923492172147530088
+      dCloud_102: -6821714620354868798
+      dCloud_103: 4587975685871508715
+      dCloud_104: -2860543627667373011
+      dCloud_105: -8156281174543819799
+      dCloud_106: -2615440302150446580
+      dCloud_107: 8354660166314827430
+      dCloud_108: 1911914370180239287
+      dCloud_109: 3899237184164678850
+      dCloud_11: 6948226027332455617
+      dCloud_110: -2307285898410706544
+      dCloud_111: 6128610230857396874
+      dCloud_112: -2868533867106040788
+      dCloud_113: 6701694384805604888
+      dCloud_114: -1282144519931542086
+      dCloud_115: -6672399091904690587
+      dCloud_116: 2770500420107367681
+      dCloud_117: 243662239714835232
+      dCloud_118: -4213877478756243982
+      dCloud_119: -6167389256278757262
+      dCloud_12: 5364533129463857758
+      dCloud_120: -383016493365561422
+      dCloud_121: -7248575942612036191
+      dCloud_122: -109435942129789131
+      dCloud_123: 2146110639997462576
+      dCloud_124: 7939061666334989284
+      dCloud_125: -5402098439414932703
+      dCloud_126: 5369833943949960910
+      dCloud_127: 9144248699880219924
+      dCloud_128: 4662524782331249701
+      dCloud_129: 5726657325891171437
+      dCloud_13: 5923098600445674989
+      dCloud_130: 6675592358268739050
+      dCloud_131: -6161014199749116221
+      dCloud_132: -5083831661484131864
+      dCloud_133: 2433083606596555791
+      dCloud_134: -2045917377199451006
+      dCloud_135: -7930023929870645379
+      dCloud_136: 428314536811251996
+      dCloud_137: 2161336213842954860
+      dCloud_138: 8113893606436623987
+      dCloud_139: -5761555913074506064
+      dCloud_14: 8638177176847191292
+      dCloud_140: -2107329528074498196
+      dCloud_141: 2880487529620605143
+      dCloud_142: 372880712497353473
+      dCloud_143: -2024951854359101945
+      dCloud_144: -2049685054020350535
+      dCloud_145: 5945705476999932
+      dCloud_146: -322204684452899899
+      dCloud_147: -4241374663901972240
+      dCloud_148: -2913190662039489381
+      dCloud_149: -5334037213853646618
+      dCloud_15: -1292950941867661518
+      dCloud_150: 5619597532244993859
+      dCloud_151: -8905321795136372650
+      dCloud_152: 5996985240532674713
+      dCloud_153: -4053077688184468138
+      dCloud_154: 570240650010650178
+      dCloud_155: 217699242963428126
+      dCloud_156: -6518767133161159352
+      dCloud_157: 6975152119907031206
+      dCloud_158: -4075385079691102130
+      dCloud_159: -7785290498588800025
+      dCloud_16: -6553088358674747871
+      dCloud_160: -6340973219483444838
+      dCloud_161: -4382523121517926937
+      dCloud_162: -5670505607410670482
+      dCloud_163: -7942622596675235194
+      dCloud_164: 778792924713446682
+      dCloud_165: 4736698396996448286
+      dCloud_166: -1968173065804778707
+      dCloud_167: 6378094959957729350
+      dCloud_168: -8870927664171340793
+      dCloud_169: 3516323975794959750
+      dCloud_17: 2236583357650163289
+      dCloud_170: -6231966065259099579
+      dCloud_171: -8290854388433345644
+      dCloud_172: 5407116220658336636
+      dCloud_173: -1325242370186431095
+      dCloud_174: 5109170079771270403
+      dCloud_175: -3601059310078962910
+      dCloud_176: 8243994114944267105
+      dCloud_177: 1184641610311818184
+      dCloud_178: 4664100784354554816
+      dCloud_179: 3114906301425437938
+      dCloud_18: -2916740076063735163
+      dCloud_180: 9028244499666604701
+      dCloud_181: -8880928690623254253
+      dCloud_182: 8608753752130016004
+      dCloud_183: -6081803148747005473
+      dCloud_184: 8148985860355389296
+      dCloud_19: -2305455422054060071
+      dCloud_2: -6395091501174082560
+      dCloud_20: -3120928601039402847
+      dCloud_21: -3322973095748890937
+      dCloud_22: 3875345575316802473
+      dCloud_23: -4228150270750790902
+      dCloud_24: -4827967355877965666
+      dCloud_25: 8451202314303494628
+      dCloud_26: -5345822696329713849
+      dCloud_27: 6751270060950092673
+      dCloud_28: 9206306235218682072
+      dCloud_29: 7437343200101667282
+      dCloud_3: -2341401881195501082
+      dCloud_30: 7988840046473946584
+      dCloud_31: -7729102506440646112
+      dCloud_32: -6364748974066426458
+      dCloud_33: 1397138249136820199
+      dCloud_34: -8869091116162702678
+      dCloud_35: -3518331932045849398
+      dCloud_36: 787572689858534478
+      dCloud_37: 2409418580193042169
+      dCloud_38: -8444893183922797562
+      dCloud_39: 6697303732867295510
+      dCloud_4: -9016963929786257197
+      dCloud_40: -2791196604590765600
+      dCloud_41: 7455720432773746366
+      dCloud_42: 1080579383684643629
+      dCloud_43: -5625527956387862471
+      dCloud_44: -7074650006702595696
+      dCloud_45: -2660084916625805217
+      dCloud_46: -8950462291074967462
+      dCloud_47: 8807377275024784770
+      dCloud_48: -8793686045251958017
+      dCloud_49: -3673338064971111822
+      dCloud_5: -8953570882060358751
+      dCloud_50: 8292358781620186495
+      dCloud_51: -3276371599466896661
+      dCloud_52: 2061283318249591412
+      dCloud_53: -5840396834578611969
+      dCloud_54: 8885185658200810171
+      dCloud_55: 8152978146675704681
+      dCloud_56: 9145405832901938493
+      dCloud_57: -1166136972511662924
+      dCloud_58: -1650244297376714445
+      dCloud_59: 8686083163968691216
+      dCloud_6: -8738452331418208737
+      dCloud_60: -645489686155306629
+      dCloud_61: 6973602744417337006
+      dCloud_62: 1363935166517461024
+      dCloud_63: -117500563307344897
+      dCloud_64: -8884381129750484461
+      dCloud_65: -1069443825060176698
+      dCloud_66: -2378284956182523819
+      dCloud_67: -8235648031677606970
+      dCloud_68: -620196861281036280
+      dCloud_69: 7617634067001569436
+      dCloud_7: 7653402389345128147
+      dCloud_70: -6748179522204155634
+      dCloud_71: -4836804071079718059
+      dCloud_72: 532878210091615830
+      dCloud_73: 1653246460647634121
+      dCloud_74: -2697306633984072603
+      dCloud_75: -1862399057876722319
+      dCloud_76: 3013158845130861500
+      dCloud_77: -3245938439018377956
+      dCloud_78: 5953263322717043104
+      dCloud_79: 1884529214078074705
+      dCloud_8: -8943728315797900839
+      dCloud_80: 7729910615773861139
+      dCloud_81: 5767549957831079358
+      dCloud_82: 7046571343275033622
+      dCloud_83: 2838691252890224501
+      dCloud_84: -5413108461961991408
+      dCloud_85: 742336356787374266
+      dCloud_86: -2024630963393365179
+      dCloud_87: -5315714505892810611
+      dCloud_88: -3592620133023075020
+      dCloud_89: -2060334173131348630
+      dCloud_9: 2030015150749736954
+      dCloud_90: -5775660704311934639
+      dCloud_91: -9031326217256018446
+      dCloud_92: -3102147814359723830
+      dCloud_93: -659106284940636048
+      dCloud_94: 4204894986766787799
+      dCloud_95: -7660298259972069908
+      dCloud_96: 6106925447601776767
+      dCloud_97: -4477030764068740012
+      dCloud_98: -6719079638404275993
+      dCloud_99: -8262771307391627339
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

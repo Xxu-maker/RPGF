@@ -216,7 +216,7 @@ TextureImporter:
       213: 904099306232346411
     second: role_70
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -233,10 +233,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -275,6 +277,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -286,6 +290,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -298,6 +303,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -310,6 +316,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1816,9 +1836,80 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      role_0: -2390339217489246741
+      role_1: -8799978733675075017
+      role_10: -2825720988848286192
+      role_11: 6247693102790194932
+      role_12: -7338850767384153317
+      role_13: -5090994881757499619
+      role_14: 367802550889431964
+      role_15: 5489355503492677837
+      role_16: -5978283967146326181
+      role_17: 6909290178438900689
+      role_18: 1339253133328876131
+      role_19: -4063087513204743138
+      role_2: -7895524293762407022
+      role_20: -8651005883891449439
+      role_21: 4843973325360066539
+      role_22: 5625926289772202622
+      role_23: -3481758797486025934
+      role_24: -6356661841230360682
+      role_25: -5663882043746023508
+      role_26: 8874434084969643366
+      role_27: 1672010259985133475
+      role_28: -7401662210324858137
+      role_29: 426816254720651087
+      role_3: 1580151571509927773
+      role_30: 2060628552497219230
+      role_31: -1211560036286615216
+      role_32: 6464266511047890768
+      role_33: -4265725093377949316
+      role_34: 4421564330209871742
+      role_35: 363593025509037367
+      role_36: 9105248406338297075
+      role_37: -508560648795560395
+      role_38: 7087966747770044315
+      role_39: 4304793681340766107
+      role_4: 6579823256970616783
+      role_40: -3450377283524623555
+      role_41: -7672020636446795702
+      role_42: -4056058751594722747
+      role_43: -5862756730218922174
+      role_44: -1423357349035862351
+      role_45: 3376625642619337397
+      role_46: -7948389186321992288
+      role_47: 6645592458806444375
+      role_48: -3489429080380982888
+      role_49: -7648997888249586344
+      role_5: 9186526771653469864
+      role_50: 8034131945203549213
+      role_51: 1907406210452813254
+      role_52: 529076290894388847
+      role_53: 6738542516764816162
+      role_54: -777311807363458691
+      role_55: -5496755925362294464
+      role_56: -7301359579269353261
+      role_57: 6681896032499863347
+      role_58: 1126781387360575422
+      role_59: 2525574022336063747
+      role_6: -4991623364127129572
+      role_60: -4795859424923693451
+      role_61: 2166276977939056785
+      role_62: 1034065154383139623
+      role_63: -7999520488119445616
+      role_64: 4451982830734596198
+      role_65: -1965009474947275457
+      role_66: 8236250411234902789
+      role_67: -491989268637084844
+      role_68: 7175589001307557997
+      role_69: -6511761881050019228
+      role_7: -563782473483402175
+      role_70: 904099306232346411
+      role_8: -7071410215552848795
+      role_9: 8320934325734375269
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

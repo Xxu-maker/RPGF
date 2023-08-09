@@ -1,4 +1,4 @@
-using UnityEngine.Experimental.Rendering.Universal;
+
 using UnityEngine;
 using Cysharp.Threading.Tasks;
 /// <summary>
@@ -11,7 +11,7 @@ public class Anim_IObject : InteractionObjectBase
     [SerializeField] SpriteRenderer spriteRenderer;
 
     [Header("动态光照")]
-    [SerializeField] Light2D light2D;
+    [SerializeField] UnityEngine.Rendering.Universal.Light2D light2D;
     [Tooltip("不能大于光照半径最大值")]
     [SerializeField] float max;
     [Tooltip("不能小于0")]

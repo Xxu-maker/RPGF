@@ -96,7 +96,7 @@ TextureImporter:
       213: 2247784487205110995
     second: UIPartOne_30
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -113,10 +113,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -155,6 +157,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -166,6 +170,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -178,6 +183,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -190,6 +196,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -835,9 +855,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      UIPartOne_0: -76063354750448920
+      UIPartOne_1: 830712728340693557
+      UIPartOne_10: 4892872328327517141
+      UIPartOne_11: -6887791739446472556
+      UIPartOne_12: 4052790338974549793
+      UIPartOne_13: 2246092589361259646
+      UIPartOne_14: -2237161890818745650
+      UIPartOne_15: 4041505256189459195
+      UIPartOne_16: 6895824642847812746
+      UIPartOne_17: 5368671053145090920
+      UIPartOne_18: 8045315426313153103
+      UIPartOne_19: 190745531587682512
+      UIPartOne_2: -2446053803243276084
+      UIPartOne_20: -1284535526283972548
+      UIPartOne_21: 5069524527618787440
+      UIPartOne_22: 6763632336603388012
+      UIPartOne_23: 2111267519461943936
+      UIPartOne_24: -123626263480915886
+      UIPartOne_25: -765150155314192088
+      UIPartOne_26: 4899816765887237640
+      UIPartOne_27: -4092151118813484043
+      UIPartOne_28: -6750238778984509663
+      UIPartOne_29: -100185386950972717
+      UIPartOne_3: 2953603802873065532
+      UIPartOne_4: -7145685636006133219
+      UIPartOne_5: -5677599118209627500
+      UIPartOne_6: -4529712167341026874
+      UIPartOne_7: -3973919830044761370
+      UIPartOne_8: 1524368310774399630
+      UIPartOne_9: -753797235006372768
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

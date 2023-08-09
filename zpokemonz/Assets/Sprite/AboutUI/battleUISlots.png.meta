@@ -72,7 +72,7 @@ TextureImporter:
       213: -4088569696750145412
     second: battleUISlots_22
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -89,10 +89,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -131,6 +133,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -142,6 +146,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -154,6 +159,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -166,6 +172,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -664,9 +684,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      battleUISlots_0: -8734763484144772580
+      battleUISlots_1: -6934217740396163183
+      battleUISlots_10: 1120418888819031075
+      battleUISlots_11: 5800739373669458969
+      battleUISlots_12: 5051577918488830706
+      battleUISlots_13: 7471161018821308119
+      battleUISlots_14: 4507154045394551876
+      battleUISlots_15: -588125683578330197
+      battleUISlots_16: 5452503032792565952
+      battleUISlots_17: -3752594111249060419
+      battleUISlots_18: -5636855197600737832
+      battleUISlots_19: -8374861941992488354
+      battleUISlots_2: -2085097199577344835
+      battleUISlots_20: -6339998334248756113
+      battleUISlots_21: 3310347473084928674
+      battleUISlots_22: -4088569696750145412
+      battleUISlots_3: -217164849274401492
+      battleUISlots_4: -2824747163527888429
+      battleUISlots_5: -9219779845666147805
+      battleUISlots_6: -2914617015809788496
+      battleUISlots_7: 3058833696062460697
+      battleUISlots_8: 8104545137066782294
+      battleUISlots_9: -4751849095635010810
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

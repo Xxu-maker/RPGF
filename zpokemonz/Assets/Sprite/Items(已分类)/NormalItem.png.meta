@@ -141,7 +141,7 @@ TextureImporter:
       213: -2107922007667381157
     second: NormalItem_45
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -158,10 +158,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -200,6 +202,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -211,6 +215,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -223,6 +228,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -235,6 +241,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1216,9 +1236,55 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      NormalItem_0: 2849842982482568423
+      NormalItem_1: 5262197893359156586
+      NormalItem_10: 8790302782055073147
+      NormalItem_11: -3897268479058697416
+      NormalItem_12: 5481870660316923620
+      NormalItem_13: -5365294257663278272
+      NormalItem_14: -8068746922760930087
+      NormalItem_15: 2987951515311042671
+      NormalItem_16: 8694171620407048744
+      NormalItem_17: -7211339420584586481
+      NormalItem_18: 2000491308847930747
+      NormalItem_19: 6067234484723544700
+      NormalItem_2: 714745933879133771
+      NormalItem_20: -3924302151110802801
+      NormalItem_21: -7360816817486227191
+      NormalItem_22: -1393803733682374294
+      NormalItem_23: 8349033182362885243
+      NormalItem_24: 6231997829839481191
+      NormalItem_25: -1796065296576434272
+      NormalItem_26: 5802788869505508311
+      NormalItem_27: -6376022727541251436
+      NormalItem_28: 7973754086414830525
+      NormalItem_29: -4854248943535267971
+      NormalItem_3: -1527986286146829848
+      NormalItem_30: 3043940737173434592
+      NormalItem_31: -8833612970794420088
+      NormalItem_32: -3359183266447262973
+      NormalItem_33: -1666051177214752792
+      NormalItem_34: 2397333996362540849
+      NormalItem_35: -1682168459269784029
+      NormalItem_36: -6062236685698806942
+      NormalItem_37: 1563491590279595833
+      NormalItem_38: -5968002954172532392
+      NormalItem_39: -7947711406916613186
+      NormalItem_4: -7316640779693986943
+      NormalItem_40: -3388162036846634234
+      NormalItem_41: -173826743821813700
+      NormalItem_42: -7117835264788903258
+      NormalItem_43: -4400005697479440024
+      NormalItem_44: 8798495431780505606
+      NormalItem_45: -2107922007667381157
+      NormalItem_5: -4939461964250150999
+      NormalItem_6: 4789496271082138425
+      NormalItem_7: -1842819511760325169
+      NormalItem_8: -4218959377985914966
+      NormalItem_9: 465555904632083604
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

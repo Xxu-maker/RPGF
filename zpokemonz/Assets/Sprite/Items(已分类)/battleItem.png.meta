@@ -189,7 +189,7 @@ TextureImporter:
       213: 3443540679854643314
     second: battleItem_61
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -206,10 +206,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -248,6 +250,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -259,6 +263,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -271,6 +276,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -283,6 +289,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1600,9 +1620,71 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      battleItem_0: 8189257019806893867
+      battleItem_1: -2116819997210600041
+      battleItem_10: -8232172128337206823
+      battleItem_11: -1092584083132211517
+      battleItem_12: 8781327504256634504
+      battleItem_13: 5988387636420514225
+      battleItem_14: -3575756141980468715
+      battleItem_15: -6159231745244821621
+      battleItem_16: -5216712131773308890
+      battleItem_17: 1145988365711867705
+      battleItem_18: 1317129038158454169
+      battleItem_19: 565241448218773472
+      battleItem_2: 3762859800838535168
+      battleItem_20: 5001461876071595953
+      battleItem_21: -817330457788483738
+      battleItem_22: 8244225492372611048
+      battleItem_23: -3681250247185705606
+      battleItem_24: -3157984669410288725
+      battleItem_25: -9179788420773371565
+      battleItem_26: 6213884057746562501
+      battleItem_27: -1357011108277726590
+      battleItem_28: 5235298322974474831
+      battleItem_29: -6300259304338466231
+      battleItem_3: 4507114502706316463
+      battleItem_30: -3144836759064508386
+      battleItem_31: 6726491152626724577
+      battleItem_32: 8420385453540981257
+      battleItem_33: 3068059255732833552
+      battleItem_34: 2640789036874480349
+      battleItem_35: 4533909044806937132
+      battleItem_36: -8410004153213898877
+      battleItem_37: 4053039751168099802
+      battleItem_38: -7769398966417819877
+      battleItem_39: 1576699588804519072
+      battleItem_4: -2228391678493186421
+      battleItem_40: -3628720964629847836
+      battleItem_41: -8127134538473612257
+      battleItem_42: -137219211224639552
+      battleItem_43: 1354455839506253035
+      battleItem_44: 2046095674627766920
+      battleItem_45: 3984314223342795977
+      battleItem_46: 2598284668807873247
+      battleItem_47: -8133478832917165685
+      battleItem_48: 2954984640378284825
+      battleItem_49: 681087601815786561
+      battleItem_5: -3600776406563623163
+      battleItem_50: 1253760427601685166
+      battleItem_51: 5099166215955173359
+      battleItem_52: -5559337708045447693
+      battleItem_53: -8076725871433452638
+      battleItem_54: -589539693566143267
+      battleItem_55: 7705330649412704294
+      battleItem_56: 905463348135528671
+      battleItem_57: -1433723914663602725
+      battleItem_58: -851985444260385552
+      battleItem_59: -1929887315085200046
+      battleItem_6: -7646197438589334311
+      battleItem_60: 6926816447082667896
+      battleItem_61: 3443540679854643314
+      battleItem_7: 7163461341141100702
+      battleItem_8: -1056386251398209704
+      battleItem_9: 6648092659073320164
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

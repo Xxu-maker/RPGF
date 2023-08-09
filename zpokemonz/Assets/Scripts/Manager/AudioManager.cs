@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 public enum AudioPlayType{ADES, BGM, BattleAD, NormalEffectAS, BgmAS, BattleEffectAS}
+
+[AutoCreateSingleton]
 public partial class AudioManager : SingletonMono<AudioManager>
 {
     [Header("播放器")]
@@ -12,6 +14,7 @@ public partial class AudioManager : SingletonMono<AudioManager>
     AudioClip bumb, walkGrass, faint;
     void Start()
     {
+        DontDestroyOnLoad(this);
         NormalBgm();
         bumb = GetAudio("SoundEffect/Bump");
         walkGrass = GetAudio("SoundEffect/walkGrass");
@@ -21,6 +24,8 @@ public partial class AudioManager : SingletonMono<AudioManager>
         stat[0] = GetAudio("BattleEffect/StatUp");
         stat[1] = GetAudio("BattleEffect/StatDown");
         faint = GetAudio("BattleEffect/Faint");
+        
+        //Initialize();
     }
 
     /// <summary>

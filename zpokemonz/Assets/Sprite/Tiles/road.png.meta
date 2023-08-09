@@ -183,7 +183,7 @@ TextureImporter:
       213: 2626460033208411293
     second: road_59
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -200,10 +200,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -242,6 +244,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -253,6 +257,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -265,6 +270,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -277,6 +283,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1552,9 +1572,69 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      road_0: 7094887773775264657
+      road_1: -4530216657470773902
+      road_10: -7223577177373258317
+      road_11: -5586730978857105876
+      road_12: -1925723933517948596
+      road_13: 1828722708526719048
+      road_14: 6638303573490530778
+      road_15: 2700346368913020768
+      road_16: 9179026675533199495
+      road_17: -4995882904223486437
+      road_18: 8380427011428022856
+      road_19: 8908889523001558633
+      road_2: -6253479298653041116
+      road_20: 3214108022506473463
+      road_21: 1684678708351617919
+      road_22: -2399857094981413193
+      road_23: 8560593586735724408
+      road_24: 1332033013539657400
+      road_25: 6296474218650178728
+      road_26: 7668655248742884910
+      road_27: 7979546979782821083
+      road_28: -8645247183655947590
+      road_29: -8290560252826729462
+      road_3: 7827082726948793129
+      road_30: -4053898908150575834
+      road_31: -676963726807788035
+      road_32: -4887830006788459656
+      road_33: 3405754001925916310
+      road_34: -217451876624733802
+      road_35: 5962118568643712627
+      road_36: 5573806032118053421
+      road_37: 6097868653908808516
+      road_38: -3327090694821319623
+      road_39: -6960922867474591064
+      road_4: -8751827201020387120
+      road_40: 7681773503306723862
+      road_41: -4186439421977721027
+      road_42: 8772738802562653638
+      road_43: 3839019456224155044
+      road_44: -2658792696327191640
+      road_45: 5526569732038431813
+      road_46: -6041317458823802412
+      road_47: -6094963648593559885
+      road_48: 5683624461052014564
+      road_49: -8202445414445176484
+      road_5: -28634237188268583
+      road_50: 5721995595385283088
+      road_51: -7928444956529706508
+      road_52: 8535192563630151529
+      road_53: -8812968364700820181
+      road_54: 5705666432098848009
+      road_55: 7452567628049338843
+      road_56: -9133336884129008745
+      road_57: -908662758922134793
+      road_58: -2509075907425634535
+      road_59: 2626460033208411293
+      road_6: -9105622256288295348
+      road_7: 5203620831493657198
+      road_8: -6542414796256652030
+      road_9: -3488839430733437956
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

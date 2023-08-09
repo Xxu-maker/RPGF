@@ -81,7 +81,7 @@ TextureImporter:
       213: 8019263567682349483
     second: ShoreSandAnim_25
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -98,10 +98,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,6 +142,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -151,6 +155,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -163,6 +168,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -175,6 +181,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -736,9 +756,35 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      ShoreSandAnim_0: 1065203773654500452
+      ShoreSandAnim_1: -4159572511951858666
+      ShoreSandAnim_10: -2754506487725919285
+      ShoreSandAnim_11: -1691901829820721937
+      ShoreSandAnim_12: 8655771599555655234
+      ShoreSandAnim_13: 151080228978818513
+      ShoreSandAnim_14: 7270998429848994510
+      ShoreSandAnim_15: 6416355600944964981
+      ShoreSandAnim_16: 1226723413661802219
+      ShoreSandAnim_17: 1840077798528419522
+      ShoreSandAnim_18: 3311424510853751464
+      ShoreSandAnim_19: 8376626233567644495
+      ShoreSandAnim_2: -2995691050722922631
+      ShoreSandAnim_20: -6527204593730543476
+      ShoreSandAnim_21: -3574155524120471153
+      ShoreSandAnim_22: 615224379409845422
+      ShoreSandAnim_23: 756598423902888955
+      ShoreSandAnim_24: -4154603011171832400
+      ShoreSandAnim_25: 8019263567682349483
+      ShoreSandAnim_3: -7982408927302372939
+      ShoreSandAnim_4: 5959339343370011061
+      ShoreSandAnim_5: -7654421879507416471
+      ShoreSandAnim_6: 6297014269111851915
+      ShoreSandAnim_7: 1631642586425067608
+      ShoreSandAnim_8: 9027283431912970221
+      ShoreSandAnim_9: -7904936429704295876
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

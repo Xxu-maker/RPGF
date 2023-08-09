@@ -180,7 +180,7 @@ TextureImporter:
       213: 9167237630034079202
     second: 25_58
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -197,10 +197,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -239,6 +241,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -250,6 +254,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -262,6 +267,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -274,6 +280,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 512
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1528,9 +1548,68 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      25_0: 6894999169920593895
+      25_1: 9133569703002954677
+      25_10: -1029747685993312320
+      25_11: 4716437172955697865
+      25_12: 2573231031032013840
+      25_13: -1898372214998483757
+      25_14: 5134426761025382577
+      25_15: -6481620099792621551
+      25_16: -1476795448792516533
+      25_17: 54054635418972889
+      25_18: -5746494215828073184
+      25_19: -2479635848490215988
+      25_2: -5691683482296043042
+      25_20: 2080888403664701198
+      25_21: 1154164746667119001
+      25_22: 1959756432642935892
+      25_23: -2937397086800026701
+      25_24: 6638908412913684620
+      25_25: 5463310350213866834
+      25_26: 1555882694039124340
+      25_27: -7173698690608370631
+      25_28: 6854135280766527799
+      25_29: 762162666051914278
+      25_3: -6470185847696222261
+      25_30: -4814169268462678252
+      25_31: -3452878405221160225
+      25_32: -6337456394614699092
+      25_33: -750128498928389321
+      25_34: -3409983357515049386
+      25_35: -4332115351522976840
+      25_36: 3095580774873298553
+      25_37: -3518067006098025734
+      25_38: 5373480699132925407
+      25_39: 5314202970928644017
+      25_4: -5034601039274620855
+      25_40: -973493931048255535
+      25_41: -2905042849671303447
+      25_42: 5683888714330434479
+      25_43: 9197916299455784778
+      25_44: 5883083294109536081
+      25_45: -1027967246957912606
+      25_46: 7561683029477670416
+      25_47: 919712910540051013
+      25_48: -2093378885327658748
+      25_49: -4414613055509619538
+      25_5: 3298901209494548588
+      25_50: 928944939377239795
+      25_51: 530426394002273491
+      25_52: -6051090534776742583
+      25_53: 7899946064725968267
+      25_54: -8379990600843539665
+      25_55: 237111168971039765
+      25_56: 2594611316792366181
+      25_57: 272671214363422478
+      25_58: 9167237630034079202
+      25_6: 7755549455693990370
+      25_7: -177777638517430460
+      25_8: -1994049146423976819
+      25_9: 4045726500921566638
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

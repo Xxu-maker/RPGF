@@ -141,7 +141,7 @@ TextureImporter:
       213: -2760406853727926933
     second: FosterHouse_45
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -158,10 +158,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -200,6 +202,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -211,6 +215,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -223,6 +228,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -235,6 +241,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -247,6 +254,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1228,9 +1249,55 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      FosterHouse_0: -7318410165161557618
+      FosterHouse_1: 4832471837970505705
+      FosterHouse_10: 2674712322874842830
+      FosterHouse_11: 6603760056967114414
+      FosterHouse_12: -1362044358466521893
+      FosterHouse_13: -1037302870695236778
+      FosterHouse_14: -3796094230313456528
+      FosterHouse_15: 4021536370753497163
+      FosterHouse_16: 6994358734855756656
+      FosterHouse_17: 7445152191469140387
+      FosterHouse_18: -4689403325182445214
+      FosterHouse_19: 8111300725238705254
+      FosterHouse_2: 1093242010820848717
+      FosterHouse_20: 6891996646809195370
+      FosterHouse_21: -4167635099413470347
+      FosterHouse_22: 4873174499004295592
+      FosterHouse_23: 6299997834438479311
+      FosterHouse_24: 6694051876503689933
+      FosterHouse_25: -4926554395046205127
+      FosterHouse_26: -2872926382188471614
+      FosterHouse_27: 412451234230764249
+      FosterHouse_28: -6427808486575330403
+      FosterHouse_29: 7229841386442465959
+      FosterHouse_3: -222697243927950914
+      FosterHouse_30: -3915026523689824869
+      FosterHouse_31: -26522046865059877
+      FosterHouse_32: 2289393461099264515
+      FosterHouse_33: 8526402114208333378
+      FosterHouse_34: -8355234121654591521
+      FosterHouse_35: 3965896748002171814
+      FosterHouse_36: 5782107460588363648
+      FosterHouse_37: -4451396656832782444
+      FosterHouse_38: -4545722444508982746
+      FosterHouse_39: 5474651057916864071
+      FosterHouse_4: 3620274841270094883
+      FosterHouse_40: -5756541426094628180
+      FosterHouse_41: -4689133893052569805
+      FosterHouse_42: 2832530760014845071
+      FosterHouse_43: -5964643119372246455
+      FosterHouse_44: -5060965161029052618
+      FosterHouse_45: -2760406853727926933
+      FosterHouse_5: -8056069231968663028
+      FosterHouse_6: 3225829093682735958
+      FosterHouse_7: -282503290268625112
+      FosterHouse_8: 5147289956419745118
+      FosterHouse_9: -1663685070135035192
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
