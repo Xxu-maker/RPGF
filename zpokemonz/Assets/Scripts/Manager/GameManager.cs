@@ -7,7 +7,7 @@ public class GameManager : SingletonMono<GameManager>
     /// <summary>
     /// 游戏状态
     /// </summary>
-    private enum GameState { Freedom, Battle, Dialog, CutScene, Pause }
+    private enum GameState { Freedom, Battle, Dialog, CutScene, Pause,AVG }
 
     [Header("Player")]
     [SerializeField] PlayerMovement playerCtrl;
@@ -33,6 +33,12 @@ public class GameManager : SingletonMono<GameManager>
     /// 现在是否是战斗状态
     /// </summary>
     public bool BattleState => state == GameState.Battle;
+    
+    /// <summary>
+    /// 现在是否是大剧情状态
+    /// </summary>
+    public bool AVGState => state == GameState.AVG;
+    
     public PlayerMovement Player  => playerCtrl;
     public PokemonTeam PlayerTeam => playerTeam;
     public Inventory Inventory => playerInventory;
@@ -179,13 +185,15 @@ public class GameManager : SingletonMono<GameManager>
         ChangeGameState(GameState.Freedom);
         UIManager.Instance.OnOpen();
     }
-
-    public async void LoadScene(int n)
+    
+    /// <summary>
+    /// AVG剧情场景加载
+    public async void LoadAVGScene()
     {
         ChangeGameState(GameState.Pause);
 
-        SceneManager.LoadScene(n);
-        currentScene = n;
+        SceneManager.LoadScene("Scene/AVG/AVG",LoadSceneMode.Additive);
+        //currentScene = 8;
 
         //平滑过渡
         loading.NormalBlackPanelQuickFade();
@@ -193,9 +201,24 @@ public class GameManager : SingletonMono<GameManager>
         await UniTask.Delay(1500);
         loading.ExitNormalBlackPanel();
 
+        ChangeGameState(GameState.AVG);
+    }
+    
+    /// <summary>
+    /// 离开AVG剧情场景
+    /// </summary>
+    public async void LeaveAVGScene()
+    {
+        ChangeGameState(GameState.Pause);
+        loading.NormalBlackPanel();
+       
+        SceneManager.UnloadSceneAsync("Scene/AVG/AVG");
+        //currentScene = 1;
+        loading.ExitNormalBlackPanel();
+        await UniTask.Delay(1000);
         ChangeGameState(GameState.Freedom);
     }
-
+    
     /// <summary>
     /// 设置当前场景
     /// </summary>

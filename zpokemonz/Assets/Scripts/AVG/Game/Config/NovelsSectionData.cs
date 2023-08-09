@@ -458,7 +458,7 @@ namespace Novels
 
 
 
-    [Title("段落")]
+    [Title("文本节点(保存回忆数据，需要点击才能继续)")]
     [Serializable]
     public class NovelsNodeData : INovelsNode
     {
@@ -785,7 +785,7 @@ namespace Novels
     }
 
 
-    [Title("属性修改")]
+    [Title("并行节点(不保存数据，完成action后直接结束)")]
     [InlineEditor]
     [Serializable]
     public class SetNodeData : INovelsNode

@@ -14,8 +14,9 @@ public class AVGClerk : SerializedMonoBehaviour, Interactable
     
     public void Interact(Transform initiator)
     {
-       GlobalConfig.Instance.StartNovelName= NovelName;
-       SceneManager.LoadSceneAsync("Scene/AVG/AVG", LoadSceneMode.Additive);
+        
+        GlobalConfig.Instance.StartNovelName= NovelName;
+        GameManager.Instance.LoadAVGScene();
     }
 }
 

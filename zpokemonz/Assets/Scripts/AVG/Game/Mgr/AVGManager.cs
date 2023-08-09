@@ -51,7 +51,8 @@ public class AVGManager : MonoSingleton<AVGManager>
     public void EndAVGScene()
     {
         //Todo 销毁剧情管理器å
-        SceneManager.UnloadSceneAsync("Scene/AVG/AVG");
+       // SceneManager.UnloadSceneAsync("Scene/AVG/AVG");
+       GameManager.Instance.LeaveAVGScene();
     }
     
 

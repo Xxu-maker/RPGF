@@ -132,6 +132,12 @@ public class PlayerMovement : ZSavable//, Interactable
 #region HandleUpdate
 	public void HandleUpdate()
 	{
+		//Todo 大剧情状态下不可触发其它事件
+		if (GameManager.Instance.AVGState)
+		{
+			return;
+		}
+		
 		if(!IsMoving)
 		{
 			if(_horizontalMovement != _verticalMovement)
@@ -157,6 +163,12 @@ public class PlayerMovement : ZSavable//, Interactable
 	Interactable currentTalk;
 	public void Interact()
 	{
+		//Todo 大剧情状态下不可触发其它事件
+		if (GameManager.Instance.AVGState)
+		{
+			return;
+		}
+		
 		if(currentTalk != null)
 		{
 			if(GameManager.Instance.FreedomState)
