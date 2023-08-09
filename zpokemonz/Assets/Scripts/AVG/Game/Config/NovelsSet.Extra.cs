@@ -395,7 +395,7 @@ public class ClearTimeLine: INovelsSet
 
 [Serializable]
 [LabelText("预加载Spine资源")]
-public class PreLoadSpineAsset: INovelsSet
+public class 预加载Spine资源: INovelsSet
 {
     [LabelText("加载的Spine资源")]
     [ResourcePath(typeof(Spine.Unity.SkeletonDataAsset))]
@@ -419,7 +419,7 @@ public class PreLoadSpineAsset: INovelsSet
 
 [Serializable]
 [LabelText("Spine角色位置")]
-public class SetSpinePos : INovelsSet
+public class 设置Spine角色位置 : INovelsSet
 {
     [ResourcePath(typeof(Spine.Unity.SkeletonDataAsset))]
     [LabelText("Spine角色")]
@@ -427,49 +427,61 @@ public class SetSpinePos : INovelsSet
     
     [ValueDropdown("_dropItemList")]
     [LabelText("起始位置")]
+    [ShowIf("@SpineName!=null")]
     [InlineButton("FreshItem")]
-    [OnValueChanged("FreshItem")]
+    [OnValueChanged("OnValueChanged")]
     public string StartPos;
 
     [ValueDropdown("_dropItemList")]
     [LabelText("最终位置")]
+    [ShowIf("@SpineName!=null")]
     [InlineButton("FreshItem")]
-    [OnValueChanged("FreshItem")]
+    [OnValueChanged("OnValueChanged")]
     public string EndPos;
     
     [LabelText("起始透明度")]
     [Range(0,1)]
+    [ShowIf("@SpineName!=null")]
     public float StartAlpha = 0;
     
     [LabelText("最终透明度")]
     [Range(0,1)]
+    [ShowIf("@SpineName!=null")]
     public float EndAlpha = 1;
 
     [LabelText("完成时间")]
+    [ShowIf("@SpineName!=null")]
     public float time = 1;
     
-    private Vector3 StartPosVec3;
-    private Vector3 EndPosVec3;
+    private Vector3 StartPosVec3=Vector3.zero;
+    private Vector3 EndPosVec3=Vector3.zero;
     
     IEnumerable<string> _dropItemList;
     
-    private void FreshItem()
+    private Sequence _sequence;
+     private void FreshItem()
     {
         _dropItemList = GlobalConfig.Instance.CharaPosList.Select(x => x.PosKey);
+    }
+    
+    private void OnValueChanged()
+    {
         StartPosVec3= GlobalConfig.Instance.CharaPosList.Find(x => x.PosKey == StartPos).Pos;
         EndPosVec3= GlobalConfig.Instance.CharaPosList.Find(x => x.PosKey == EndPos).Pos;
+        
     }
     
     public IEnumerator Run()
     {
+        OnValueChanged();
         //Todo 缓动DT实现，可能角色透明底会分层，后续用RT实现
         var spine = SpineManager.Instance.GetSpine(SpineName);
         spine.transform.localPosition = StartPosVec3;
         SkeletonAnimation skeletonAnimation = spine.GetComponent<SkeletonAnimation>();
         skeletonAnimation.skeleton.A = StartAlpha;
        
-        spine.transform.DOLocalMove(EndPosVec3, time);
-        DOTween.To(
+        _sequence = DOTween.Sequence();
+        _sequence.Append(  DOTween.To(
                 () => StartAlpha, //起始值
                 x =>
                 {
@@ -478,20 +490,31 @@ public class SetSpinePos : INovelsSet
                 EndAlpha, //终点值
                 time) //持续时间
             .SetEase(Ease.InCirc) //缓动类型
-            .SetUpdate(false); //Time.Scale影响
+            .SetUpdate(false)//Time.Scale影响 
+            );
+        
+        _sequence.Insert(0,spine.transform.DOLocalMove(EndPosVec3, time).SetEase(Ease.InCirc).SetUpdate(false));
+        _sequence.Play();
+      
         
         yield return new WaitForSeconds(time);
+        
     }
 }
 
 [Serializable]
 [LabelText("Spine角色动作")]
-public class SetSpineAction : INovelsSet
+public class 播放Spine动画 : INovelsSet
 {
     [ResourcePath(typeof(Spine.Unity.SkeletonDataAsset))]
     [OnValueChanged("FreshItem")]
     [LabelText("Spine资源")]
     public string SpineAsset;
+    
+    [ValueDropdown("_dropSkinList")]
+    [LabelText("皮肤名")]
+    [ShowIf("@SpineAsset!=null")]
+    public string SkinName;
     
     [ValueDropdown("_dropItemList")]
     [LabelText("Spine动画")]
@@ -499,18 +522,20 @@ public class SetSpineAction : INovelsSet
     public string ActionName;
     
     IEnumerable<string> _dropItemList;
-    
+    IEnumerable<string> _dropSkinList;
     private void FreshItem()
     {
         SkeletonDataAsset spine = GameHelper.Alloc<SkeletonDataAsset>(SpineAsset);
-
+        
+       
+        _dropSkinList = spine.GetSkeletonData(true).Skins.Select(x => x.Name);
         _dropItemList = spine.GetSkeletonData(true).Animations.Select(x => x.Name);
         
     }
     
     public IEnumerator Run()
     {
-        
+        SpineManager.Instance.PlaySpineAnim(SpineAsset, ActionName,true,SkinName);
         yield return  null;
     }
 }

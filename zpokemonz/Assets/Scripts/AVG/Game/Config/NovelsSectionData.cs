@@ -7,7 +7,6 @@ using Novels;
 using System.Linq;
 using UnityEngine.UI;
 using UnityEngine.Playables;
-////using UnityEditor;
 
 namespace Novels
 {

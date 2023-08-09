@@ -85,22 +85,16 @@ MonoBehaviour:
       Data: 4|Novels.SetNodeData, Assembly-CSharp
     - Name: SetData
       Entry: 7
-      Data: 5|PreLoadSpineAsset, Assembly-CSharp
+      Data: "5|\u9884\u52A0\u8F7DSpine\u8D44\u6E90, Assembly-CSharp"
     - Name: SpineNodes
       Entry: 7
       Data: 6|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
     - Name: 
       Entry: 12
-      Data: 3
-    - Name: 
-      Entry: 1
-      Data: Prefabs/Spine/Dragon/dragon_SkeletonData
+      Data: 1
     - Name: 
       Entry: 1
       Data: Prefabs/Spine/Hero/hero-pro_SkeletonData
-    - Name: 
-      Entry: 1
-      Data: Prefabs/Spine/spineboy-pro/spineboy-pro_SkeletonData
     - Name: 
       Entry: 13
       Data: 
@@ -299,13 +293,16 @@ MonoBehaviour:
       Data: 14|Novels.SetNodeData, Assembly-CSharp
     - Name: SetData
       Entry: 7
-      Data: 15|SetSpineAction, Assembly-CSharp
+      Data: "15|\u64AD\u653ESpine\u52A8\u753B, Assembly-CSharp"
     - Name: SpineAsset
       Entry: 1
-      Data: Prefabs/Spine/Dragon/dragon_SkeletonData
+      Data: Prefabs/Spine/Hero/hero-pro_SkeletonData
+    - Name: SkinName
+      Entry: 1
+      Data: default
     - Name: ActionName
       Entry: 1
-      Data: flying
+      Data: run
     - Name: 
       Entry: 8
       Data: 
@@ -317,7 +314,7 @@ MonoBehaviour:
       Data: 16|Novels.SetNodeData, Assembly-CSharp
     - Name: SetData
       Entry: 7
-      Data: 17|SetSpinePos, Assembly-CSharp
+      Data: "17|\u8BBE\u7F6ESpine\u89D2\u8272\u4F4D\u7F6E, Assembly-CSharp"
     - Name: SpineName
       Entry: 1
       Data: Prefabs/Spine/Hero/hero-pro_SkeletonData
@@ -335,7 +332,7 @@ MonoBehaviour:
       Data: 1
     - Name: time
       Entry: 4
-      Data: 2
+      Data: 1
     - Name: 
       Entry: 8
       Data: 
