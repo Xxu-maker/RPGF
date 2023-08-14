@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: NovelsTable
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: dcd06edd22b3b477f9581385a0be7e6a, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: 2a0192fac54b64e84888b8b85c9db9af, type: 2}
+  - {fileID: 11400000, guid: 8c87ac6fe06e9430ab3f449e43e91ef8, type: 2}
+  - {fileID: 11400000, guid: 201d6ddd44abc4cc9a26eaeac787c910, type: 2}
+  - {fileID: 11400000, guid: ac69debf54ab541e280d21c4aad4db15, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 2
+    RefIds: []

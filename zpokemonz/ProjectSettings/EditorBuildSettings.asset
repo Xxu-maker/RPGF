@@ -33,4 +33,6 @@ EditorBuildSettings:
     path: Assets/Scene/AVG/AVG.unity
     guid: 1c5a7a30fd25e3841b9f783c38912d8a
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: e707576e737454a0d9e5157c3f0622ca, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 81685730bea575841a637053bfb7bd1a, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 8690d753627e74a0eb90fe19af910bd4, type: 2}
