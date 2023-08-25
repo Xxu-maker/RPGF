@@ -112,6 +112,7 @@ namespace Spine.Unity.Editor {
 			if (EditorApplication.isPlayingOrWillChangePlaymode) return;
 
 			string[] assets = AssetDatabase.FindAssets("t:script SpineEditorUtilities");
+			return;
 			string assetPath = AssetDatabase.GUIDToAssetPath(assets[0]);
 			editorPath = Path.GetDirectoryName(assetPath).Replace('\\', '/');
 

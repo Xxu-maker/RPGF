@@ -1,0 +1,2 @@
+﻿Key,Type,Desc,EN [en],CH [zh],HK [zh-HK]
+开始,Text,,Start,开始,kaishi

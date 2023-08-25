@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using ExcelTool;
 using UnityEditor;
 using UnityEditor.Animations;
 using UnityEditor.SceneManagement;
@@ -12,7 +13,18 @@ using UnityEngine.Timeline;
 public class Quick : Editor
 {
    
-
+    [MenuItem("快捷键/剧情一键导入生成")]
+    static void PlotBuild() 
+    {
+        ExcelEditorWindow.FnInit();
+    }
+    
+    [MenuItem("快捷键/Excel 配置表工具")]
+    static void ExcelToSO() 
+    {
+        ExcelEditorWindow.FnInit();
+    }
+    
     [MenuItem("快捷键/刷新表数据 &R")]
     static void FreshStaticData() 
     {
