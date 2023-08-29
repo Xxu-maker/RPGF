@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99bbec0dc8527461ca665e70e277ccb2, type: 3}
+  m_Name: GameTable
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  languages:
+  - key: "\u6D4B\u8BD5\u5BF9\u8BDD1"
+    CN: "\u6D4B\u8BD5\u5BF9\u8BDD1"
+    HK: "\u6D4B\u8BD5\u5BF9\u8BDD1"
+    EN: "\u6D4B\u8BD5\u5BF9\u8BDD1"
+    JP: "\u6D4B\u8BD5\u5BF9\u8BDD1"
+  - key: "\u6D4B\u8BD5\u5BF9\u8BDD2"
+    CN: "\u6D4B\u8BD5\u5BF9\u8BDD2"
+    HK: "\u6D4B\u8BD5\u5BF9\u8BDD2"
+    EN: "\u6D4B\u8BD5\u5BF9\u8BDD2"
+    JP: "\u6D4B\u8BD5\u5BF9\u8BDD2"
+  - key: 3
+    CN: "\u7A00\u6709"
+    HK: "\u7EFF\u8272"
+    EN: "\u5076\u5C14\u770B\u5230"
+    JP: 3
+  - key: 4
+    CN: "\u7F55\u89C1"
+    HK: "\u84DD\u8272"
+    EN: "\u975E\u5E38\u5C11\u89C1"
+    JP: 4
+  - key: 5
+    CN: "\u53F2\u8BD7"
+    HK: "\u7D2B\u8272"
+    EN: "\u4E07\u91CC\u6311\u4E00"
+    JP: 5
+  - key: 6
+    CN: "\u4F20\u8BF4"
+    HK: "\u91D1\u8272"
+    EN: "\u7EDD\u65E0\u4EC5\u6709"
+    JP: 6
+  - key: 7
+    CN: 
+    HK: 
+    EN: 
+    JP: 
+  - key: 8
+    CN: 
+    HK: 
+    EN: 
+    JP: 
+  - key: 1231
+    CN: 
+    HK: 
+    EN: 
+    JP: 
+  - key: "\u6D4B\u8BD5\u53D1\u4E2A\u5E7F\u544A"
+    CN: 
+    HK: 
+    EN: 
+    JP: 
+  - key: "\u6D4B\u8BD52333333333333"
+    CN: 
+    HK: 
+    EN: 
+    JP: 
+  - key: "\u6D4B\u8BD512333333\u53D1\u53D12"
+    CN: 
+    HK: 
+    EN: 
+    JP: 
+  - key: "\u6D4B\u8BD52"
+    CN: 
+    HK: 
+    EN: 
+    JP: 
+  - key: "\u6D4B\u8BD53"
+    CN: 
+    HK: 
+    EN: 
+    JP: 
+  - key: "\u6D4B\u8BD512"
+    CN: 
+    HK: 
+    EN: 
+    JP: 
+  - key: "\u6D4B\u8BD5132"
+    CN: 
+    HK: 
+    EN: 
+    JP: 
+  - key: "\u6D4B\u8BD531232"
+    CN: 
+    HK: 
+    EN: 
+    JP: 
+  - key: "\u6D4B\u8BD5312321"
+    CN: 
+    HK: 
+    EN: 
+    JP: 
+  - key: "\u6D4B\u8BD5313334"
+    CN: 
+    HK: 
+    EN: 
+    JP: 
+  - key: "\u6D4B\u8BD5312344"
+    CN: 
+    HK: 
+    EN: 
+    JP: 
+  - key: "\u6D4B\u8BD5313244"
+    CN: 
+    HK: 
+    EN: 
+    JP: 
+  - key: "\u6D4B\u8BD5313444"
+    CN: 
+    HK: 
+    EN: 
+    JP: 
+  - key: "\u6D4B\u8BD5378899"
+    CN: 
+    HK: 
+    EN: 
+    JP: 
+  - key: "\u6D4B\u8BD5334\u53D1\u53D1"
+    CN: 
+    HK: 
+    EN: 
+    JP: 
+  - key: "\u6D4B\u8BD53345555"
+    CN: 
+    HK: 
+    EN: 
+    JP: 
+  - key: "\u5546\u5E97vv\u65B9\u6CD5"
+    CN: 
+    HK: 
+    EN: 
+    JP: 
+  - key: "\u6D4B\u8BD53\u554A\u597D\u7684\u54C8\u5047"
+    CN: 
+    HK: 
+    EN: 
+    JP: 
+  - key: "\u6D4B\u8BD5334\u7684\u53D1\u8FBE"
+    CN: 
+    HK: 
+    EN: 
+    JP: 

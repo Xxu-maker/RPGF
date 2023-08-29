@@ -32,39 +32,6 @@ public class CurrentControlPlayAnim : INovelsSet
     }
 }
 
-
-[Serializable]
-[Obsolete]//标记该方法已弃用
-public class ShowCharaSet : INovelsSet
-{
-   
-    [ValueDropdown("_dropItemList")]
-    [LabelText("提示Key")]
-    [HideIf("@State== CharaShowData.EEffType.Close")]
-    [InlineButton("FreshItem")]
-    public string CharaKey;
-    [LabelText("位置")]
-    public CharaShowData.EPosType PosType;
-    [LabelText("X翻转")]
-    public bool IsFlipX=false;
-    [LabelText("图片效果")]
-    public CharaShowData.EEffType State = CharaShowData.EEffType.Show;
-
-    private IEnumerable<string> _dropItemList = GlobalConfig.Instance.NovelsCharas.Select(o => o.Key);
-
-    public void FreshItem()
-    {
-        _dropItemList = GlobalConfig.Instance.NovelsCharas.Select(o => o.Key);
-    }
-
-
-    public IEnumerator Run()
-    {
-        yield break;
-    }
-
-}
-
 [Serializable]
 [Obsolete]//标记该方法已弃用
 public class PopupClose : INovelsSet
@@ -77,102 +44,6 @@ public class PopupClose : INovelsSet
 }
 
 
-[Serializable]
-[Obsolete]//标记该方法已弃用
-public class CheckItem : INovelsSet
-{
-    public int CheckCount;
-
-    public IEnumerator Run()
-    {
-        while (true)
-        {
-            if (CheckCount <= CharaterData.CollectItemCount)
-            {
-                break;
-            }
-
-            yield return null;
-        }
-    }
-}
-
-
-[Serializable]
-[Obsolete]//标记该方法已弃用
-public class SetCharaterControl : INovelsSet
-{
-    public bool IsActive = false;
-
-    public IEnumerator Run()
-    {
-        if (CharacterControl.Instance != null) 
-        {
-            if (IsActive)
-            {
-                CharacterControl.Instance.State = CharacterControl.EState.Move;
-            }
-            else 
-            {
-                CharacterControl.Instance.State = CharacterControl.EState.Stop;
-            }
-        }
-
-        yield break;
-    }
-}
-
-
-[Serializable]
-[Obsolete]//标记该方法已弃用
-public class CharaExploreActive : INovelsSet
-{
-    public bool IsActive;
-
-    public IEnumerator Run()
-    {
-        CharaterData.IsExplore = IsActive;
-
-        if (CharacterControl.Instance!=null)
-        {
-            if (IsActive)
-            {
-                CharacterControl.Instance.State = CharacterControl.EState.Move;
-            }
-            else
-            {
-                CharacterControl.Instance.State = CharacterControl.EState.Stop;
-            }
-        }
-        yield break;
-    }
-
-}
-
-[Serializable]
-[Obsolete]//标记该方法已弃用
-public class WaitCharaExploreOver : INovelsSet
-{
-    public IEnumerator Run()
-    {
-        CharaterData.IsExplore = true;
-
-        if (CharacterControl.Instance != null)
-        {
-            CharacterControl.Instance.State = CharacterControl.EState.Move;
-        }
-
-        while (CharaterData.IsExplore) 
-        {
-            yield return null;
-        }
-
-        if (CharacterControl.Instance!=null)
-        {
-            CharacterControl.Instance.State = CharacterControl.EState.Stop;
-        }
-    }
-}
 #endregion
 
 #region TimeLine 3D剧情使用
@@ -322,21 +193,6 @@ public class SetSceneStage : INovelsSet
         yield break;
     }
 }
-
-
-[LabelText("角色进门")]
-[Serializable]
-public class SetPlayerEnterDoor: INovelsSet
-{
-    public IEnumerator Run()
-    {
-        if (CharacterControl.Instance != null) 
-        {
-            yield return CharacterControl.Instance.EnterDoor();
-        }
-    }
-}
-
 
 [Serializable]
 public class PlayEvent : INovelsSet
@@ -539,6 +395,25 @@ public class 播放Spine动画 : INovelsSet
         yield return  null;
     }
 }
+
+
+[LabelText("Spine角色登场")]
+[Serializable]
+[InlineProperty(LabelWidth = 150)]
+public class SetRoleEnterStage : INovelsSet
+{
+    [LabelText("角色入场特效列表")] public List<播放Spine动画> List;
+
+    public IEnumerator Run()
+    {
+        foreach (var effect in List)
+        {
+            yield return effect.Run();
+        }
+    }
+
+}
+
 
 
 #endregion

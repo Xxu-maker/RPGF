@@ -130,7 +130,9 @@ public class SpineManager : SingletonMono<SpineManager>
         }
         else
         {
-            GameObject spine = GameHelper.Alloc<GameObject>( spineName);
+            GameObject spine = GameHelper.Alloc<GameObject>(spineName);
+            // 设置在UI层
+            spine.layer = 5;
             spine.transform.RestTransform(UINovelsPanel.Instance.Spine_Root);
             spine.transform.localScale = Vector3.one * Standardscale;
             //Todo 透明度设置为0
@@ -151,6 +153,7 @@ public class SpineManager : SingletonMono<SpineManager>
         else
         {
             GameObject spine = GameHelper.Alloc<GameObject>("Prefabs/Spine/" + spineName);
+            spine.layer = 5;
             spine.transform.RestTransform(UINovelsPanel.Instance.Spine_Root);
             spine.transform.localScale = Vector3.one * Standardscale;
             //Todo 透明度设置为0

@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GameManager : SingletonMono<GameManager>
 {
+    public enum  Language { CN,HK,EN,JP }
+
+    public Language language=Language.CN;
+    
     /// <summary>
     /// 游戏状态
     /// </summary>

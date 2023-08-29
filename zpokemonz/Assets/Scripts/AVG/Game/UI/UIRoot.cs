@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Novels;
+using Sirenix.OdinInspector;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class UIRoot : MonoSingleton<UIRoot>
 {
@@ -11,6 +14,8 @@ public class UIRoot : MonoSingleton<UIRoot>
 
     public Transform Trans_NovelsPoint;
     
+    [ResourcePath(typeof(NovelsSectionData))]
+    public string AVG; // 
     //重置剧情UI
     public void ResetAVGUI()
     {
@@ -21,4 +26,7 @@ public class UIRoot : MonoSingleton<UIRoot>
         //Todo 初始化剧情UI模块
         GameHelper.Alloc<GameObject>("Prefabs/UI/Novels/UINovelsPanel").transform.RestTransform(Trans_NovelsPoint);
     }
+    
+    
+    
 }

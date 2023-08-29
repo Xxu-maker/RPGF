@@ -4,6 +4,13 @@ using UnityEngine;
 using Sirenix.OdinInspector;
 using LitJson;
 
+public class RecallConfig
+{
+    public int type = 0;
+    public int CurrentSelect;
+    public string roleName;
+    public List<string> Datas = new List<string>();
+}
 
 public class SaveConfig
 {
@@ -11,18 +18,29 @@ public class SaveConfig
     public string ChapterName;
     [LabelText("段落坐标")]
     public int SectionIndex;
-    //[LabelText("事件坐标")]
-    //public int EventIndex;
 
     public int BgmVolume;
-
-    public int CharSpeed;
-
-    public int ForceTextWait;
-
+    
     public bool IsSkip = false;
 
-  
+    //游戏速度
+    public float GameSpeed { get; set; }
+    
+    [LabelText("文字速度")]
+    public double CharSpeed=0.02f;
+    [HideInInspector]
+    public double RealCharSpeed;
+    [LabelText("自动阅读速度")]
+    public double AutoReadWaitTime;
+    [HideInInspector]
+    public double RealAutoReadWaitTime;
+    public double ForceTextWait;
+    
+    [LabelText("回忆数据")]
+    public List<RecallConfig> MemoryData = new List<RecallConfig>();
+    
+    [LabelText("是否已读")]
+    public int isHaveRead =1;
 }
 
 [AutoCreateSingleton]
@@ -43,14 +61,15 @@ public class SaveManager:Singleton<SaveManager>
         if (IsHasSave)
         {
             Load();
+           
         }
         else 
         {
             Cfg = new SaveConfig();
             Cfg.IsSkip = false;
             Cfg.BgmVolume = 100;
-            Cfg.CharSpeed = (int)(GlobalConfig.Instance.CharSpeed*1000);
-            Cfg.ForceTextWait = (int)(GlobalConfig.Instance.ForceTextWait*1000);
+            Cfg.CharSpeed = GlobalConfig.Instance.CharSpeed;
+            Cfg.ForceTextWait = GlobalConfig.Instance.ForceTextWait;
         }
     }
 

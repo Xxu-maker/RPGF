@@ -55,7 +55,7 @@ public class PBTriggerNovels : PlayableBehaviour
       
         if (Contents.Count!=0 && NovelsManager.Instance)
         {
-            Node.Contents = Contents.Cast<IContent>().ToList();
+            //Node.Content = Contents.Cast<IContent>().ToList();
             NovelsManager.Instance.TimeLineCoroutine = NovelsManager.Instance.StartCoroutine(Play());
             
         }

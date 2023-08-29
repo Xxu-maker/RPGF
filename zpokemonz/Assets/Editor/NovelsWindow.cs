@@ -16,7 +16,7 @@ using System.Linq.Expressions;
 
 public class NoverlsWindow : OdinMenuEditorWindow
 {
-    [MenuItem("Tools/NoverlsEditor")]
+    [MenuItem("剧情工具/剧情编辑窗口")]
     private static void OpenWindow()
     {
         GetWindow<NoverlsWindow>().Show();
@@ -133,28 +133,40 @@ public class NoverlsWindow : OdinMenuEditorWindow
                         var nodeData = p as NovelsNodeData;
                         if (nodeData != null)
                         {
-                            nodeData.Contents.ForEach(r =>
-                            {
-                                var content = r as DialogueContent;
+                            var content = nodeData.Content as DialogueContent;
 
                           
-                                if (content != null && !string.IsNullOrEmpty(content.Str))
-                                {
+                            if (content != null && !string.IsNullOrEmpty(content.Str))
+                            {
                                     
-                                    if (content.Str.Contains(CheckStr))
-                                    {
-                                        content.Str = content.Str.Replace(CheckStr, ReplaceStr); 
-                                        Debug.Log(content.Str + "\n校正成功" + o.name);
-                                        isExitReplace = true;
-                                    }
-                                }
-
-
-                                var blackContent = r as BlackScreenContent;
-
-                                if (blackContent != null && !string.IsNullOrEmpty(blackContent.Str))
+                                if (content.Str.Contains(CheckStr))
                                 {
-                                    if (blackContent.Str.Contains(CheckStr))
+                                    content.Str = content.Str.Replace(CheckStr, ReplaceStr); 
+                                    Debug.Log(content.Str + "\n校正成功" + o.name);
+                                    isExitReplace = true;
+                                }
+                            }
+
+
+                            var blackContent = nodeData.Content as BlackScreenContent;
+
+                            if (blackContent != null && !string.IsNullOrEmpty(blackContent.Str))
+                            {
+                                if (blackContent.Str.Contains(CheckStr))
+                                {
+                                    blackContent.Str = blackContent.Str.Replace(CheckStr, ReplaceStr);
+                                    Debug.Log(blackContent.Str + "\n校正成功" + o.name);
+                                    isExitReplace = true;
+                                }
+                            }
+                            
+                            var selectContent = nodeData.Content as SelectContent;
+
+                            if (selectContent != null && !string.IsNullOrEmpty(selectContent.Datas.ToString()))
+                            {
+                                foreach (var selectContentData in selectContent.Datas)
+                                {
+                                    if (selectContentData.Content.Contains(CheckStr))
                                     {
                                         blackContent.Str = blackContent.Str.Replace(CheckStr, ReplaceStr);
                                         Debug.Log(blackContent.Str + "\n校正成功" + o.name);
@@ -162,8 +174,8 @@ public class NoverlsWindow : OdinMenuEditorWindow
                                     }
                                 }
 
-                              
-                            });
+                                
+                            }
                         }
                     });
 

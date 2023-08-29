@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using ExcelTool;
+//using ExcelTool;
 using UnityEditor;
 using UnityEditor.Animations;
 using UnityEditor.SceneManagement;
@@ -16,13 +16,13 @@ public class Quick : Editor
     [MenuItem("快捷键/剧情一键导入生成")]
     static void PlotBuild() 
     {
-        ExcelEditorWindow.FnInit();
+        //ExcelEditorWindow.FnInit();
     }
     
     [MenuItem("快捷键/Excel 配置表工具")]
     static void ExcelToSO() 
     {
-        ExcelEditorWindow.FnInit();
+        //ExcelEditorWindow.FnInit();
     }
     
     [MenuItem("快捷键/刷新表数据 &R")]
@@ -32,7 +32,7 @@ public class Quick : Editor
         NovelsConfig.Reload();
     }
 
-    [MenuItem("快速场景/编辑/进入UI编辑场景", priority = 0)]
+    [MenuItem("快速场景/编辑/进入剧情测试", priority = 0)]
     static void EnterUIScence()
     {
         EditorSceneManager.OpenScene("Assets/Editor/EditorScene/UIEditor.unity");

@@ -131,8 +131,8 @@ public class AudioSet: INovelsSet
 
 
 [Serializable]
-[LabelText("显示/隐藏2D背景图")]
-public class ShowHide2DBackground : INovelsSet
+[LabelText("背景图")]
+public class SetBackground : INovelsSet
 {
     [LabelText("是否显示")]
     public bool IsShow;
@@ -154,6 +154,127 @@ public class ShowHide2DBackground : INovelsSet
     }
 }
 
+[Serializable]
+[LabelText("人物立绘")]
+[InlineProperty(LabelWidth = 100)]
+public partial class ShowCharaSet : INovelsSet
+{
+    [TabGroup("基础设置")]
+    [LabelText("图片效果")]
+    public CharaShowData.EEffType State = CharaShowData.EEffType.Show;
+    
+    [TabGroup("基础设置")]
+    [LabelText("立绘纹理")]
+    [HideIf("@State== CharaShowData.EEffType.Close")]
+    public Sprite image;
+    
+    [TabGroup("基础设置")]
+    [LabelText("立绘名字")] 
+    [HideIf("@State== CharaShowData.EEffType.Close")]
+    public string name;
 
+    [TabGroup("立绘设置")]
+    [LabelText("位置")]
+    public CharaShowData.EPosType PosType;
+    [TabGroup("立绘设置")]
+    [LabelText("X翻转")]
+    public bool IsFlipX = false;
+   
+    [TabGroup("立绘设置")]
+    [LabelText("立绘大小")]
+    public Vector2 Size;
+    
+    
+
+    public IEnumerator Run()
+    {
+        //Todo 负值给UI字典
+        UINovelsPanel.Instance.lastShowPos = PosType;
+        UINovelsPanel.Instance._currentShowDict[PosType].RoleSprite = image;
+        UINovelsPanel.Instance._currentShowDict[PosType].State = State;
+        UINovelsPanel.Instance._currentShowDict[PosType].IsFlipX = IsFlipX;
+        UINovelsPanel.Instance._currentShowDict[PosType].Name = name;
+        UINovelsPanel.Instance._currentShowDict[PosType].TextureSize = Size;
+            
+        
+        switch (PosType)
+        {
+            case CharaShowData.EPosType.Left:
+                if (UINovelsPanel.Instance._currentShowDict[CharaShowData.EPosType.Right].State == CharaShowData.EEffType.Show)
+                {
+                    UINovelsPanel.Instance._currentShowDict[CharaShowData.EPosType.Right].State = CharaShowData.EEffType.Dark;
+                    UINovelsPanel.Instance.animRight.SetInteger(UINovelsPanel.State, (int)CharaShowData.EEffType.Dark);
+
+                }
+
+                UINovelsPanel.Instance.animLeft.SetInteger(UINovelsPanel.State, (int)State);
+
+                break;
+            case CharaShowData.EPosType.Right:
+                if (UINovelsPanel.Instance._currentShowDict[CharaShowData.EPosType.Left].State == CharaShowData.EEffType.Show)
+                {
+                    UINovelsPanel.Instance._currentShowDict[CharaShowData.EPosType.Left].State = CharaShowData.EEffType.Dark;
+                    UINovelsPanel.Instance.animLeft.SetInteger(UINovelsPanel.State, (int)CharaShowData.EEffType.Dark);
+                }
+
+                UINovelsPanel.Instance.animRight.SetInteger(UINovelsPanel.State, (int)State);
+                break;
+            case CharaShowData.EPosType.Center:
+                UINovelsPanel.Instance.SetCharaClose(CharaShowData.EPosType.Left);
+                UINovelsPanel.Instance.SetCharaClose(CharaShowData.EPosType.Right);
+                UINovelsPanel.Instance.animCenter.SetInteger(UINovelsPanel.State, (int)State);
+                break;
+        }
+
+        
+        UINovelsPanel.Instance.imageSwitchDialogBg.SetImage(PosType == CharaShowData.EPosType.Left ? 0 : 1);
+        
+
+        UINovelsPanel.Instance.FreshSprite();
+        
+
+    
+        yield return new WaitForSeconds(0.3f);
+
+    }
+    
+    
+    public class CharaShowData
+    {
+        
+        public enum EEffType
+        {
+            [LabelText("关闭")]
+            Close = 0,
+            [LabelText("显示")]
+            Show = 1,
+            [LabelText("压暗")]
+            Dark = 2,
+        }
+
+        public enum EPosType
+        {
+            None = -1,
+            [LabelText("左侧")]
+            Left = 0,
+            [LabelText("右侧")]
+            Right = 1,
+            [LabelText("居中")]
+            Center = 2,
+        }
+        
+
+        public bool IsFlipX = false;
+
+        public Sprite RoleSprite = null;
+
+        public string Name;
+
+        public EEffType State;
+        public Vector2 TextureSize { get; set; }
+    }
+
+
+}
 
 #endregion

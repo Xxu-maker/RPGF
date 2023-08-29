@@ -15,7 +15,11 @@ MonoBehaviour:
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects: []
+    ReferencedUnityObjects:
+    - {fileID: 21300000, guid: 5616ba326b0734e4298839d2dd1ab38a, type: 3}
+    - {fileID: 21300000, guid: 867bdd45a5a14483a86e8f6179e8e173, type: 3}
+    - {fileID: 21300000, guid: c767e7941500246009bba474ba899c9c, type: 3}
+    - {fileID: 21300000, guid: 9e0a1631b95c542a6b15ef1f3a955e0c, type: 3}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -26,65 +30,367 @@ MonoBehaviour:
       Data: 0|Novels.INovelsNode[], Assembly-CSharp
     - Name: 
       Entry: 12
-      Data: 2
+      Data: 9
     - Name: 
       Entry: 7
-      Data: 1|Novels.NovelsNodeData, Assembly-CSharp
-    - Name: Contents
+      Data: 1|Novels.SetNodeData, Assembly-CSharp
+    - Name: SetData
       Entry: 7
-      Data: 2|System.Collections.Generic.List`1[[Novels.IContent, Assembly-CSharp]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 3|Novels.BlackScreenContent, Assembly-CSharp
-    - Name: Str
-      Entry: 1
-      Data: "\u6765\u5230108\u5267\u672C\u7247\u6BB5 0.5\u540E\u56DE\u5230\u4E3B\u573A\u666F"
-    - Name: IsNeedClick
+      Data: 2|SetBackground, Assembly-CSharp
+    - Name: IsShow
       Entry: 5
       Data: true
-    - Name: IsClose
-      Entry: 5
-      Data: false
-    - Name: EnterFade
-      Entry: 4
-      Data: 0.5
-    - Name: StayTime
-      Entry: 4
-      Data: 1
-    - Name: LeaveFade
-      Entry: 4
-      Data: 0.5
-    - Name: TextEffect
-      Entry: 3
-      Data: 2
-    - Name: EffectTime
-      Entry: 4
-      Data: 0.5
-    - Name: BGType
-      Entry: 3
+    - Name: SpriteData
+      Entry: 10
       Data: 0
     - Name: 
       Entry: 8
       Data: 
     - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
-      Data: 4|Novels.SetNodeData, Assembly-CSharp
+      Data: 3|Novels.SetNodeData, Assembly-CSharp
     - Name: SetData
       Entry: 7
-      Data: 5|BackGameScene, Assembly-CSharp
+      Data: 4|ShowCharaSet, Assembly-CSharp
+    - Name: State
+      Entry: 3
+      Data: 1
+    - Name: image
+      Entry: 10
+      Data: 1
+    - Name: name
+      Entry: 1
+      Data: Jane
+    - Name: PosType
+      Entry: 3
+      Data: 0
+    - Name: IsFlipX
+      Entry: 5
+      Data: false
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 640
+    - Name: 
+      Entry: 4
+      Data: 716
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|Novels.NovelsNodeData, Assembly-CSharp
+    - Name: Content
+      Entry: 7
+      Data: 6|Novels.DialogueContent, Assembly-CSharp
+    - Name: Str
+      Entry: 1
+      Data: "\u6D4B\u8BD5\u5BF9\u8BDD1"
+    - Name: CN
+      Entry: 1
+      Data: "\u6D4B\u8BD5\u5BF9\u8BDD1"
+    - Name: HK
+      Entry: 1
+      Data: "\u6D4B\u8BD5\u5BF9\u8BDD1"
+    - Name: EN
+      Entry: 1
+      Data: "\u6D4B\u8BD5\u5BF9\u8BDD1"
+    - Name: JP
+      Entry: 1
+      Data: "\u6D4B\u8BD5\u5BF9\u8BDD1"
+    - Name: TextEffect
+      Entry: 3
+      Data: 3
+    - Name: EffectTime
+      Entry: 4
+      Data: 0
+    - Name: LeaveWait
+      Entry: 4
+      Data: 0
+    - Name: DialogBoxType
+      Entry: 3
+      Data: 0
+    - Name: IsNextLine
+      Entry: 5
+      Data: true
+    - Name: IsNeedClick
+      Entry: 5
+      Data: true
+    - Name: IsClearCache
+      Entry: 5
+      Data: true
+    - Name: IsCloseDialog
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|Novels.SetNodeData, Assembly-CSharp
+    - Name: SetData
+      Entry: 7
+      Data: 8|ShowCharaSet, Assembly-CSharp
+    - Name: State
+      Entry: 3
+      Data: 2
+    - Name: image
+      Entry: 10
+      Data: 1
+    - Name: name
+      Entry: 1
+      Data: Jane
+    - Name: PosType
+      Entry: 3
+      Data: 0
+    - Name: IsFlipX
+      Entry: 5
+      Data: false
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 640
+    - Name: 
+      Entry: 4
+      Data: 716
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|Novels.SetNodeData, Assembly-CSharp
+    - Name: SetData
+      Entry: 7
+      Data: 10|ShowCharaSet, Assembly-CSharp
+    - Name: State
+      Entry: 3
+      Data: 1
+    - Name: image
+      Entry: 10
+      Data: 2
+    - Name: name
+      Entry: 1
+      Data: jack
+    - Name: PosType
+      Entry: 3
+      Data: 1
+    - Name: IsFlipX
+      Entry: 5
+      Data: false
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 640
+    - Name: 
+      Entry: 4
+      Data: 716
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|Novels.NovelsNodeData, Assembly-CSharp
+    - Name: Content
+      Entry: 7
+      Data: 12|Novels.DialogueContent, Assembly-CSharp
+    - Name: Str
+      Entry: 1
+      Data: "\u6D4B\u8BD5\u5BF9\u8BDD2"
+    - Name: CN
+      Entry: 1
+      Data: "\u6D4B\u8BD5\u5BF9\u8BDD2"
+    - Name: HK
+      Entry: 1
+      Data: "\u6D4B\u8BD5\u5BF9\u8BDD2"
+    - Name: EN
+      Entry: 1
+      Data: "\u6D4B\u8BD5\u5BF9\u8BDD2"
+    - Name: JP
+      Entry: 1
+      Data: "\u6D4B\u8BD5\u5BF9\u8BDD2"
+    - Name: TextEffect
+      Entry: 3
+      Data: 3
+    - Name: EffectTime
+      Entry: 4
+      Data: 0
+    - Name: LeaveWait
+      Entry: 4
+      Data: 0
+    - Name: DialogBoxType
+      Entry: 3
+      Data: 0
+    - Name: IsNextLine
+      Entry: 5
+      Data: true
+    - Name: IsNeedClick
+      Entry: 5
+      Data: true
+    - Name: IsClearCache
+      Entry: 5
+      Data: true
+    - Name: IsCloseDialog
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 13|Novels.SetNodeData, Assembly-CSharp
+    - Name: SetData
+      Entry: 7
+      Data: 14|ShowCharaSet, Assembly-CSharp
+    - Name: State
+      Entry: 3
+      Data: 2
+    - Name: image
+      Entry: 10
+      Data: 2
+    - Name: name
+      Entry: 1
+      Data: jack
+    - Name: PosType
+      Entry: 3
+      Data: 1
+    - Name: IsFlipX
+      Entry: 5
+      Data: false
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 640
+    - Name: 
+      Entry: 4
+      Data: 716
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 15|Novels.SetNodeData, Assembly-CSharp
+    - Name: SetData
+      Entry: 7
+      Data: 16|ShowCharaSet, Assembly-CSharp
+    - Name: State
+      Entry: 3
+      Data: 1
+    - Name: image
+      Entry: 10
+      Data: 3
+    - Name: name
+      Entry: 1
+      Data: "\u4E2D\u95F4"
+    - Name: PosType
+      Entry: 3
+      Data: 2
+    - Name: IsFlipX
+      Entry: 5
+      Data: false
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 640
+    - Name: 
+      Entry: 4
+      Data: 716
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 17|Novels.NovelsNodeData, Assembly-CSharp
+    - Name: Content
+      Entry: 7
+      Data: 18|Novels.DialogueContent, Assembly-CSharp
+    - Name: Str
+      Entry: 1
+      Data: 3
+    - Name: CN
+      Entry: 1
+      Data: "\u7A00\u6709"
+    - Name: HK
+      Entry: 1
+      Data: "\u7EFF\u8272"
+    - Name: EN
+      Entry: 1
+      Data: "\u5076\u5C14\u770B\u5230"
+    - Name: JP
+      Entry: 1
+      Data: 3
+    - Name: TextEffect
+      Entry: 3
+      Data: 3
+    - Name: EffectTime
+      Entry: 4
+      Data: 0
+    - Name: LeaveWait
+      Entry: 4
+      Data: 0
+    - Name: DialogBoxType
+      Entry: 3
+      Data: 0
+    - Name: IsNextLine
+      Entry: 5
+      Data: true
+    - Name: IsNeedClick
+      Entry: 5
+      Data: true
+    - Name: IsClearCache
+      Entry: 5
+      Data: true
+    - Name: IsCloseDialog
+      Entry: 5
+      Data: true
     - Name: 
       Entry: 8
       Data: 

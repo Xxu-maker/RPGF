@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;
+using UnityEngine.UI;
 
 public class NovelsManager : MonoBehaviour
 {
@@ -20,6 +21,15 @@ public class NovelsManager : MonoBehaviour
     public Coroutine TimeLineCoroutine;
 
     public string CacheContent;
+    
+    public bool IsFast = false;
+
+    public bool BtnIsOn = false;
+    //流程暂停
+    public bool DisableProcesses=false;
+    
+    public bool IsSkipBottonConfirm { get; set; }
+    public bool IsBiYan { get; set; }
 
     void Awake()
     {
@@ -45,6 +55,10 @@ public class NovelsManager : MonoBehaviour
 
     public void Install(string chapterPath = null, int sectionIndex = -1)
     {
+        if (MainCoroutine != null)
+        {
+            StopCoroutine(MainCoroutine);
+        }
         MainCoroutine=StartCoroutine(Run(chapterPath,sectionIndex));
     }
 
@@ -90,4 +104,22 @@ public class NovelsManager : MonoBehaviour
             CurrentPlayable.Play();
         }
     }
+    
+    public void ToggleGrounp(Toggle auto, Toggle fast)
+    {
+        if (SaveManager.Instance.Cfg.ForceTextWait == SaveManager.Instance.Cfg.AutoReadWaitTime)
+        {
+            auto.isOn = true;
+            auto.GetComponent<Animator>().Play("Selected");
+        }
+        if (UnityEngine.Time.timeScale >= 1 && BtnIsOn == true)
+        {
+            if (fast.gameObject.activeSelf == true)
+            {
+                fast.isOn = true;
+                fast.GetComponent<Animator>().Play("Selected");
+            }
+        }
+    }
+    
 }

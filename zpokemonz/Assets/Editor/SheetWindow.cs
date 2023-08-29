@@ -12,7 +12,7 @@ using System;
 
 public class SheetWindow : OdinEditorWindow
 {
-    [MenuItem("Tools/剧情全局配置",priority =10)]
+    [MenuItem("剧情工具/剧情全局配置",priority =10)]
     private static void OpenWindow()
     {
         var window = GetWindow<SheetWindow>();

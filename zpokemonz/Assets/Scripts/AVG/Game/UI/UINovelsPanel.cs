@@ -1,45 +1,14 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Sirenix.OdinInspector;
 using System.Linq;
 using DG.Tweening;
-
-
-public class CharaShowData
-{
-    public enum EEffType
-    {
-        [LabelText("关闭")]
-        Close = 0,
-        [LabelText("显示")]
-        Show = 1,
-        [LabelText("压暗")]
-        Dark = 2,
-    }
-
-    public enum EPosType
-    {
-        None=-1,
-        [LabelText("左侧")]
-        Left=0,
-        [LabelText("右侧")]
-        Right=1,
-        [LabelText("居中")]
-        Center=2,
-    }
-
-    public bool IsFlipX = false;
-
-    public string CharaKey="";
-
-    public int Expression;
-
-    public string Name;
-
-    public EEffType State;
-}
+using TMPro;
+using UnityEngine.Serialization;
+using UnityEngine.EventSystems;
 
 
 public enum ETextEffect
@@ -48,16 +17,20 @@ public enum ETextEffect
     [LabelText("逐步")]
     Step,
     [LabelText("淡入")]
-    Fade
+    Fade,
+    [LabelText("尾随渐入")]
+    FollowFade
+
 }
 
 public enum EDialogType
 {
     [LabelText("对话文本")]
-    DialogBox=0,
+    DialogBox = 0,
     [LabelText("黑底提示")]
-    Black=1,
-    
+    Black = 1,
+ 
+
 }
 
 public enum EBlackType
@@ -71,498 +44,588 @@ public enum EBlackType
 
 public class UINovelsPanel : SerializedMonoBehaviour
 {
-    public static UINovelsPanel Instance; 
+    public static UINovelsPanel Instance;
 
     [TabGroup("界面元素-对话框")]
     [LabelText("对话框动画")]
-    public Animator Anim_Dialog;
-
+    public Animator animDialog;
+    
     [TabGroup("界面元素-对话框")]
     [LabelText("左侧")]
-    public Animator Anim_Left;
-
+    public Animator animLeft;
     [TabGroup("界面元素-对话框")]
     [LabelText("右侧")]
-    public Animator Anim_Right;
-
+    public Animator animRight;
     [TabGroup("界面元素-对话框")]
     [LabelText("中间")]
-    public Animator Anim_Center;
-
-    [TabGroup("界面元素-对话框")]
-    public UIImageSwitch ImageSwitch_DialogBg;
-    [TabGroup("界面元素-对话框")]
-    public Image Image_CharaCenter;
-    [TabGroup("界面元素-对话框")]
-    public Image Image_CharaLeft;
-    [TabGroup("界面元素-对话框")]
-    public Image Image_CharaRight;
-    [TabGroup("界面元素-对话框")]
-    public Text Text_Dialog;
-    [TabGroup("界面元素-对话框")]
-    public Image Image_NextStepTip;
-    [TabGroup("界面元素-对话框")]
-    public Transform Trans_CharaNameLeft;
-    [TabGroup("界面元素-对话框")]
-    public Transform Trans_CharaNameRight;
-    [TabGroup("界面元素-对话框")]
-    public Text Text_CharaNameLeft;
-    [TabGroup("界面元素-对话框")]
-    public Text Text_CharaNameRight;
-
-
-    [TabGroup("界面元素-黑屏")]
-    public UIImageSwitch ImageSwitch_BlackBG;
-    [TabGroup("界面元素-黑屏")]
-    public Text Text_Content;
-    [TabGroup("界面元素-黑屏")]
-    public CanvasGroup CanvasGroup_Black;
+    public Animator animCenter;
     
-    [TabGroup("界面元素-Spine")]
+    [TabGroup("界面元素-对话框")]
+    public Image imageCharaCenter;
+    [TabGroup("界面元素-对话框")]
+    public Image imageCharaLeft;
+    [TabGroup("界面元素-对话框")]
+    public Image imageCharaRight;
+    
+    [TabGroup("界面元素-对话框")]
+    public UIImageSwitch imageSwitchDialogBg;
+    
+    [TabGroup("界面元素-对话框")]
+    public AdvancedText textDialog;
+    [TabGroup("界面元素-对话框")]
+    public Image imageNextStepTip;
+    [TabGroup("界面元素-对话框")]
+    public Transform transCharaNameLeft;
+  
+    [TabGroup("界面元素-对话框")]
+    public TextMeshProUGUI textCharaNameLeft;
+    
+    [TabGroup("界面元素-对话框")]
+    public GameObject Title;
+
+
+    [TabGroup("界面元素-黑屏")]
+    public UIImageSwitch imageSwitchBlackBg;
+    [TabGroup("界面元素-黑屏")]
+    public Text textContent;
+    [TabGroup("界面元素-黑屏")]
+    public CanvasGroup canvasGroupBlack;
+    [TabGroup("界面元素-黑屏")]
+    public Image choiceMask;
+
+    [TabGroup("界面元素-功能按钮")]
+    [LabelText("控制组")]
+    public ToggleGroup[] controlGroupList;
+    [TabGroup("界面元素-功能按钮")]
+    [LabelText("控制组")]
+    public ToggleGroup controlGroup;
+    [TabGroup("界面元素-功能按钮")]
+    [LabelText("快进按钮")]
+    public Toggle buttonQuick;
+    public Image buttonQuickTag;
+    [TabGroup("界面元素-功能按钮")]
+    [LabelText("自动按钮")]
+    public Toggle buttonAuto;
+    public Image buttonAutoTag;
+    // [TabGroup("界面元素-功能按钮")] 
+    // [LabelText("跳过按钮")]
+    // public Toggle buttonSkip;
+    [TabGroup("界面元素-功能按钮")]
+    [LabelText("回忆按钮")]
+    public Toggle buttonReCall;
+    // [TabGroup("界面元素-功能按钮")] 
+    // [LabelText("菜单按钮")]
+    // public Toggle buttonMenu;
+    // [TabGroup("界面元素-功能按钮")] 
+    // [LabelText("隐藏按钮")]
+    // public Toggle buttonEyes;
+    [TabGroup("界面元素-功能按钮")]
+    [LabelText("未完待续界面跳过按钮")]
+    public Button toBeContinued;
+    [FormerlySerializedAs("buttonSelect")]
+    [TabGroup("界面元素-功能按钮")]
+    [AssetSelector(FlattenTreeView = false)]
+    [LabelText("选项按钮组")]
+    public List<Button> buttonSelectGroup;
+
+    [LabelText("阻断监听按钮组")]
+    public List<Button> buttonIsolateGroup;
+
+    [TabGroup("事件层")]
+    [LabelText("选项")]
+    public Transform Choice;
+
+    [TabGroup("事件层")]
+    public GameObject mask;
+    
+    [TabGroup("事件层")]
+    [LabelText("人物spine动画挂点")]
     public Transform Spine_Root;
     
-    [TabGroup("事件层")]
-    public GameObject BGMask;
-    [TabGroup("事件层")]
-    public GameObject PresenterPanel;
-    [TabGroup("事件层")]
-    public Button Button_LeftMove;
-    [TabGroup("事件层")]
-    public Button Button_RightMove;
-    [TabGroup("事件层")]
-    public Button Button_Confire;
-    
-    [TabGroup("数据层")]
-    public float FadeTime = 0.3f;
-    [TabGroup("数据层")]
-    public bool IsShow
-    {
-        get
-        {
-            return IsBlackShow || IsDialogShow;
-        }
-    }
-    [TabGroup("数据层")]
-    public bool IsBlackShow = false;
-    [TabGroup("数据层")]
-    public bool IsDialogShow = false;
+
 
     [TabGroup("数据层")]
-    public EShowType CurrentShowType = EShowType.None;
+    public float fadeTime = 0.3f;
     [TabGroup("数据层")]
-    public Dictionary<CharaShowData.EPosType, CharaShowData> CurrentShowDict = new Dictionary<CharaShowData.EPosType, CharaShowData>()
-    {
-        { CharaShowData.EPosType.Left, new CharaShowData() },
-          { CharaShowData.EPosType.Right, new CharaShowData() },
-            { CharaShowData.EPosType.Center, new CharaShowData() },
-    };
+    private bool IsShow => isBlackShow || isDialogShow;
     
-    [TabGroup("数据层")]
-    public CharaShowData.EPosType LastShowPos = CharaShowData.EPosType.None;
-    [TabGroup("数据层")]
-    public Dictionary<EDialogType, Color> DialogTextColorMap = new Dictionary<EDialogType, Color>();
 
+    [TabGroup("数据层")]
+    public bool isBlackShow = false;
+    [TabGroup("数据层")]
+    public bool isDialogShow = false;
+    
+    public Image bgImage;
+    
     public enum EShowType
     {
         None,
         [LabelText("对话框")]
-        Dialog=1,
+        Dialog = 1,
         [LabelText("黑屏")]
-        BlackScreen=2,
+        BlackScreen = 2,
     }
 
-
-    public EDialogType CurrentDialogType = EDialogType.DialogBox;
-
-    public enum InputButtonState 
+    
+    [TabGroup("数据层")]
+    public EShowType currentShowType = EShowType.None;
+    [TabGroup("数据层")]
+    public Dictionary<ShowCharaSet.CharaShowData.EPosType, ShowCharaSet.CharaShowData> _currentShowDict = new Dictionary<ShowCharaSet.CharaShowData.EPosType, ShowCharaSet.CharaShowData>()
     {
-      None,
-      Left,
-     Right,
-    }
+        { ShowCharaSet.CharaShowData.EPosType.Left, new ShowCharaSet.CharaShowData() },
+        { ShowCharaSet.CharaShowData.EPosType.Right, new ShowCharaSet.CharaShowData() },
+        { ShowCharaSet.CharaShowData.EPosType.Center, new ShowCharaSet.CharaShowData() },
+    };
 
-    public InputButtonState CurrentButtonState= InputButtonState.None;
+
+    [TabGroup("数据层")]
+    public ShowCharaSet.CharaShowData.EPosType lastShowPos = ShowCharaSet.CharaShowData.EPosType.None;
+    
+    public static readonly int State = Animator.StringToHash("State");
+    public static readonly int Show = Animator.StringToHash("IsShow");
 
     private void Awake()
     {
         Instance = this;
 
         Clear();
-
-        InputListenerManager.RegisterInputEvent(Button_LeftMove.gameObject, new InputCallback()
-        { 
-             PressCallBack= () => 
-             {
-                 CurrentButtonState = InputButtonState.Left;
-             },
-             CancelCallBack = (o) => 
-            {
-                if(CurrentButtonState== InputButtonState.Left)
-                 CurrentButtonState = InputButtonState.None;
-            }
-        },InputListenerManager.PriorityType.UITigger);
-
-        InputListenerManager.RegisterInputEvent(Button_RightMove.gameObject, new InputCallback()
+        //普通对话框自动快进按钮监听事件
+        buttonQuick.onValueChanged.AddListener((bool value) =>
         {
-            PressCallBack = () =>
+            //Todo:播放 关闭效果音
+            //AudioManager.Instance.PlayCommandClose();
+            if (value)
             {
-                CurrentButtonState = InputButtonState.Right;
-            },
-            CancelCallBack = (o) =>
-            {
-                if (CurrentButtonState == InputButtonState.Right)
-                    CurrentButtonState = InputButtonState.None;
-            }
-        }, InputListenerManager.PriorityType.UITigger);
-
-
-        InputListenerManager.RegisterInputEvent(Button_Confire.gameObject, new InputCallback()
-        {
-            ClickCallBack = ()=>
-            {
-                if (CharacterControl.Instance != null)
+                NovelsManager.Instance.BtnIsOn = true;
+                NovelsManager.Instance.IsAcceptConfirm = true;
+                SaveManager.Instance.Cfg.ForceTextWait = GlobalConfig.Instance.ForceTextWait;
+                if (SaveManager.Instance.Cfg.isHaveRead == 0)
                 {
-                    CharacterControl.Instance.OnConfire();
+                    Time.timeScale = NovelsManager.Instance.IsFast ? (float)SaveManager.Instance.Cfg.GameSpeed : 1;
                 }
+                else
+                {
+                    Time.timeScale = (float)SaveManager.Instance.Cfg.GameSpeed;
+                }
+                SaveManager.Instance.Cfg.IsSkip = true;
+                ChangeFunctionBtnState(buttonQuick, value, buttonQuickTag);
+            }
+            else
+            {
+                NovelsManager.Instance.BtnIsOn = false;
+                Time.timeScale = 1;
+                SaveManager.Instance.Cfg.IsSkip = false;
+                ChangeFunctionBtnState(buttonQuick, value, buttonQuickTag);
+            }
+            //GameData.Instance.IsFast = value;
+        });
+        buttonAuto.onValueChanged.AddListener((bool value) =>
+        {
+            //AudioManager.Instance.PlayCommandClose();
+            if (value)
+            {
+                NovelsManager.Instance.IsAcceptConfirm = true;
+                SaveManager.Instance.Cfg.ForceTextWait = SaveManager.Instance.Cfg.AutoReadWaitTime;
+                SaveManager.Instance.Cfg.IsSkip = true;
+                ChangeFunctionBtnState(buttonAuto, value, buttonAutoTag);
+
+            }
+            else
+            {
+                NovelsManager.Instance.IsAcceptConfirm = false;
+                SaveManager.Instance.Cfg.ForceTextWait = GlobalConfig.Instance.ForceTextWait;
+                SaveManager.Instance.Cfg.IsSkip = false;
+                ChangeFunctionBtnState(buttonAuto, value, buttonAutoTag);
+            }
+            //GameData.Instance.IsAuto=value;
+            Time.timeScale = 1;
+        });
+        
+        //设置回忆按钮监听
+        SetRecallBtnListen(buttonReCall.gameObject);
+        
+        //阻断监听按钮事件
+        foreach (var item in buttonIsolateGroup)
+        {
+
+            InputListenerManager.RegisterInputEvent(item.gameObject, new InputCallback()
+            {
+                ClickCallBack = () =>
+                {
+                    Debug.Log("阻断下一步监听");
+                }
+            }, InputListenerManager.PriorityType.UITigger);
+
+        }
+        //添加选项按钮效果
+        foreach (var item in buttonSelectGroup)
+        {
+            UIButtonTextChange.ColorChange(item.gameObject, ButtonType.CHOICE);
+        }
+
+        InputListenerManager.RegisterInputEvent(toBeContinued.gameObject, new InputCallback()
+        {
+            ClickCallBack = () =>
+            {
+                NovelsManager.Instance.IsSkipBottonConfirm = true;
             }
         }, InputListenerManager.PriorityType.UITigger);
-
- 
         var input = new InputCallback()
         {
             ClickCallBack = () =>
             {
-                if (IsShow)
-                {
-                    NovelsManager.Instance.IsAcceptConfirm = true;
-                }
+                Invoke("NextStep", 0.1f);
+                ResetAvgBtn();
             }
         };
-
-
         InputListenerManager.RegisterInputEvent(typeof(UIConfirmBlock), input, InputListenerManager.PriorityType.UI);
+        //EventCenter.AddEventListener(Notification_Type.HaveRead, ChangeGameSpeed);
+
+
+    }
+   
+    /// <summary>
+    /// 回忆按钮添加监听
+    /// </summary>
+    /// <param name="btnObj"></param>
+    private void SetRecallBtnListen(GameObject btnObj)
+    {
+        InputListenerManager.RegisterInputEvent(btnObj, new InputCallback()
+        {
+
+            ClickCallBack = () =>
+            {
+                //AudioManager.Instance.PlayCommandClose();
+                ResetAvgBtn();
+                //Todo   打开回忆界面
+                //UIManager.openPanel("FYXG", "UI_Recall");
+            }
+        }, InputListenerManager.PriorityType.UITigger);
+    }
+    public void TouchDeplay()
+    {
+        //若当前为自动状态，不立刻切换下一句
+        if (SaveManager.Instance.Cfg.IsSkip)
+        {
+            NovelsManager.Instance.IsAcceptConfirm = false;
+        }
+        else NovelsManager.Instance.IsAcceptConfirm = true;
+        UINovelsPanel.Instance.buttonIsolateGroup[3].gameObject.SetActive(false);
+    }
+    //下一步监听
+    public void NextStep()
+    {
+        if (NovelsManager.Instance.IsBiYan == false)
+        {
+            UINovelsPanel.Instance.buttonIsolateGroup[3].gameObject.SetActive(true);
+            //NovelsManager.Instance.IsAcceptConfirm = true;
+            Invoke("TouchDeplay", 0.06f);
+        }
+        else
+        {
+            NovelsManager.Instance.IsBiYan = false;
+            animDialog.SetBool(UINovelsPanel.Show, true);
+            controlGroup.gameObject.SetActive(true);
+           
+            Choice.gameObject.SetActive(true);
+        }
     }
 
+    //初始化功能按钮状态
+    public void ResetAvgBtn()
+    {
+        Time.timeScale = 1;
+        buttonQuick.isOn = false;
+        buttonAuto.isOn = false;
+       
+        buttonQuick.OnDeselect(null);
+        buttonAuto.OnDeselect(null);
+        buttonQuick.gameObject.GetComponent<Animator>().Play("Normal");
+        buttonAuto.gameObject.GetComponent<Animator>().Play("Normal");
+       
+        SaveManager.Instance.Cfg.IsSkip = false;
+        SaveManager.Instance.Cfg.ForceTextWait = GlobalConfig.Instance.ForceTextWait;
+    }
     private void OnDestory()
     {
         Instance = null;
         InputListenerManager.UnInputRegister(typeof(UIConfirmBlock));
-        InputListenerManager.UnInputRegister(Button_LeftMove.gameObject);
-        InputListenerManager.UnInputRegister(Button_RightMove.gameObject);
-        InputListenerManager.UnInputRegister(Button_Confire.gameObject);
+       
     }
-    
     public void Clear()
     {
-        Text_Dialog.text = "";
-        Text_Content.text = "";
+        textDialog.text = "";
+        textContent.text = "";
         
-        CurrentShowDict = new Dictionary<CharaShowData.EPosType, CharaShowData>() {
-        { CharaShowData.EPosType.Left, new CharaShowData() },
-          { CharaShowData.EPosType.Right, new CharaShowData() },
-            { CharaShowData.EPosType.Center, new CharaShowData() }, };
+        controlGroup.gameObject.SetActive(false);
 
-        Anim_Right.SetInteger("State", (int)CharaShowData.EEffType.Close);
-        Anim_Left.SetInteger("State", (int)CharaShowData.EEffType.Close);
-        Anim_Center.SetInteger("State", (int)CharaShowData.EEffType.Close);
-
-        Trans_CharaNameRight.gameObject.SetActive(false);
-        Trans_CharaNameLeft.gameObject.SetActive(false);
     }
- 
+    //设置文本内容
     public void SetContent(EShowType tp, string str)
     {
+        textDialog.text = null;
         switch (tp)
         {
             case EShowType.Dialog:
-                Text_Dialog.text = str;
+                textDialog.text = str;
                 break;
             case EShowType.BlackScreen:
-                Text_Content.text = str;
+                textDialog.text = str;
                 break;
         }
     }
-
-    public IEnumerator TextFadeIn(EShowType tp,float fadeTime)
+    /*闭眼特效（清屏）*/
+    public void clearScene()
     {
-        switch (tp)
+        //avg模块
+        if (gameObject.activeInHierarchy)
         {
-            case EShowType.Dialog:
-                {
-                    var col = Text_Dialog.color;
-                    col.a = 0;
-                    Text_Dialog.color = col;
-                    Text_Dialog.DOFade(1, fadeTime);
-                }
-                break;
-            case EShowType.BlackScreen:
-                {
-                    var col = Text_Content.color;
-                    col.a = 0;
-                    Text_Content.color = col;
-                    Text_Content.DOFade(1, fadeTime);
-                }
-                break;
-        }
-
-        yield return new WaitForSeconds(fadeTime);
-    }
-
-    public void SetCharaClose(CharaShowData.EPosType posType)
-    {
-        CurrentShowDict[posType].CharaKey = "";
-        CurrentShowDict[posType].State = CharaShowData.EEffType.Close;
-        switch (posType)
-        {
-            case CharaShowData.EPosType.Left:
-                Anim_Left.SetInteger("State", (int)CharaShowData.EEffType.Close);
-                break;
-            case CharaShowData.EPosType.Right:
-                Anim_Right.SetInteger("State", (int)CharaShowData.EEffType.Close);
-                break;
-            case CharaShowData.EPosType.Center:
-                Anim_Center.SetInteger("State", (int)CharaShowData.EEffType.Close);
-                break;
-        }
-    }
-
-    public IEnumerator SetCharaState(ShowCharaSet data, int expression,string charaName)
-    {
-        LastShowPos = data.PosType;
-        var charaData = GlobalConfig.Instance.NovelsCharas.ToList().Find(o => o.Key == data.CharaKey);
-
-        if (CurrentShowDict.ContainsKey(data.PosType))
-        {
-            CurrentShowDict[data.PosType].CharaKey = data.CharaKey;
-            CurrentShowDict[data.PosType].State = data.State;
-            CurrentShowDict[data.PosType].Expression = expression;
-            CurrentShowDict[data.PosType].IsFlipX = data.IsFlipX;
-            if (string.IsNullOrEmpty(charaName))
-            {
-                if (charaData != null)
-                {
-                    CurrentShowDict[data.PosType].Name = charaData.Name;
-                }
-            }
-            else
-            {
-                CurrentShowDict[data.PosType].Name = charaName;
-            }
-     
-        }
-      
-
-        switch (data.PosType)
-        {
-            case CharaShowData.EPosType.Left:
-                if (CurrentShowDict[CharaShowData.EPosType.Right].State == CharaShowData.EEffType.Show)
-                {
-                    CurrentShowDict[CharaShowData.EPosType.Right].State = CharaShowData.EEffType.Dark;
-                    Anim_Right.SetInteger("State", (int)CharaShowData.EEffType.Dark);
-                    
-                }
-                Anim_Left.SetInteger("State", (int)data.State);
-
-                break;
-            case CharaShowData.EPosType.Right:
-                if (CurrentShowDict[CharaShowData.EPosType.Left].State == CharaShowData.EEffType.Show)
-                {
-                    CurrentShowDict[CharaShowData.EPosType.Left].State = CharaShowData.EEffType.Dark;
-                    Anim_Left.SetInteger("State", (int)CharaShowData.EEffType.Dark);
-                }
-                Anim_Right.SetInteger("State", (int)data.State);
-                break;
-            case CharaShowData.EPosType.Center:
-                SetCharaClose( CharaShowData.EPosType.Left);
-                SetCharaClose(CharaShowData.EPosType.Right);
-                Anim_Center.SetInteger("State", (int)data.State);
-                break;
-        }
-
-        //设置对话框位置
-        if (CurrentDialogType == EDialogType.DialogBox)
-        {
-            if (data.PosType == CharaShowData.EPosType.Left)
-            {
-                ImageSwitch_DialogBg.SetImage(0);
-            }
-            else
-            {
-                ImageSwitch_DialogBg.SetImage(1);
-            }
-        }
-
-        FreshSprite();
-        yield return new WaitForSeconds(0.3f);
-    }
-
-    public void FreshSprite()
-    {
-
-        foreach (var info in CurrentShowDict)
-        {
- 
-            if (string.IsNullOrEmpty(info.Value.CharaKey))
-            {
-                
-                continue;
-            }
-
+            NovelsManager.Instance.IsBiYan = true;
+            //animDialog.gameObject.SetActive(false);
+            animDialog.SetBool(UINovelsPanel.Show, false);
+            controlGroup.gameObject.SetActive(false);
+            Choice.gameObject.SetActive(false);
+            UINovelsPanel.Instance.buttonIsolateGroup[2].gameObject.SetActive(false);
            
-
-            var find = GlobalConfig.Instance.NovelsCharas.ToList().Find(o => o.Key == info.Value.CharaKey);
-
-            if (find == null)
-            {
-                continue;
-            }
-
-
-            Image setImg = null;
-            switch (info.Key)
-            {
-                case CharaShowData.EPosType.Left:
-                    {
-                        setImg = Image_CharaLeft;
-                        if (info.Value.IsFlipX)
-                        {
-                            setImg.transform.localScale = new Vector3(-1, 1, 1);
-                        }
-                        else
-                        {
-                            setImg.transform.localScale = new Vector3(1, 1, 1);
-                        }
-
-                        var isOpenName = !string.IsNullOrEmpty(info.Value.Name);
-                        Trans_CharaNameLeft.gameObject.SetActive(isOpenName);
-                        if (isOpenName)
-                        {
-                            Text_CharaNameLeft.text = info.Value.Name;
-                        }
-                    }
-                   
-
-                    break;
-                case CharaShowData.EPosType.Right:
-                    {
-                        setImg = Image_CharaRight;
-                        if (info.Value.IsFlipX)
-                        {
-                            setImg.transform.localScale = new Vector3(1, 1, 1);
-                        }
-                        else
-                        {
-                            setImg.transform.localScale = new Vector3(-1, 1, 1);
-                        }
-
-                        var isOpenName = !string.IsNullOrEmpty(info.Value.Name);
-                        Trans_CharaNameRight.gameObject.SetActive(isOpenName);
-                        if (isOpenName)
-                        {
-                            Text_CharaNameRight.text = info.Value.Name;
-                        }
-                    }
-                    break;
-                case CharaShowData.EPosType.Center:
-                    setImg = Image_CharaCenter;
-                    break;
-            }
-            
-            if (setImg != null)
-            {
-                var texData = find.Sprites.Find(o => (int)o.Express == info.Value.Expression);
-                if (texData == null) 
-                {
-                    Debug.LogError(info.Value.CharaKey + "找不到表情："+ info.Value.Expression);
-                    texData = find.Sprites[0];
-                }
-                setImg.sprite = texData.Sprite;
-                setImg.rectTransform.sizeDelta = texData.TextureSize;
-            }
         }
-    }
-
-
-    private void _SetBlack(bool isShow,float fadeTime)
-    {
-        CanvasGroup_Black.DOFade(isShow?1:0, fadeTime);
-    }
- 
-    public IEnumerator BlackEnter(EBlackType tp= EBlackType.Black,float fadeTime =-1)
-    {
         
-        if (fadeTime == -1)
-        {
-            fadeTime = FadeTime;
-        }
-        ImageSwitch_BlackBG.SetImage((int)tp);
-        _SetBlack(true, fadeTime);
-        IsBlackShow = true;
-        yield return new WaitForSeconds(fadeTime);
     }
-
-    public IEnumerator BlackLeave(float fadeTime = -1)
+    /*文字特效*/
+    public IEnumerator TextFadeIn(EShowType tp, float fadeTimes)
     {
-        if (fadeTime == -1)
+        switch (tp)
         {
-            fadeTime = FadeTime;
+            case EShowType.Dialog:
+                {
+                    var col = textDialog.color;
+                    col.a = 0;
+                    textDialog.color = col;
+                    textDialog.DOFade(1, fadeTime);
+                }
+                break;
+            case EShowType.BlackScreen:
+                {
+                    var col = textContent.color;
+                    col.a = 0;
+                    textContent.color = col;
+                    textContent.DOFade(1, fadeTime);
+                }
+                break;
         }
 
-        if (!string.IsNullOrEmpty(Text_Content.text))
-        {
-            Text_Content.DOFade(0, fadeTime);
-            yield return new WaitForSeconds(fadeTime);
-        }
-
-        _SetBlack(false, fadeTime);
-        IsBlackShow = false;
         yield return new WaitForSeconds(fadeTime);
-        Text_Content.text = "";
-        Text_Content.color = Color.white;
     }
+
+    /*文字特效*/
+    public IEnumerator TextFollowFade(EShowType tp, string content, float speed)
+    {
+        switch (tp)
+        {
+            case EShowType.Dialog:
+                {
+                    textDialog.characterName = textCharaNameLeft.text;
+                    yield return textDialog.ShowTextByTyping(content);
+                }
+                break;
+            case EShowType.BlackScreen:
+                {
+                    yield return textDialog.ShowTextByTyping(content);
+                }
+                break;
+          
+        }
+
+        yield return new WaitForSeconds(fadeTime);
+    }
+  
     
-    public IEnumerator DialogEnter(EDialogType tp= EDialogType.DialogBox)
+    private void _SetBlack(bool isShow, float fadeTimes)
     {
-        Image_NextStepTip.gameObject.SetActive(false);
-        CurrentDialogType = tp;
-        Text_Dialog.color = DialogTextColorMap[tp];
+        canvasGroupBlack.DOFade(isShow ? 1 : 0, fadeTime);
+    }
+
+    public void ClearSelect()
+    {
+        foreach (var btn in buttonSelectGroup)
+        {
+            btn.onClick.RemoveAllListeners();
+            btn.gameObject.SetActive(false);
+        }
+
+    }
+
+    public IEnumerator BlackEnter(EBlackType tp = EBlackType.Black, float fadeTimes = -1)
+    {
+
+        if (-1.0 == fadeTimes)
+        {
+            fadeTimes = this.fadeTime;
+        }
+        imageSwitchBlackBg.SetImage((int)tp);
+        _SetBlack(true, fadeTimes);
+        isBlackShow = true;
+        yield return new WaitForSeconds(fadeTimes);
+    }
+
+    public IEnumerator BlackLeave(float fadeTimes = -1)
+    {
+        if (fadeTimes == -1.0)
+        {
+            fadeTimes = this.fadeTime;
+        }
+
+        if (!string.IsNullOrEmpty(textContent.text))
+        {
+            textContent.DOFade(0, fadeTimes);
+            yield return new WaitForSeconds(fadeTimes);
+        }
+
+        _SetBlack(false, fadeTimes);
+        isBlackShow = false;
+        yield return new WaitForSeconds(fadeTimes);
+        textContent.text = "";
+        textContent.color = Color.white;
+    }
+    public void DialogAVG(EDialogType tp = EDialogType.DialogBox)
+    {
+        imageNextStepTip.gameObject.SetActive(false);
+      
+      
+        if (tp == EDialogType.DialogBox)
+        {
+            imageSwitchDialogBg.SetImage(0);
+            controlGroup = controlGroupList[0];
+            buttonIsolateGroup[3].gameObject.SetActive(false);
+            buttonIsolateGroup[1].gameObject.SetActive(true);
+        }
         if (tp == EDialogType.Black)
         {
-            ImageSwitch_DialogBg.SetImage(2);
+            imageSwitchDialogBg.SetImage(2);
         }
-        IsDialogShow = true;
-        Anim_Dialog.SetBool("IsShow", true);
+        
+        
+        isDialogShow = true;
+        animDialog.SetBool(Show, true);
+        //显示功能按钮
+        controlGroup.gameObject.SetActive(true);
+        //UIManager.openPanel("UI_Main_R");
+    }
+    /// <summary>
+    /// 切换对话框
+    /// </summary>
+    /// <param name="tp"></param>
+    /// <returns></returns>
+    public IEnumerator DialogEnter(EDialogType tp = EDialogType.DialogBox)
+    {
+        //buttonIsolateGroup[2].gameObject.SetActive(false);//阻断关闭
+        imageNextStepTip.gameObject.SetActive(false);
+       
+        if (tp == EDialogType.DialogBox)
+        {
+            imageSwitchDialogBg.SetImage(0);
+            controlGroup = controlGroupList[0];
+            buttonIsolateGroup[3].gameObject.SetActive(false);
+            buttonIsolateGroup[1].gameObject.SetActive(true);
+        }
+        if (tp == EDialogType.Black)
+        {
+            imageSwitchDialogBg.SetImage(2);
+        }
+        
+        isDialogShow = true;
+        animDialog.SetBool(Show, true);
+        //显示功能按钮
+        controlGroup.gameObject.SetActive(true);
         yield break;
     }
 
     public IEnumerator DialogLeave()
     {
-        IsDialogShow = false;
-        Anim_Dialog.SetBool("IsShow", false);
-        yield return new WaitForSeconds(FadeTime);
+        //isDialogShow = false;
+        animDialog.SetBool(Show, false);
+        controlGroup.gameObject.SetActive(false);
+        yield return new WaitForSeconds(fadeTime);
         NovelsManager.Instance.CacheContent = "";
         Clear();
+        //buttonIsolateGroup[2].gameObject.SetActive(true);//开启阻断
+    }
+    /// <summary>
+    /// 隐藏舞台上所有角色
+    /// </summary>
+    /// <returns></returns>
+    public IEnumerator ClearStageRole()
+    {
+        yield return new WaitForSeconds(fadeTime);
+        foreach (var anim in Spine_Root.GetComponentsInChildren<Transform>())
+        {
 
+            anim.gameObject.SetActive(false);
+        }
+        Spine_Root.gameObject.SetActive(true);
+    }
+    
+
+    public void ChangeFunctionBtnState(Toggle toggle, bool isOn, Image btnTag = null)
+    {
+        if (btnTag != null)
+        {
+            if (isOn)
+            {
+                toggle.OnSelect(null);
+                toggle.GetComponent<Animator>().Play("Selected");
+                btnTag.sprite = Resources.Load<Sprite>("Texture/UI/dialog/Dia_imgTitleBg_small的副本_sel");
+                btnTag.transform.Find("Text").GetComponent<Text>().color = new Color32(254, 246, 225, 255);
+            }
+            else
+            {
+                toggle.OnDeselect(null);
+                toggle.GetComponent<Animator>().Play("Highlighted");
+                btnTag.sprite = Resources.Load<Sprite>("Texture/UI/dialog/Dia_imgTitleBg_small的副本");
+                btnTag.transform.Find("Text").GetComponent<Text>().color = new Color32(146, 45, 4, 204);
+            }
+        }
+        else
+        {
+            if (isOn)
+            {
+                toggle.OnSelect(null);
+                toggle.GetComponent<Animator>().Play("Selected");
+            }
+            else
+            {
+                toggle.OnDeselect(null);
+                toggle.GetComponent<Animator>().Play("Highlighted");
+            }
+        }
+
+    }
+    private void Update()
+    {
+        //ToggleGrounp(buttonAuto, buttonQuick);
+        //ToggleGrounp(cg_ButtonAuto, cg_ButtonQuick);
+        //ChangeGameSpeed();
+    }
+    private void ChangeGameSpeed()
+    {
+        if (buttonQuick.isOn)
+        {
+            Time.timeScale = NovelsManager.Instance.IsFast ? (float)SaveManager.Instance.Cfg.GameSpeed : 1;
+        }
+    }
+
+    public bool isFast()
+    {
+        if (buttonQuick.IsActive())
+        {
+            return buttonQuick.isOn;
+        }
        
+        return false;
     }
-    
-    //Todo 设置游戏背景图
-    public void Show2DBackground(Sprite SpriteData)
-    {
-       var Background = BGMask.GetComponent<Image>();
-       Background.sprite = SpriteData;
-       Background.DOFade(1, 0);
-    }
-    
-    public void Hide2DBackground()
-    {
-        var Background = BGMask.GetComponent<Image>();
-        Background.DOFade(0, 0);
-    }
-   
-    
+
     public void LateUpdate()
     {
+        //Todo 空格下一句
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (IsShow)
@@ -571,29 +634,112 @@ public class UINovelsPanel : SerializedMonoBehaviour
             }
         }
 
+        
+    }
 
-#if UNITY_EDITOR || UNITY_IPHONE || UNITY_ANDROID
-        if (!IsDialogShow&& !IsBlackShow && CharacterControl.Instance != null && CharacterControl.Instance.State == CharacterControl.EState.Move)
+    //显示背景图
+    public void Show2DBackground(Sprite spriteData)
+    {
+        bgImage.sprite = spriteData;
+    }
+    
+    //隐藏背景图
+    public void Hide2DBackground()
+    {
+        //bgImage.sprite = spriteData;
+    }
+    
+    public void FreshSprite()
+    {
+        foreach (var info in _currentShowDict)
         {
-            PresenterPanel.gameObject.SetActive(true);
-            switch (CurrentButtonState)
+
+            if (info.Value.RoleSprite==null)
             {
-                case InputButtonState.None:
-                    CharacterControl.Instance.MoveInput = 0;
+
+                continue;
+            }
+            
+
+            Image setImg = null;
+            switch (info.Key)
+            {
+                case ShowCharaSet.CharaShowData.EPosType.Left:
+                    {
+                        setImg = imageCharaLeft;
+                        if (info.Value.IsFlipX)
+                        {
+                            setImg.transform.localScale = new Vector3(-1, 1, 1);
+                        }
+                        else
+                        {
+                            setImg.transform.localScale = new Vector3(1, 1, 1);
+                        }
+
+                        var isOpenName = !string.IsNullOrEmpty(info.Value.Name);
+                        transCharaNameLeft.gameObject.SetActive(isOpenName);
+                        if (isOpenName)
+                        {
+                            textCharaNameLeft.text = info.Value.Name;
+                        }
+                    }
+
+
                     break;
-                case InputButtonState.Left:
-                    CharacterControl.Instance.MoveInput = -1;
+                case ShowCharaSet.CharaShowData.EPosType.Right:
+                    {
+                        setImg = imageCharaRight;
+                        if (info.Value.IsFlipX)
+                        {
+                            setImg.transform.localScale = new Vector3(1, 1, 1);
+                        }
+                        else
+                        {
+                            setImg.transform.localScale = new Vector3(-1, 1, 1);
+                        }
+
+                        var isOpenName = !string.IsNullOrEmpty(info.Value.Name);
+                        transCharaNameLeft.gameObject.SetActive(isOpenName);
+                        if (isOpenName)
+                        {
+                            textCharaNameLeft.text = info.Value.Name;
+                        }
+                    }
                     break;
-                case InputButtonState.Right:
-                    CharacterControl.Instance.MoveInput = 1;
+                case ShowCharaSet.CharaShowData.EPosType.Center:
+                    setImg = imageCharaCenter;
                     break;
+                case ShowCharaSet.CharaShowData.EPosType.None:
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
+
+            if (setImg != null)
+            {
+               
+                setImg.sprite = info.Value.RoleSprite;
+                setImg.rectTransform.sizeDelta = info.Value.TextureSize;
             }
         }
-        else
-#endif
+    }
+    
+    
+    public void SetCharaClose(ShowCharaSet.CharaShowData.EPosType posType)
+    {
+        _currentShowDict[posType].RoleSprite = null;
+        _currentShowDict[posType].State = ShowCharaSet.CharaShowData.EEffType.Close;
+        switch (posType)
         {
-            PresenterPanel.gameObject.SetActive(false);
-            CurrentButtonState = InputButtonState.None;
+            case ShowCharaSet.CharaShowData.EPosType.Left:
+                animLeft.SetInteger(State, (int)ShowCharaSet.CharaShowData.EEffType.Close);
+                break;
+            case ShowCharaSet.CharaShowData.EPosType.Right:
+                animRight.SetInteger(State, (int)ShowCharaSet.CharaShowData.EEffType.Close);
+                break;
+            case ShowCharaSet.CharaShowData.EPosType.Center:
+                animCenter.SetInteger(State, (int)ShowCharaSet.CharaShowData.EEffType.Close);
+                break;
         }
     }
 }
