@@ -30,7 +30,7 @@ MonoBehaviour:
       Data: 0|Novels.INovelsNode[], Assembly-CSharp
     - Name: 
       Entry: 12
-      Data: 9
+      Data: 7
     - Name: 
       Entry: 7
       Data: 1|Novels.SetNodeData, Assembly-CSharp
@@ -147,45 +147,6 @@ MonoBehaviour:
       Data: 8|ShowCharaSet, Assembly-CSharp
     - Name: State
       Entry: 3
-      Data: 2
-    - Name: image
-      Entry: 10
-      Data: 1
-    - Name: name
-      Entry: 1
-      Data: Jane
-    - Name: PosType
-      Entry: 3
-      Data: 0
-    - Name: IsFlipX
-      Entry: 5
-      Data: false
-    - Name: Size
-      Entry: 7
-      Data: UnityEngine.Vector2, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 640
-    - Name: 
-      Entry: 4
-      Data: 716
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 9|Novels.SetNodeData, Assembly-CSharp
-    - Name: SetData
-      Entry: 7
-      Data: 10|ShowCharaSet, Assembly-CSharp
-    - Name: State
-      Entry: 3
       Data: 1
     - Name: image
       Entry: 10
@@ -219,10 +180,10 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 11|Novels.NovelsNodeData, Assembly-CSharp
+      Data: 9|Novels.NovelsNodeData, Assembly-CSharp
     - Name: Content
       Entry: 7
-      Data: 12|Novels.DialogueContent, Assembly-CSharp
+      Data: 10|Novels.DialogueContent, Assembly-CSharp
     - Name: Str
       Entry: 1
       Data: "\u6D4B\u8BD5\u5BF9\u8BDD2"
@@ -270,49 +231,10 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 13|Novels.SetNodeData, Assembly-CSharp
+      Data: 11|Novels.SetNodeData, Assembly-CSharp
     - Name: SetData
       Entry: 7
-      Data: 14|ShowCharaSet, Assembly-CSharp
-    - Name: State
-      Entry: 3
-      Data: 2
-    - Name: image
-      Entry: 10
-      Data: 2
-    - Name: name
-      Entry: 1
-      Data: jack
-    - Name: PosType
-      Entry: 3
-      Data: 1
-    - Name: IsFlipX
-      Entry: 5
-      Data: false
-    - Name: Size
-      Entry: 7
-      Data: UnityEngine.Vector2, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 640
-    - Name: 
-      Entry: 4
-      Data: 716
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 15|Novels.SetNodeData, Assembly-CSharp
-    - Name: SetData
-      Entry: 7
-      Data: 16|ShowCharaSet, Assembly-CSharp
+      Data: 12|ShowCharaSet, Assembly-CSharp
     - Name: State
       Entry: 3
       Data: 1
@@ -348,10 +270,10 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 17|Novels.NovelsNodeData, Assembly-CSharp
+      Data: 13|Novels.NovelsNodeData, Assembly-CSharp
     - Name: Content
       Entry: 7
-      Data: 18|Novels.DialogueContent, Assembly-CSharp
+      Data: 14|Novels.DialogueContent, Assembly-CSharp
     - Name: Str
       Entry: 1
       Data: 3

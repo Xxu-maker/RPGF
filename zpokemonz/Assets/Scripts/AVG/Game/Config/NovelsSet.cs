@@ -60,11 +60,7 @@ public class BackGameScene : INovelsSet
     public IEnumerator Run()
     {
         yield return UINovelsPanel.Instance.BlackEnter(EBlackType.Black, 1f);
-
-        //if (GameManager.Instance.CurrentScene != null)
-        //{
-            //GameHelper.Recycle(AVGManager.Instance.CurrentScene.gameObject);
-        //}
+        
 
         AVGManager.Instance.EndAVGScene();
     }
@@ -157,7 +153,7 @@ public class SetBackground : INovelsSet
 [Serializable]
 [LabelText("人物立绘")]
 [InlineProperty(LabelWidth = 100)]
-public partial class ShowCharaSet : INovelsSet
+public  class ShowCharaSet : INovelsSet
 {
     [TabGroup("基础设置")]
     [LabelText("图片效果")]
@@ -182,7 +178,7 @@ public partial class ShowCharaSet : INovelsSet
    
     [TabGroup("立绘设置")]
     [LabelText("立绘大小")]
-    public Vector2 Size;
+    public Vector2 Size=new Vector2(640,720);
     
     
 

@@ -16,5 +16,10 @@ public enum NovelsScriptsType
     DialogContent,//对话内容
     BlackScreenContent,//黑屏内容
     SelectContent,//选择内容
+    JumpPlot,//跳转内容
+    Delay,//延迟
+    ShowCharaSet,//显示角色
+    SetBackground,//设置背景
+    BackGameScene,//返回游戏主场景
 }
 
