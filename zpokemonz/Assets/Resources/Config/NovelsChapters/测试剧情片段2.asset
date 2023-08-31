@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a8069ad651919e40886945bb90fcbe8, type: 3}
+  m_Name: "\u6D4B\u8BD5\u5267\u60C5\u7247\u6BB52"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 21300000, guid: 5616ba326b0734e4298839d2dd1ab38a, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: EventNodes
+      Entry: 7
+      Data: 0|Novels.INovelsNode[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 1|Novels.SetNodeData, Assembly-CSharp
+    - Name: SetData
+      Entry: 7
+      Data: 2|SetBackground, Assembly-CSharp
+    - Name: IsShow
+      Entry: 5
+      Data: true
+    - Name: SpriteData
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|Novels.SetNodeData, Assembly-CSharp
+    - Name: SetData
+      Entry: 7
+      Data: 4|Delay, Assembly-CSharp
+    - Name: DelayTime
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|Novels.NovelsNodeData, Assembly-CSharp
+    - Name: Content
+      Entry: 7
+      Data: 6|Novels.DialogueContent, Assembly-CSharp
+    - Name: Str
+      Entry: 1
+      Data: "\u6F14\u793A\u7ED3\u675F"
+    - Name: CN
+      Entry: 6
+      Data: 
+    - Name: HK
+      Entry: 6
+      Data: 
+    - Name: EN
+      Entry: 6
+      Data: 
+    - Name: JP
+      Entry: 6
+      Data: 
+    - Name: TextEffect
+      Entry: 3
+      Data: 3
+    - Name: EffectTime
+      Entry: 4
+      Data: 0
+    - Name: LeaveWait
+      Entry: 4
+      Data: 0
+    - Name: DialogBoxType
+      Entry: 3
+      Data: 0
+    - Name: IsNextLine
+      Entry: 5
+      Data: true
+    - Name: IsNeedClick
+      Entry: 5
+      Data: true
+    - Name: IsClearCache
+      Entry: 5
+      Data: true
+    - Name: IsCloseDialog
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|Novels.SetNodeData, Assembly-CSharp
+    - Name: SetData
+      Entry: 7
+      Data: 8|JumpNextAVGPlot, Assembly-CSharp
+    - Name: StartNovelName
+      Entry: 7
+      Data: 9|GlobalConfig+NovelsChapterData, Assembly-CSharp
+    - Name: SectionNodes
+      Entry: 1
+      Data: "Config/NovelsChapters/\u6D4B\u8BD5\u5267\u60C5\u7247\u6BB53"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

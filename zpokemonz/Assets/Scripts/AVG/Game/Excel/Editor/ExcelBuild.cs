@@ -81,13 +81,13 @@ public class ExcelBuild : UnityEditor.Editor
                     {
                         var NovelsData = new NovelsNodeData();
                         var Content = new SelectContent();
-                        var length = int.Parse(array[i].Value[0]);
+                        var length = (array[i].Value.Count)/2;
                         Content.Datas = new List<SelectContent.ButtonSelectData>();
                         for (int j = 0; j < length; j++)
                         {
                             var selectData = new SelectContent.ButtonSelectData();
-                            selectData.Content = array[i].Value[j * 2 + 1];
-                            selectData.SectionName = "Config/NovelsChapters/"+array[i].Value[j * 2 + 2];
+                            selectData.Content = array[i].Value[j * 2];
+                            selectData.SectionName = "Config/NovelsChapters/"+array[i].Value[j * 2 + 1];
                             Content.Datas.Add(selectData);
                         }
                         NovelsData.Content = Content;
@@ -135,8 +135,8 @@ public class ExcelBuild : UnityEditor.Editor
                 {
                     var setNodeData = new SetNodeData();
                     var action= new SetBackground();
-                    action.IsShow = array[i].Value[0] == "TRUE";
-                    var res = AssetDatabase.LoadAssetAtPath<Sprite>(array[i].Value[1]);
+                    action.IsShow = true;
+                    var res = AssetDatabase.LoadAssetAtPath<Sprite>(array[i].Value[0]);
                     action.SpriteData = res;
                     setNodeData.SetData = action;
                     entityData.EventNodes[i] = setNodeData;
@@ -156,9 +156,7 @@ public class ExcelBuild : UnityEditor.Editor
         return entityData;
     }
   
-    /// <summary>
-    /// 语言表导入
-    /// </summary>
+  
    
 
 }

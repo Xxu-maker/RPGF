@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a8069ad651919e40886945bb90fcbe8, type: 3}
-  m_Name: 108
+  m_Name: "\u6D4B\u8BD5\u5267\u60C5\u7247\u6BB51"
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -19,7 +19,6 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 5616ba326b0734e4298839d2dd1ab38a, type: 3}
     - {fileID: 21300000, guid: 867bdd45a5a14483a86e8f6179e8e173, type: 3}
     - {fileID: 21300000, guid: c767e7941500246009bba474ba899c9c, type: 3}
-    - {fileID: 21300000, guid: 9e0a1631b95c542a6b15ef1f3a955e0c, type: 3}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -30,7 +29,7 @@ MonoBehaviour:
       Data: 0|Novels.INovelsNode[], Assembly-CSharp
     - Name: 
       Entry: 12
-      Data: 7
+      Data: 6
     - Name: 
       Entry: 7
       Data: 1|Novels.SetNodeData, Assembly-CSharp
@@ -63,7 +62,7 @@ MonoBehaviour:
       Data: 1
     - Name: name
       Entry: 1
-      Data: Jane
+      Data: "\u89D2\u82721\u53F7"
     - Name: PosType
       Entry: 3
       Data: 0
@@ -78,7 +77,7 @@ MonoBehaviour:
       Data: 640
     - Name: 
       Entry: 4
-      Data: 716
+      Data: 720
     - Name: 
       Entry: 8
       Data: 
@@ -96,18 +95,18 @@ MonoBehaviour:
       Data: 6|Novels.DialogueContent, Assembly-CSharp
     - Name: Str
       Entry: 1
-      Data: "\u6D4B\u8BD52"
+      Data: "\u6D4B\u8BD5\u8F93\u51FA\u7684\u4E00\u6BB5\u8BDD"
     - Name: CN
-      Entry: 1
+      Entry: 6
       Data: 
     - Name: HK
-      Entry: 1
+      Entry: 6
       Data: 
     - Name: EN
-      Entry: 1
+      Entry: 6
       Data: 
     - Name: JP
-      Entry: 1
+      Entry: 6
       Data: 
     - Name: TextEffect
       Entry: 3
@@ -132,7 +131,7 @@ MonoBehaviour:
       Data: true
     - Name: IsCloseDialog
       Entry: 5
-      Data: true
+      Data: false
     - Name: 
       Entry: 8
       Data: 
@@ -153,7 +152,7 @@ MonoBehaviour:
       Data: 2
     - Name: name
       Entry: 1
-      Data: jack
+      Data: "\u89D2\u82722\u53F7"
     - Name: PosType
       Entry: 3
       Data: 1
@@ -168,7 +167,7 @@ MonoBehaviour:
       Data: 640
     - Name: 
       Entry: 4
-      Data: 716
+      Data: 720
     - Name: 
       Entry: 8
       Data: 
@@ -186,19 +185,19 @@ MonoBehaviour:
       Data: 10|Novels.DialogueContent, Assembly-CSharp
     - Name: Str
       Entry: 1
-      Data: "\u6D4B\u8BD5\u5BF9\u8BDD2"
+      Data: "\u6D4B\u8BD5\u7B2C\u4E8C\u6BB5\u8BDD"
     - Name: CN
-      Entry: 1
-      Data: "\u6D4B\u8BD5\u5BF9\u8BDD2"
+      Entry: 6
+      Data: 
     - Name: HK
-      Entry: 1
-      Data: "\u6D4B\u8BD5\u5BF9\u8BDD2"
+      Entry: 6
+      Data: 
     - Name: EN
-      Entry: 1
-      Data: "\u6D4B\u8BD5\u5BF9\u8BDD2"
+      Entry: 6
+      Data: 
     - Name: JP
-      Entry: 1
-      Data: "\u6D4B\u8BD5\u5BF9\u8BDD2"
+      Entry: 6
+      Data: 
     - Name: TextEffect
       Entry: 3
       Data: 3
@@ -221,47 +220,8 @@ MonoBehaviour:
       Entry: 5
       Data: true
     - Name: IsCloseDialog
-      Entry: 5
-      Data: true
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 11|Novels.SetNodeData, Assembly-CSharp
-    - Name: SetData
-      Entry: 7
-      Data: 12|ShowCharaSet, Assembly-CSharp
-    - Name: State
-      Entry: 3
-      Data: 1
-    - Name: image
-      Entry: 10
-      Data: 3
-    - Name: name
-      Entry: 1
-      Data: "\u4E2D\u95F4"
-    - Name: PosType
-      Entry: 3
-      Data: 2
-    - Name: IsFlipX
       Entry: 5
       Data: false
-    - Name: Size
-      Entry: 7
-      Data: UnityEngine.Vector2, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 640
-    - Name: 
-      Entry: 4
-      Data: 716
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -270,49 +230,56 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 13|Novels.NovelsNodeData, Assembly-CSharp
+      Data: 11|Novels.NovelsNodeData, Assembly-CSharp
     - Name: Content
       Entry: 7
-      Data: 14|Novels.DialogueContent, Assembly-CSharp
-    - Name: Str
+      Data: 12|Novels.SelectContent, Assembly-CSharp
+    - Name: Datas
+      Entry: 7
+      Data: 13|System.Collections.Generic.List`1[[Novels.SelectContent+ButtonSelectData,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 14|Novels.SelectContent+ButtonSelectData, Assembly-CSharp
+    - Name: Content
       Entry: 1
-      Data: 3
-    - Name: CN
+      Data: "\u9009\u9879\u4E00"
+    - Name: SectionName
       Entry: 1
-      Data: "\u7A00\u6709"
-    - Name: HK
+      Data: "Config/NovelsChapters/\u6D4B\u8BD5\u5267\u60C5\u7247\u6BB52"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 15|Novels.SelectContent+ButtonSelectData, Assembly-CSharp
+    - Name: Content
       Entry: 1
-      Data: "\u7EFF\u8272"
-    - Name: EN
+      Data: "\u9009\u9879\u4E8C"
+    - Name: SectionName
       Entry: 1
-      Data: "\u5076\u5C14\u770B\u5230"
-    - Name: JP
-      Entry: 1
-      Data: 3
-    - Name: TextEffect
+      Data: "Config/NovelsChapters/\u6D4B\u8BD5\u5267\u60C5\u7247\u6BB53"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: type
       Entry: 3
-      Data: 3
-    - Name: EffectTime
-      Entry: 4
       Data: 0
-    - Name: LeaveWait
-      Entry: 4
-      Data: 0
-    - Name: DialogBoxType
+    - Name: IsClearStage
+      Entry: 5
+      Data: false
+    - Name: BtnIndex
       Entry: 3
       Data: 0
-    - Name: IsNextLine
-      Entry: 5
-      Data: true
-    - Name: IsNeedClick
-      Entry: 5
-      Data: true
-    - Name: IsClearCache
-      Entry: 5
-      Data: true
-    - Name: IsCloseDialog
-      Entry: 5
-      Data: true
     - Name: 
       Entry: 8
       Data: 

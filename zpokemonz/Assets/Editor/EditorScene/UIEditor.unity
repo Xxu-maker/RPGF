@@ -297,7 +297,7 @@ MonoBehaviour:
   Canvas: {fileID: 8460397871825986789}
   UICamera: {fileID: 8460397872593124552}
   Trans_NovelsPoint: {fileID: 8701754966743012484}
-  AVG: Config/NovelsChapters/108
+  AVG: "Config/NovelsChapters/\u6D4B\u8BD5\u5267\u60C5\u7247\u6BB51"
 --- !u!224 &8460397871825986788
 RectTransform:
   m_ObjectHideFlags: 0

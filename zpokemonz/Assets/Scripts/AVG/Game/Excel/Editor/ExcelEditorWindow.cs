@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
 using System.Reflection;
+using ExcelData;
 using Novels;
 using Sirenix.OdinInspector.Editor;
 using UnityEditor;
@@ -83,15 +84,16 @@ public class ExcelEditorWindow : OdinEditorWindow
                      ExcelBuild.CreatePreNovel(Data, name, ref EntityData);
               
                      AssetDatabase.CreateAsset(EntityData, $"Assets/Resources/Config/NovelsChapters/{name}.asset");
-                     AssetDatabase.SaveAssets();
-                     AssetDatabase.Refresh();
+                   
                  }
+                 
+                 AssetDatabase.SaveAssets();
+                 AssetDatabase.Refresh();
              }
          }
      }
 
-    
-
+     
      private void OnSelectionChange()
      {
         
@@ -99,5 +101,23 @@ public class ExcelEditorWindow : OdinEditorWindow
          fileSelections= new bool[filePaths.Count];
           
          Repaint();
+     }
+     
+     public static string Path = ExcelConfig.excelsFolderPath+"Excel/Localization.xlsx";
+   
+     [MenuItem("Assets/本地化表导入")]
+     public static void BuildLocalizationData()
+     {
+         GameTableSO _gameTableSo;
+         _gameTableSo=AssetDatabase.LoadAssetAtPath<GameTableSO>("Assets/Resources/Config/GameTable.asset");
+
+         //获得表数据
+         int columnNum = 0, rowNum = 0;
+         var languages = ExcelTool.PreReadLocalizationExcel(1,Path, ref columnNum, ref rowNum);
+         _gameTableSo.languages = languages.ToArray();
+         
+         AssetDatabase.SaveAssets();
+         AssetDatabase.Refresh();
+
      }
  }
