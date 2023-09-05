@@ -1,0 +1,5 @@
+*.csproj
+*.sln
+zpokemonz/Temp
+zpokemonz/Logs
+zpokemonz/Library
