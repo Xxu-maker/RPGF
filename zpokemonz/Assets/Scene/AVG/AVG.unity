@@ -180,7 +180,16 @@ MonoBehaviour:
       Entry: 6
       Data: 
     - Name: BGM
+      Entry: 7
+      Data: 0|AudioClipData, Assembly-CSharp
+    - Name: AudioRes
       Entry: 6
+      Data: 
+    - Name: Volume
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
       Data: 
   CurrentScene: {fileID: 0}
 --- !u!1 &686902092

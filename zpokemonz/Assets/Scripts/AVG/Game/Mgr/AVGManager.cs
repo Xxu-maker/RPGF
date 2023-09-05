@@ -31,9 +31,11 @@ public class AVGManager : MonoSingleton<AVGManager>
         //GameHelper.Alloc<GameObject>("Prefabs/Base/AudioManager");
         //Todo 初始化剧情UI模块
         GameHelper.Alloc<GameObject>("Prefabs/UI/Novels/UINovelsPanel").transform.RestTransform(UIRoot.Instance.Trans_NovelsPoint);
+        
+        //Todo 初始化回忆UI模块
+        GameHelper.Alloc<GameObject>("Prefabs/UI/Novels/UIRecallPanel").transform.RestTransform(UIRoot.Instance.Trans_RecallPoint);
 
-        //UINovelsPanel.Instance.gameObject.SetActive(true);
-       
+        UIRecallPanel.Instance.OnClose();
         //Todo 初始化剧情存档
         //SaveManager.Instance.Initialize();
     }

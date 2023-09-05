@@ -34,10 +34,10 @@ namespace Novels
     public enum EContentType
     {
         None = -1,
-        Black,
         Dialog,
-        Audio,
         Select,
+        Black,
+        Audio,
         Event,
         Popup
     }
@@ -444,7 +444,9 @@ namespace Novels
                             yield return UINovelsPanel.Instance.TextFollowFade(UINovelsPanel.EShowType.Dialog, cacheContent, (float)SaveManager.Instance.Cfg.CharSpeed);
                             break;
                     }
-
+                    
+                    //添加回忆  对话回忆
+                    dialogContent.ReCall();
 
                     //点击下一步
                     if (dialogContent != null && dialogContent.IsNeedClick && !SaveManager.Instance.Cfg.IsSkip)
@@ -529,7 +531,10 @@ namespace Novels
                     }
 
                     UINovelsPanel.Instance.SetContent(UINovelsPanel.EShowType.BlackScreen, str);
-
+                    
+                    //添加回忆  对话回忆
+                    blackContent.ReCall();
+                    
                     if (blackContent.IsNeedClick && !SaveManager.Instance.Cfg.IsSkip)
                     {
                         while (true)

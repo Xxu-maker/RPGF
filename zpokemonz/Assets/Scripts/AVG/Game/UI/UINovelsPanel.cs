@@ -298,7 +298,7 @@ public class UINovelsPanel : SerializedMonoBehaviour
                 //AudioManager.Instance.PlayCommandClose();
                 ResetAvgBtn();
                 //Todo   打开回忆界面
-                //UIManager.openPanel("FYXG", "UI_Recall");
+                UIRecallPanel.Instance.OnOpen();
             }
         }, InputListenerManager.PriorityType.UITigger);
     }

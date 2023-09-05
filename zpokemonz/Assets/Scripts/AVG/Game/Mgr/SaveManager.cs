@@ -48,6 +48,14 @@ public class SaveManager:Singleton<SaveManager>
 {
     public SaveConfig Cfg=new SaveConfig();
 
+    public List<RecallConfig> GetRecallConfigList
+    {
+        get 
+        {
+            return Cfg.MemoryData;
+        }
+    }
+    
     public bool IsHasSave 
     {
         get 

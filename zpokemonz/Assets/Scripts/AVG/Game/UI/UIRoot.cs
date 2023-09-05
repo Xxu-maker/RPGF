@@ -14,6 +14,8 @@ public class UIRoot : MonoSingleton<UIRoot>
 
     public Transform Trans_NovelsPoint;
     
+    public Transform Trans_RecallPoint;
+    
     [ResourcePath(typeof(NovelsSectionData))]
     public string AVG; // 
     //重置剧情UI
