@@ -1,0 +1,2065 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{cf578056-ba29-9a59-a714-b47d6fb3a4d5}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\Assembly-CSharp\</OutputPath>
+    <DefineConstants>UNITY_2022_2_20;UNITY_2022_2;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;TextMeshPro;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
+    <Analyzer Include="/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets/Scripts/UI/NewButton/D_Pad/DPadTouchAxis.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Config/NovelsSection.Extra.cs" />
+     <Compile Include="Assets/Scripts/BuildBase/InputSystem/CameraMovement.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/AllDataDictionary/AllPokemon.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Ability/AttackAbility.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Ability/TeammatesAbility.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Scene/SceneItem.cs" />
+     <Compile Include="Assets/Scripts/Manager/WeatherManager.cs" />
+     <Compile Include="Assets/Scripts/AboutMap/FosterTrigger.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Scene/SceneSwitchManager.cs" />
+     <Compile Include="Assets/Scripts/AVG/Debug/BattleDebugPanel.cs" />
+     <Compile Include="Assets/Scripts/AVG/Debug/DragMovePos.cs" />
+     <Compile Include="Assets/Scripts/AVG/Tools/AudioManager.AVG.cs" />
+     <Compile Include="Assets/Scripts/BuildBase/BuildUI/BuildingScroll.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/AllDataDictionary/AllSkill.cs" />
+     <Compile Include="Assets/Scripts/UI/SelectPanel/TrainerCard/CardSettingPanel.cs" />
+     <Compile Include="Assets/Scripts/Manager/LoadingScene.cs" />
+     <Compile Include="Assets/Scripts/UI/Bag/BagToggle/BagToggleGroup.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Scene/ScenePrefabs.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Excel/Scripts/Config/GameTableSO.cs" />
+     <Compile Include="Assets/Scripts/RoleCtrl/NpcBase/CharacterAnimator.cs" />
+     <Compile Include="Assets/Scripts/SavingSys/SavingSystem.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Config/GlobalConfig.cs" />
+     <Compile Include="Assets/Scripts/AVG/Tools/AdvancedText.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/UI/UITitlePanel.cs" />
+     <Compile Include="Assets/Scripts/UI/Shop/ShopBox.cs" />
+     <Compile Include="Assets/Scripts/AboutMap/Grass.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Mgr/SaveManager.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Excel/Scripts/Config/Language.cs" />
+     <Compile Include="Assets/Scripts/UI/CirclesUI/PokemonOnDrag.cs" />
+     <Compile Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/ParticleEffectsShowcase/Scripts/UICanvasManager.cs" />
+     <Compile Include="Assets/Scripts/AboutMap/PlayerTrigger.cs" />
+     <Compile Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Scripts/ETFXLightFade.cs" />
+     <Compile Include="Assets/Scripts/UI/SelectPanel/TrainerCard/CardRobbinPanel.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Data/Skill.cs" />
+     <Compile Include="Assets/Scripts/BuildBase/BuildUI/BuildUIOnDrag.cs" />
+     <Compile Include="Assets/Scripts/Manager/FpsCounter.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/UI/UIPopupWindow.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Config/NovelsSet.Extra.cs" />
+     <Compile Include="Assets/Scripts/RoleCtrl/AboutObject/InteractionObjectBase.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Ability/TouchAbility.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Scene/ISceneObject.cs" />
+     <Compile Include="Assets/Scripts/UI/PokemonPC/BoxBase.cs" />
+     <Compile Include="Assets/Scripts/UI/DetailPanel/D_StrengthValuePanel.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Excel/Script.cs" />
+     <Compile Include="Assets/Scripts/RoleCtrl/NpcBase/Character.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Ability/SystemAbility.cs" />
+     <Compile Include="Assets/Scripts/RoleCtrl/Interactable.cs" />
+     <Compile Include="Assets/Scripts/Manager/UIManager.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Timeline/PAPlayAnimation.cs" />
+     <Compile Include="Assets/Scripts/Manager/CoreObject.cs" />
+     <Compile Include="Assets/Scripts/UI/SelectPanel/SetPanel.cs" />
+     <Compile Include="Assets/Scripts/AVG/Debug/DebugPanel.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Item/Mint.cs" />
+     <Compile Include="Assets/Scripts/RoleCtrl/AboutObject/Anim_IObject.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Data/ItemSlot.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Ability/NotMeAbility.cs" />
+     <Compile Include="Assets/Scripts/AVG/Tools/InputListenerManager.cs" />
+     <Compile Include="Assets/Scripts/RoleCtrl/ObjectCtrl.cs" />
+     <Compile Include="Assets/Scripts/UI/NewButton/SlideButtons/SlideButton.cs" />
+     <Compile Include="Assets/Scene/Test/TestPokemon.cs" />
+     <Compile Include="Assets/Scripts/UI/DetailPanel/D_RightPokemonTogglesPanel.cs" />
+     <Compile Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/UI/UIWindowElement.cs" />
+     <Compile Include="Assets/Scripts/RoleCtrl/SymbolEncounterCtrl.cs" />
+     <Compile Include="Assets/Scripts/BuildBase/AboutBuilding/GridObjectCheck.cs" />
+     <Compile Include="Assets/Scripts/AVG/Tools/UIConfirmBlock.cs" />
+     <Compile Include="Assets/Scripts/Battle/BattleHud.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Quest/QuestBase.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/BaseData/AllNatureData.cs" />
+     <Compile Include="Assets/Scripts/RoleCtrl/NpcBase/SpriteAnimator.cs" />
+     <Compile Include="Assets/Scripts/AboutMap/Bridge.cs" />
+     <Compile Include="Assets/Scripts/AVG/Debug/TimeLineDebug.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/PokemonTeam.cs" />
+     <Compile Include="Assets/Scripts/UI/SelectPanel/图鉴(目前没用 而且没有做的必要)/BookPanel.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Data/Condition.cs" />
+     <Compile Include="Assets/Scripts/AVG/Tools/LogHandler.cs" />
+     <Compile Include="Assets/Scripts/Battle/BattleSkillUISlot.cs" />
+     <Compile Include="Assets/Scripts/UI/ZEnhancedScroll/IScrollDelegate.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Timeline/PBPlayAnimation.cs" />
+     <Compile Include="Assets/Scripts/AVG/Tools/SpineManager.cs" />
+     <Compile Include="Assets/Scripts/Extra/ScriptBase/MyData.cs" />
+     <Compile Include="Assets/ParticleAndShader/ParticleEffects/SkillParticleHandler.cs" />
+     <Compile Include="Assets/Scripts/Battle/BattleSystem.cs" />
+     <Compile Include="Assets/Scripts/AVG/Tools/UI/UIButtonCD.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Config/NovelsCheck.cs" />
+     <Compile Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Scripts/ETFXRotation.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Bag.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Item/IVItem.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Timeline/PlayTweenClip.cs" />
+     <Compile Include="Assets/Scripts/AboutMap/DoorAnimator.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Quest/Quest.cs" />
+     <Compile Include="Assets/Scripts/AVG/Tools/CommonAttr.cs" />
+     <Compile Include="Assets/Scripts/RoleCtrl/StaticInteractionObject.cs" />
+     <Compile Include="Assets/Scripts/Battle/HPBar.cs" />
+     <Compile Include="Assets/Scripts/AboutMap/Portal.cs" />
+     <Compile Include="Assets/Scripts/AVG/Tools/UIInputBlock.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Ability/DefenceAbility.cs" />
+     <Compile Include="Assets/Scripts/AVG/Tools/UI/UIScrollSlider.cs" />
+     <Compile Include="Assets/Scripts/BuildBase/BuildUI/BuildingCellView.cs" />
+     <Compile Include="Assets/Scripts/BuildBase/AboutBuilding/Building.cs" />
+     <Compile Include="Assets/Scripts/RoleCtrl/FeederCtrl.cs" />
+     <Compile Include="Assets/Scripts/UI/NewButton/HoldToDisplay.cs" />
+     <Compile Include="Assets/Scripts/BuildBase/BuildingPoint.cs" />
+     <Compile Include="Assets/Scripts/Manager/GameLayers.cs" />
+     <Compile Include="Assets/Scripts/UI/SelectPanel/MapPanel.cs" />
+     <Compile Include="Assets/Scripts/Animator/PokemonAnimator.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Item/BattleItem.cs" />
+     <Compile Include="Assets/Scripts/AboutMap/SceneDetails.cs" />
+     <Compile Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/ParticleEffectsShowcase/Scripts/ParticleEffectsLibrary.cs" />
+     <Compile Include="Assets/Scripts/UI/BasePanel.cs" />
+     <Compile Include="Assets/Scripts/BuildBase/InputSystem/MoveObject.cs" />
+     <Compile Include="Assets/Scripts/UI/SelectPanel/TrainerCard/CardDataPanel.cs" />
+     <Compile Include="Assets/Scripts/AVG/Tools/UI/UIImageSwitch.cs" />
+     <Compile Include="Assets/Scripts/Extra/EnumCollection.cs" />
+     <Compile Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Timeline/StoryScenePrefab.cs" />
+     <Compile Include="Assets/Scripts/RoleCtrl/PickUp.cs" />
+     <Compile Include="Assets/Scene/Test/EffectsTestScene/MaterialsMgr.cs" />
+     <Compile Include="Assets/Scripts/RoleCtrl/Player/DressableAnimator.cs" />
+     <Compile Include="Assets/Scripts/UI/SelectPanel/SavePanel.cs" />
+     <Compile Include="Assets/Scripts/RoleCtrl/PlotRoleCtrl.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Item/PPItem.cs" />
+     <Compile Include="Assets/Scripts/RoleCtrl/AVGClerk.cs" />
+     <Compile Include="Assets/Scripts/UI/StartMenuScripts/SaveFileSlot.cs" />
+     <Compile Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs" />
+     <Compile Include="Assets/Scripts/RoleCtrl/Dialog.cs" />
+     <Compile Include="Assets/Scripts/UI/ZEnhancedScroll/ScrollCellView.cs" />
+     <Compile Include="Assets/Scripts/UI/NewButton/SlideButtons/SlideButtonSlot.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Mgr/AVGManager.cs" />
+     <Compile Include="Assets/Scripts/Manager/DialogManager.cs" />
+     <Compile Include="Assets/Scripts/Animator/ThrowBall.cs" />
+     <Compile Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Inventory.cs" />
+     <Compile Include="Assets/Scripts/UI/Bag/BagToggle/BagToggle.cs" />
+     <Compile Include="Assets/Scripts/AVG/Tools/Singleton.cs" />
+     <Compile Include="Assets/Scripts/BuildBase/InputTestzzz.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/AllDataDictionary/AllPokemonPackage.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Item/PokeBall.cs" />
+     <Compile Include="Assets/Scripts/UI/PokemonPC/PCOnDrag.cs" />
+     <Compile Include="Assets/Scripts/Animator/PokemonEvolution.cs" />
+     <Compile Include="Assets/Scripts/UI/CommonSelectionTips/SelectionColumn.cs" />
+     <Compile Include="Assets/Scripts/UI/SelectPanel/PausePanel.cs" />
+     <Compile Include="Assets/Scripts/UI/Shop/ShopPanel.cs" />
+     <Compile Include="Assets/Scripts/UI/Bag/MessageTip.cs" />
+     <Compile Include="Assets/Scripts/UI/CustomUI/OnDragSetPos.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Excel/ScriptsManager.cs" />
+     <Compile Include="Assets/Scripts/RoleCtrl/Player/PlayerMovement.cs" />
+     <Compile Include="Assets/Scripts/UI/ZEnhancedScroll/Scroller.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Ability/TurnOverAbility.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Ability/MySelfAbility.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Data/Nature.cs" />
+     <Compile Include="Assets/Scripts/UI/SelectPanel/图鉴(目前没用 而且没有做的必要)/BookUI.cs" />
+     <Compile Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Scripts/ETFXPitchRandomizer.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Mgr/NovelsManager.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Item/RecoveryItem.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/AllDataDictionary/AllItem.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Item/ReviveItem.cs" />
+     <Compile Include="Assets/Scripts/AVG/Tools/MonoSingleton.cs" />
+     <Compile Include="Assets/Scripts/UI/ChoosePanel/PokeChBox.cs" />
+     <Compile Include="Assets/Scripts/UI/ZEnhancedScroll/SmallList.cs" />
+     <Compile Include="Assets/Scene/Test/EffectsTestScene/ZEffectsScript.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Item/EvolutionItem.cs" />
+     <Compile Include="Assets/Scripts/BuildBase/InputSystem/BuildInputSystem.cs" />
+     <Compile Include="Assets/Scripts/BuildBase/RoadHandler.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Item/CostumesItem.cs" />
+     <Compile Include="Assets/Scripts/AboutMap/FosterYard.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Item/BasePointItem.cs" />
+     <Compile Include="Assets/Scripts/UI/ChoosePanel/ChooseSkillPanel.cs" />
+     <Compile Include="Assets/Scripts/SavingSys/SceneFileHandler.cs" />
+     <Compile Include="Assets/Scene/Test/Ztest.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Ability/EnemyAbility.cs" />
+     <Compile Include="Assets/Scripts/UI/EvoPanel.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Ability/OurAbility.cs" />
+     <Compile Include="Assets/Scripts/UI/ChoosePanel/ChoosePanel.cs" />
+     <Compile Include="Assets/Scripts/RoleCtrl/PCCtrl.cs" />
+     <Compile Include="Assets/Scripts/UI/SelectPanel/TrainerCard/TrainersCard.cs" />
+     <Compile Include="Assets/Scripts/RoleCtrl/NPCCtrller.cs" />
+     <Compile Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/ParticleEffectsShowcase/Scripts/PEButtonScript.cs" />
+     <Compile Include="Assets/Scripts/UI/CirclesUI/CircleUI.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Data/Pokemon.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Config/NovelsConfig.cs" />
+     <Compile Include="Assets/Scripts/AVG/Tools/PlayerAnim.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Item/ConditionItem.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Timeline/PATriggerNovels.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Scene/SceneLink.cs" />
+     <Compile Include="Assets/Scripts/RoleCtrl/Follow.cs" />
+     <Compile Include="Assets/Scripts/RoleCtrl/Player/PlayerAnimator.cs" />
+     <Compile Include="Assets/Scripts/UI/PokemonPC/PCPanel.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Item/TM.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/BaseData/AbilityBase.cs" />
+     <Compile Include="Assets/Scripts/Battle/BattleDialogBox.cs" />
+     <Compile Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Item/Ticket.cs" />
+     <Compile Include="Assets/Scripts/UI/Bag/BagScroller.cs" />
+     <Compile Include="Assets/Scripts/Battle/BattleUnit.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Excel/ExcelTest.cs" />
+     <Compile Include="Assets/Scripts/AVG/Tools/UI/SpriteAdjustRectTransform.cs" />
+     <Compile Include="Assets/Scripts/UI/ZDelegate.cs" />
+     <Compile Include="Assets/Scripts/AVG/Tools/BindAvgCom.cs" />
+     <Compile Include="Assets/Scripts/Manager/LightManager.cs" />
+     <Compile Include="Assets/Scripts/AboutMap/SurfTrigger.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Character/PlaySpriteAnimation.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Config/NovelsSet.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/BaseData/ItemBase.cs" />
+     <Compile Include="Assets/Scripts/BuildBase/AboutBuilding/BuildingBase.cs" />
+     <Compile Include="Assets/Scripts/Manager/GameTableData.cs" />
+     <Compile Include="Assets/Scripts/BuildBase/InputSystem/BuildManager.cs" />
+     <Compile Include="Assets/Scripts/UI/DetailPanel/MessagePanel4.cs" />
+     <Compile Include="Assets/Scripts/Manager/AudioManager.cs" />
+     <Compile Include="Assets/Scripts/BuildBase/BuildingGrid.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/UI/UINovelsPanel.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Helper/GameHelper.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Timeline/TimeLineReceiver.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Ability/AllPlayerAbility.cs" />
+     <Compile Include="Assets/Scripts/BuildBase/InputSystem/PlacementSystem.cs" />
+     <Compile Include="Assets/Scripts/AboutMap/PlotFov.cs" />
+     <Compile Include="Assets/Scripts/Manager/GameManager.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Config/NovelsSectionData.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Item/MegaItem.cs" />
+     <Compile Include="Assets/Scripts/UI/StartMenuScripts/MainMenu.cs" />
+     <Compile Include="Assets/Scripts/AVG/Tools/UIEventManager.cs" />
+     <Compile Include="Assets/Scripts/UI/CirclesUI/TeamCirclePanel.cs" />
+     <Compile Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/ParticleEffectsShowcase/Scripts/PEDestoryTimed.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/UI/UIRoot.cs" />
+     <Compile Include="Assets/Scripts/BuildBase/BuildUI/BuildListCanvas.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/BaseData/AllConditionData.cs" />
+     <Compile Include="Assets/Scripts/AboutMap/GrassParticle.cs" />
+     <Compile Include="Assets/Scripts/SavingSys/SavableEntity.cs" />
+     <Compile Include="Assets/Scripts/UI/DetailPanel/D_RibbonsPanel.cs" />
+     <Compile Include="Assets/Scripts/UI/DetailPanel/D_OtherPanel.cs" />
+     <Compile Include="Assets/Scripts/UI/NewButton/D_Pad/DPadInteractionsTime.cs" />
+     <Compile Include="Assets/Scripts/RoleCtrl/StaticNpc.cs" />
+     <Compile Include="Assets/Scripts/RoleCtrl/DoctorCtrl.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/Timeline/PBTriggerNovels.cs" />
+     <Compile Include="Assets/Scripts/UI/DetailPanel/D_IntroductionPanel.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/UI/UIRecallPanel.cs" />
+     <Compile Include="Assets/Scripts/AVG/Debug/DebugDataSetElement.cs" />
+     <Compile Include="Assets/Scripts/UI/NewButton/D_Pad/DPadSprite.cs" />
+     <Compile Include="Assets/Scripts/Animator/TrainerAnimator.cs" />
+     <Compile Include="Assets/Scripts/SavingSys/ZSavable.cs" />
+     <Compile Include="Assets/Scripts/Manager/ResM.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Ability/EnemiesAbility.cs" />
+     <Compile Include="Assets/Scripts/UI/SelectPanel/SelectMenu.cs" />
+     <Compile Include="Assets/Scripts/AVG/Tools/UIButtonTextChange.cs" />
+     <Compile Include="Assets/Scripts/Extra/TileMapExtras/AnimatedTile.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Ability/GroundAbility.cs" />
+     <Compile Include="Assets/Scripts/UI/DetailPanel/D_SkillPanel.cs" />
+     <Compile Include="Assets/Scripts/UI/StartMenuScripts/CusPanel.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/Subcategories/Ability/AppearancesAbility.cs" />
+     <Compile Include="Assets/Scripts/UI/FosterPanel.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/BaseData/SkillBase.cs" />
+     <Compile Include="Assets/Scripts/AVG/Tools/DemoFPSCounter.cs" />
+     <Compile Include="Assets/Scripts/AboutMap/TrainerFov.cs" />
+     <Compile Include="Assets/Scripts/UI/CommonSelectionTips/BoolSelectionTip.cs" />
+     <Compile Include="Assets/Scripts/Battle/BattleBackGround.cs" />
+     <Compile Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs" />
+     <Compile Include="Assets/Scene/Test/EffectsTestScene/EffectsTest.cs" />
+     <Compile Include="Assets/Scripts/PokeBase/BaseData/PokemonBase.cs" />
+     <Compile Include="Assets/Scripts/Other.cs" />
+     <Compile Include="Assets/Scripts/UI/MapTip.cs" />
+     <Compile Include="Assets/Scripts/UI/DetailPanel/PokeDesPanel.cs" />
+     <Compile Include="Assets/Scripts/UI/Bag/BagCellView.cs" />
+     <Compile Include="Assets/Scripts/RoleCtrl/ShopClerk.cs" />
+     <Compile Include="Assets/Scripts/UI/Bag/ItemHandler.cs" />
+     <Compile Include="Assets/Scripts/RoleCtrl/TrainerCtrller.cs" />
+     <Compile Include="Assets/Scripts/AVG/Game/UI/UISetPanel.cs" />
+     <Compile Include="Assets/Scripts/Extra/ScriptBase/SingletonMono.cs" />
+     <Folder Include="Assets" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Water/Other" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Sound" />
+     <Folder Include="Assets/Resources/Pokemon/F/93" />
+     <Folder Include="Assets/Resources/Prefabs/Spine/raptor-pro-and-mask" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Materials/Sparkle" />
+     <Folder Include="Assets/Resources/Pokemon/B/92S" />
+     <Folder Include="Assets/Resources/Pokemon/F/502" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Interactive/Portals/SimplePortal" />
+     <Folder Include="Assets/PrefabAndScriptableObjects/Audio/ME" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Interactive/Loot/GlowOrb" />
+     <Folder Include="Assets/Resources/Pokemon/B/611S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Lightning/Sharp" />
+     <Folder Include="Assets/Resources/Texture/Other" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Stars/StarFogFlow" />
+     <None Include="Assets/Resources/Prefabs/Spine/Dragon/dragon.atlas.txt" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Magic/Aura" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
+     <Folder Include="Assets/Resources/Pokemon/B/551S" />
+     <Folder Include="Assets/Resources/Pokemon/B/448S" />
+     <Folder Include="Assets/Resources/Texture/UI/dialog/NVDI_Dialogue" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Interactive/Loot/ChestAppear" />
+     <Folder Include="Assets/Resources/Pokemon/B/388" />
+     <Folder Include="Assets/Resources/Pokemon/F/2" />
+     <Folder Include="Assets/Resources/Pokemon/F/93S" />
+     <Folder Include="Assets/Resources/Pokemon/B/159S" />
+     <None Include="Assets/Plugins/Spine/version.txt" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/ParticleEffects/Textures" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/ParticleEffectsShowcase/Scripts" />
+     <Folder Include="Assets/Resources/Pokemon/F/135S" />
+     <Folder Include="Assets/Resources/Pokemon/B/281S" />
+     <Folder Include="Assets/Resources/2DxFx/Material" />
+     <Folder Include="Assets/ParticleAndShader/ShadowShader" />
+     <Folder Include="Assets/Resources/Pokemon/F/502S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Interactive/Loot" />
+     <Folder Include="Assets/Resources/Prefabs/Spine/spineboy-unity" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+     <Folder Include="Assets/Scripts/UI/CommonSelectionTips" />
+     <None Include="Assets/Resources/Prefabs/Spine/FootSoldier/FootSoldier.json" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Muzzleflash/FrostMuzzle" />
+     <Folder Include="Assets/Resources/Pokemon/B/155" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Flamethrower" />
+     <Folder Include="Assets/Scripts/PokeBase/Subcategories" />
+     <Folder Include="Assets/Resources/Pokemon/F/259" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Interactive/Sparkle" />
+     <Folder Include="Assets/Resources/Pokemon/F/444S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Scripts" />
+     <Folder Include="Assets/Resources/Pokemon/B/54" />
+     <Folder Include="Assets/TextMesh Pro/Sprites" />
+     <Folder Include="Assets/Resources/Pokemon/B/25S" />
+     <Folder Include="Assets/Scripts/UI/CirclesUI" />
+     <None Include="Assets/ParticleAndShader/ShadowShader/ShadowShader.shader" />
+     <Folder Include="Assets/Scripts/UI/Bag/BagToggle" />
+     <Folder Include="Assets/Resources/Pokemon/F/257S" />
+     <Folder Include="Assets/Scripts/AVG/Debug" />
+     <Folder Include="Assets/Resources/Pokemon/B/151S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Missiles/Fireball" />
+     <Folder Include="Assets/Resources/Pokemon/B/8" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Materials/Emoticons" />
+     <Folder Include="Assets/Scene/AVG" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Muzzleflash/LightningMuzzle" />
+     <Folder Include="Assets/Resources/Music/Bgm" />
+     <Folder Include="Assets/Resources/Prefabs" />
+     <Folder Include="Assets/Scripts/AVG/Game/Config" />
+     <Folder Include="Assets/Resources/Pokemon/B/157" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Smoke/White" />
+     <Folder Include="Assets/Resources/Pokemon/F/446S" />
+     <Folder Include="Assets/Resources/Pokemon/F/90S" />
+     <Folder Include="Assets/Scripts/BuildBase/BuildUI" />
+     <Folder Include="Assets/Resources/Prefabs/Spine/Raggedy Spineboy" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Missile Prefabs/Frost" />
+     <Folder Include="Assets/Sprite/Tiles/build/bw_door" />
+     <Folder Include="Assets/Sprite/Cha(测试)/npc/女农民" />
+     <Folder Include="Assets/Scripts/BuildBase/New Folder" />
+     <Folder Include="Assets/Resources/Pokemon/B/447" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Interactive/Portals" />
+     <Folder Include="Assets/Resources/Pokemon/B/446" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Missiles/Bullet" />
+     <Folder Include="Assets/Resources/Pokemon/B/258" />
+     <Folder Include="Assets/TextMesh Pro/Resources/Sprite Assets" />
+     <Folder Include="Assets/Resources/Pokemon/F/25S" />
+     <Folder Include="Assets/Resources/Font" />
+     <Folder Include="Assets/Resources/Ball" />
+     <Folder Include="Assets/Resources/Pokemon/B/121" />
+     <Folder Include="Assets/Resources/Pokemon/F/388S" />
+     <None Include="Assets/Resources/Prefabs/Spine/spineboy-pro/spineboy-pro.json" />
+     <Folder Include="Assets/Sprite/Tiles/_tiles/road_spring" />
+     <Folder Include="Assets/Sprite/Tiles/_tiles/in_1" />
+     <Folder Include="Assets/Resources/Pokemon/B/90S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Flamethrower/Cartoon" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Explosions/BulletExplosion" />
+     <Folder Include="Assets/Resources/Prefabs/Spine/spineboy-pro" />
+     <Folder Include="Assets/Resources/Pokemon/B/176" />
+     <Folder Include="Assets/Resources/Pokemon/F/121" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Explosions/- Misc" />
+     <Folder Include="Assets/Resources/Pokemon/F/154S" />
+     <Folder Include="Assets/Resources/Pokemon/F/134" />
+     <Folder Include="Assets/Resources/Pokemon/F/246S" />
+     <Folder Include="Assets/Plugins/Spine" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Interactive/Emojis" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Magic/Nova" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Missile Prefabs/EnergyNovaSmall" />
+     <Folder Include="Assets/Resources/Pokemon/B/255S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Materials/Clouds" />
+     <Folder Include="Assets/Scripts/PokeBase/AllDataDictionary" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/ParticleEffectsShowcase" />
+     <Folder Include="Assets/Resources/Pokemon/B/175" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Explosions/SpikyExplosion" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Interactive" />
+     <Folder Include="Assets/Sprite/Tiles/build" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Materials/Splat" />
+     <Folder Include="Assets/Resources/Pokemon/B/280S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Fog" />
+     <Folder Include="Assets/Resources/Pokemon/F/547S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat" />
+     <Folder Include="Assets/Resources/Pokemon/B/148" />
+     <Folder Include="Assets/Resources/Pokemon/B/372" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Nova" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+     <Folder Include="Assets/Scripts/Extra/TileMapExtras" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Weather/Rain" />
+     <Folder Include="Assets/Resources/Pokemon/F/176" />
+     <Folder Include="Assets/Sprite/素材例示/喷泉" />
+     <Folder Include="Assets/Resources/Pokemon/F/498" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Interactive/Zone" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Sword/SwordSpin" />
+     <Folder Include="Assets/Resources/Prefabs/Spine/Gauge/ReferenceAssets" />
+     <Folder Include="Assets/Scripts/BuildBase/Test" />
+     <Folder Include="Assets/Resources/Pokemon/B/54S" />
+     <Folder Include="Assets/Resources/Pokemon/B/388S" />
+     <Folder Include="Assets/Resources/Pokemon/B/255" />
+     <Folder Include="Assets/Scripts/Animator" />
+     <Folder Include="Assets/Scripts/AVG/Game/Mgr" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Missiles/Soul" />
+     <Folder Include="Assets/PrefabAndScriptableObjects/道具SO/球" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Materials/Magic" />
+     <Folder Include="Assets/Resources/Pokemon/Mini" />
+     <None Include="Assets/ParticleAndShader/ParticleEffects/说明.txt" />
+     <Folder Include="Assets/Resources/Pokemon/F/248" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Sword" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Muzzleflash/SoulMuzzle" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Missile Prefabs/Mystic" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Magic/Shield" />
+     <Folder Include="Assets/Resources/Texture/Scene" />
+     <Folder Include="Assets/Resources/Pokemon/F/188" />
+     <Folder Include="Assets/Resources/Pokemon/F/148S" />
+     <Folder Include="Assets/Resources/Pokemon/B/156S" />
+     <Folder Include="Assets/Sprite/Tiles/_tiles/out_1" />
+     <Folder Include="Assets/Scripts/AVG/Game/Excel/Scripts" />
+     <Folder Include="Assets/Resources/Pokemon/F/611S" />
+     <Folder Include="Assets/Scripts/BuildBase/AboutBuilding" />
+     <None Include="Assets/Resources/Prefabs/Spine/raptor-pro-and-mask/raptor-pro.json" />
+     <Folder Include="Assets/Resources/Animation" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Misc" />
+     <None Include="Assets/Resources/Prefabs/Spine/Eyes/eyes.atlas.txt" />
+     <Folder Include="Assets/Resources/Pokemon/B/443S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Magic/Field" />
+     <Folder Include="Assets/Resources/Pokemon/B/159" />
+     <Folder Include="Assets/Resources/Pokemon/F/551" />
+     <Folder Include="Assets/Sprite/AboutBattle/平台及背景" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Interactive/Powerups" />
+     <Folder Include="Assets/Scripts/AVG/Tools/UI" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Interactive/Zone/MagicZone" />
+     <Folder Include="Assets/Resources/Music" />
+     <Folder Include="Assets/Resources/Pokemon/F/611" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Explosions/LightningExplosion" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Materials" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Materials/Glows" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Interactive/Powerups/PowerOrbSmall" />
+     <Folder Include="Assets/Resources/Pokemon/B/387S" />
+     <None Include="Assets/Resources/Prefabs/Spine/raptor-pro-and-mask/raptor-pma.atlas.txt" />
+     <Folder Include="Assets/Sprite/Tiles/_tiles/NormalGround_1" />
+     <Folder Include="Assets/Resources/Pokemon/B/136" />
+     <None Include="Assets/Resources/Prefabs/Spine/Hero/hero-pro.json" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Confetti/Shower" />
+     <Folder Include="Assets/Resources/Pokemon/B/547" />
+     <Folder Include="Assets/Sprite/素材例示/大木的门" />
+     <Folder Include="Assets/Sprite/Cha(测试)" />
+     <Folder Include="Assets/Resources/Pokemon/B/475MS" />
+     <Folder Include="Assets/Resources/Prefabs/Base" />
+     <Folder Include="Assets/Resources/Pokemon/F/475" />
+     <Folder Include="Assets/Resources/Pokemon/B/611" />
+     <Folder Include="Assets/Scripts/UI/StartMenuScripts" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Confetti/Blast" />
+     <Folder Include="Assets/Resources/Pokemon/B/197S" />
+     <Folder Include="Assets/Resources/Pokemon/F/393" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Materials/Emoticons" />
+     <Folder Include="Assets/TextMesh Pro/Resources/Fonts &amp; Materials" />
+     <Folder Include="Assets/Resources/Pokemon/B/475" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Firework" />
+     <Folder Include="Assets/Resources/Pokemon/B/257" />
+     <Folder Include="Assets/Resources/Prefabs/UI" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Missiles/NovaSmall" />
+     <Folder Include="Assets/Resources/Pokemon/Expression" />
+     <Folder Include="Assets/Sprite/Cha(测试)/主角目录" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Brawling/Cartoony" />
+     <Folder Include="Assets/Sprite/Cha(测试)/npc" />
+     <Folder Include="Assets/Sprite/AboutUI" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Missiles/NovaMissile" />
+     <Folder Include="Assets/Scene" />
+     <Folder Include="Assets/Sprite/Cha(测试)/npc/男农民" />
+     <Folder Include="Assets/Sprite/Select场景/宝可梦图鉴" />
+     <Folder Include="Assets/Resources/Pokemon/F/499" />
+     <None Include="Assets/Resources/Prefabs/Spine/Goblins/goblins.json" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Materials" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Missile Prefabs/EnergyNova" />
+     <Folder Include="Assets/Resources/Pokemon/F/158" />
+     <Folder Include="Assets/Scripts/UI/Bag" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Muzzleflash/BulletFatMuzzle" />
+     <Folder Include="Assets/Resources/Pokemon/B/8S" />
+     <Folder Include="Assets/Resources/Pokemon/F/253" />
+     <Folder Include="Assets/Resources/Pokemon/B/120S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Materials/shield" />
+     <Folder Include="Assets/Resources/Pokemon/F/248S" />
+     <None Include="Assets/Resources/Prefabs/Spine/spineboy-unity/spineboy-unity.json" />
+     <Folder Include="Assets/Resources/Pokemon/B/148S" />
+     <Folder Include="Assets/PrefabAndScriptableObjects/道具SO/还没弄好的道具" />
+     <Folder Include="Assets/PrefabAndScriptableObjects/道具SO" />
+     <Folder Include="Assets/Resources/Pokemon/B/390S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/BombFuse" />
+     <Folder Include="Assets/Scripts/UI/NewButton/SlideButtons" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Materials/Water" />
+     <Folder Include="Assets/Resources/Pokemon/F/92S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Magic/Enchant" />
+     <Folder Include="Assets/Resources/Pokemon/B/94" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+     <Folder Include="Assets/Resources/Pokemon/F/212S" />
+     <Folder Include="Assets/Sprite/素材例示/大木家" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Missile Prefabs/Bullet" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Underwater" />
+     <Folder Include="Assets/PrefabAndScriptableObjects/道具SO/树果" />
+     <Folder Include="Assets/PrefabAndScriptableObjects/Audio/SE/Anim" />
+     <Folder Include="Assets/TextMesh Pro/Resources" />
+     <Folder Include="Assets/Resources/Pokemon/F/387" />
+     <Folder Include="Assets/Resources/Pokemon/B/93S" />
+     <Folder Include="Assets/Scripts/AVG/Game/UI" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Models" />
+     <Folder Include="Assets/Resources/Pokemon/F/371S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Missiles/Laser" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Magic/Circle" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Missile Prefabs/Lightning" />
+     <Folder Include="Assets/Resources/Pokemon/F/90" />
+     <Folder Include="Assets/Resources/Pokemon/F/570S" />
+     <Folder Include="Assets/Resources/Pokemon/F/197S" />
+     <Folder Include="Assets/Resources/Prefabs/UI/Novels/Element" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Magic/Buff" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Textures/Emoticons/PNG" />
+     <Folder Include="Assets/Sprite/mapTip" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs 2D/Blood/Green" />
+     <Folder Include="Assets/Resources/Pokemon/F/188S" />
+     <Folder Include="Assets/Scripts/AVG/Game/Excel/Scripts/Config" />
+     <Folder Include="Assets/Resources/Pokemon/F/215" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Muzzleflash/- Misc/GunFire" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Materials/Fire" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Missiles/Magic" />
+     <Folder Include="Assets/Resources/Pokemon/B/77S" />
+     <Folder Include="Assets/Resources/Pokemon/F/123" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Textures/Emoticons/PNG" />
+     <Folder Include="Assets/Resources/Pokemon/F/257" />
+     <Folder Include="Assets/Resources/Pokemon/B/130S" />
+     <Folder Include="Assets/Resources/Pokemon/F/390S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Materials/Bubbles" />
+     <Folder Include="Assets/Resources/Prefabs/UI/Novels/Animation" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Muzzleflash/RocketMuzzle" />
+     <Folder Include="Assets/Resources/Pokemon/B/394S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Missile Prefabs" />
+     <Folder Include="Assets/Resources/Sound/Mixer" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Muzzleflash/MagicSoftMuzzle" />
+     <Folder Include="Assets/PrefabAndScriptableObjects" />
+     <Folder Include="Assets/Resources/Pokemon/B/121S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Interactive/Portals/SpinPortal" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Missile Prefabs/Nuke" />
+     <Folder Include="Assets/Scripts/UI/NewButton/D_Pad" />
+     <Folder Include="Assets/Resources/Pokemon/F/570" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Missiles/Mystic" />
+     <None Include="Assets/Resources/Prefabs/Spine/mix-and-match/mix-and-match-pro.json" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Materials/Glows" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Fire/Soft/Alpha Blend" />
+     <Folder Include="Assets/Resources/Pokemon/B/134S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Sword/SwordHitCritical" />
+     <Folder Include="Assets/Scripts/Extra" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Magic/Sphere" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Textures" />
+     <Folder Include="Assets/Resources/Pokemon/F/77S" />
+     <Folder Include="Assets/Sprite/Tiles/AnimTiles" />
+     <Folder Include="Assets/Resources/Pokemon/B/154S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Materials/Geometric" />
+     <Folder Include="Assets/Resources/Pokemon/F/129" />
+     <Folder Include="Assets/Resources/Pokemon/B/570" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Interactive/Zone/SpinZone" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Materials" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Textures/Text/Materials" />
+     <Folder Include="Assets/Resources/Pokemon/B/253" />
+     <Folder Include="Assets/Resources/Pokemon/B/498" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs 2D/Water" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Explosions/NovaSmallExplosion" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+     <Folder Include="Assets/Sprite/SpriteAtlas" />
+     <Folder Include="Assets/Resources/Prefabs/Spine/Gauge" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/ParticleEffects/波导弹" />
+     <None Include="Assets/Resources/Prefabs/Spine/Dragon/dragon.json" />
+     <Folder Include="Assets/Resources/Pokemon/F/560S" />
+     <Folder Include="Assets/Resources/Pokemon/F/2S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Missiles/FatBullet" />
+     <Folder Include="Assets/Resources/Pokemon/F/130" />
+     <Folder Include="Assets/Resources/Pokemon/F/281S" />
+     <Folder Include="Assets/Resources/Pokemon/B/188S" />
+     <Folder Include="Assets/Resources/Pokemon/F/388" />
+     <Folder Include="Assets/Resources/Effect" />
+     <Folder Include="Assets/Resources/Pokemon/B/1" />
+     <Folder Include="Assets/Resources/Pokemon/B/252S" />
+     <Folder Include="Assets/Resources/Pokemon/F/94S" />
+     <Folder Include="Assets/Resources/Pokemon/F/148" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Materials/Confetti" />
+     <Folder Include="Assets/Sprite/Cha(测试)/主角目录/斗也" />
+     <Folder Include="Assets/Resources/EventScene" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs 2D" />
+     <Folder Include="Assets/Resources/Prefabs/UI/Novels" />
+     <Folder Include="Assets/Resources/Pokemon/B/610" />
+     <Folder Include="Assets/Resources/Pokemon/F/157S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Missiles/Rocket" />
+     <Folder Include="Assets/Resources/Prefabs/Spine/Spineunitygirl" />
+     <Folder Include="Assets/Resources/Pokemon/B/499" />
+     <Folder Include="Assets/Resources/Pokemon/F/55S" />
+     <Folder Include="Assets/Resources/Pokemon/F/560" />
+     <Folder Include="Assets/Resources/Pokemon/F/91" />
+     <Folder Include="Assets/Resources/Pokemon/F/551S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Textures/Text/Materials" />
+     <Folder Include="Assets/TextMesh Pro" />
+     <Folder Include="Assets/Sprite/测试用调色板及瓦片" />
+     <Folder Include="Assets/Resources/Pokemon/B/155S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Explosions/RoundExplosion" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Materials/shield" />
+     <Folder Include="Assets/Scripts/PokeBase/Subcategories/Ability" />
+     <Folder Include="Assets/Resources/Pokemon/B/55S" />
+     <Folder Include="Assets/Sprite/地形(测试)" />
+     <Folder Include="Assets/Resources/Pokemon/F/151S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Textures/Emoticons/TGA" />
+     <Folder Include="Assets/Sprite/徽章(已制作完成)" />
+     <Folder Include="Assets/Resources/Pokemon/F/130S" />
+     <Folder Include="Assets/Scripts/UI/ZEnhancedScroll" />
+     <Folder Include="Assets/PrefabAndScriptableObjects/TileMapAnim" />
+     <Folder Include="Assets/Resources/Pokemon/F/390" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Missile Prefabs/Soul" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/ParticleEffects" />
+     <Folder Include="Assets/Resources/Pokemon/F/498S" />
+     <Folder Include="Assets/Scripts/PokeBase" />
+     <Folder Include="Assets/Resources/Pokemon/B/570S" />
+     <Folder Include="Assets/Resources/Pokemon/B/136S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Explosions" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Explosions/TallExplosion" />
+     <Folder Include="Assets/Resources/Music/BattleEffect" />
+     <Folder Include="Assets/Scripts/Extra/ScriptBase" />
+     <Folder Include="Assets/Resources/Pokemon/B/91S" />
+     <Folder Include="Assets/Resources/Pokemon/F/16" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Interactive/Powerups/PowerOrb" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Sword/Legacy/SwordHitLegacy" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Fireflies" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Missiles/MagicSoft" />
+     <Folder Include="Assets/Resources/Pokemon/F/252" />
+     <Folder Include="Assets/Resources/Pokemon/F/249" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Materials/Geometric" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs 2D/Blood" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Materials/Fire" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Sword/MagicSwordHit" />
+     <Folder Include="Assets/PrefabAndScriptableObjects/背包SO" />
+     <Folder Include="Assets/Resources/Pokemon/F/252S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Water" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Materials/Clouds" />
+     <Folder Include="Assets/Sprite/素材例示" />
+     <Folder Include="Assets/Resources/Config" />
+     <Folder Include="Assets/Resources/Pokemon/F/253S" />
+     <None Include="Assets/Resources/Prefabs/Spine/Raggedy Spineboy/raggedy spineboy.json" />
+     <Folder Include="Assets/Samples/LDtk to Unity/3.3.3" />
+     <Folder Include="Assets/Resources/Pokemon/F/5S" />
+     <Folder Include="Assets/Resources/Pokemon/B/502" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Textures/Skybox" />
+     <Folder Include="Assets/Resources/Pokemon/B/2S" />
+     <Folder Include="Assets/Resources/Prefabs/Spine/spineboy-unity/ReferenceAssets" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Smoke" />
+     <Folder Include="Assets/DataAssets" />
+     <None Include="Assets/Resources/Prefabs/Spine/Goblins/goblins.atlas.txt" />
+     <Folder Include="Assets/Resources/Pokemon/F/280" />
+     <Folder Include="Assets/Resources/Pokemon/F/443S" />
+     <Folder Include="Assets/Resources/Pokemon/B/160" />
+     <Folder Include="Assets/Resources/Pokemon/B/461S" />
+     <Folder Include="Assets/Scripts/BuildBase" />
+     <Folder Include="Assets/Sprite/地形(测试)/TileFile" />
+     <Folder Include="Assets/Resources/Pokemon/B/212S" />
+     <Folder Include="Assets/Resources/Prefabs/Spine/Spineunitygirl/ReferenceAssets" />
+     <Folder Include="Assets/Resources/Winlu Fantasy Tileset - Interior(地编)" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Explosions/LaserExplosion" />
+     <Folder Include="Assets/Sprite/Tiles/_tiles/terrain_1" />
+     <Folder Include="Assets/Resources/Prefabs/Spine/Raptor/ReferenceAssets" />
+     <Folder Include="Assets/Resources/Music/SoundEffect" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Explosions/SoulExplosion" />
+     <Folder Include="Assets/Resources/Texture/UI" />
+     <Folder Include="Assets/Resources/Pokemon/B/215" />
+     <Folder Include="Assets/Resources/Pokemon/B/387" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Lightning" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Muzzleflash/LaserMuzzle" />
+     <Folder Include="Assets/Scripts/UI/SelectPanel" />
+     <Folder Include="Assets/Resources/Pokemon/F/247" />
+     <Folder Include="Assets/Resources/Pokemon/F/54S" />
+     <Folder Include="Assets/Sprite/封面和logo/开始界面动画" />
+     <Folder Include="Assets/Resources/Pokemon/B/151" />
+     <Folder Include="Assets/Resources/Pokemon/B/55" />
+     <Folder Include="Assets/Sprite/Cha(测试)/头像" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Blood/Cardboard" />
+     <Folder Include="Assets/Resources/Pokemon/F/4S" />
+     <Folder Include="Assets/Sprite/mini全(宝可梦制作完成后放Resources里)" />
+     <Folder Include="Assets/Resources/TMini" />
+     <Folder Include="Assets/Sprite" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Explosions/MagicExplosion" />
+     <None Include="Assets/Resources/Prefabs/Spine/Hero/hero-pro.atlas.txt" />
+     <Folder Include="Assets/Resources/Pokemon/B/94S" />
+     <Folder Include="Assets/Resources/Pokemon/F/8S" />
+     <Folder Include="Assets/Resources/Pokemon/F/176S" />
+     <Folder Include="Assets/Scripts/UI/NewButton" />
+     <Folder Include="Assets/Samples" />
+     <Folder Include="Assets/Scripts/UI/DetailPanel" />
+     <Folder Include="Assets/Excel" />
+     <Folder Include="Assets/Scripts/AVG/Game/Excel" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Blood/Green" />
+     <Folder Include="Assets/Resources/Pokemon/F/447" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Blood" />
+     <Folder Include="Assets/PrefabAndScriptableObjects/Audio/SE/Cries" />
+     <Folder Include="Assets/Sprite/Tiles/Paletters" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/ParticleEffects/烟幕弹" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Materials/Misc" />
+     <Folder Include="Assets/Resources/Pokemon/F/255S" />
+     <Folder Include="Assets/Resources/Pokemon/F/136" />
+     <Folder Include="Assets/Resources/Pokemon/B/258S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Liquid" />
+     <Folder Include="Assets/Samples/LDtk to Unity" />
+     <None Include="Assets/Scripts/说明.txt" />
+     <Folder Include="Assets/Resources/Pokemon/B/152S" />
+     <Folder Include="Assets/Resources/Pokemon/F/372S" />
+     <Folder Include="Assets/Resources/Pokemon/F/8" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX" />
+     <Folder Include="Assets/Resources/Pokemon" />
+     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs 2D/Water/Flowing" />
+     <Folder Include="Assets/Resources/Prefabs/Spine/spineboy-pro/ReferenceAssets" />
+     <Folder Include="Assets/Resources/Pokemon/F/123S" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Materials/Skybox" />
+     <Folder Include="Assets/Scripts/PokeBase/Data" />
+     <Folder Include="Assets/Resources/Prefabs/Spine" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Missile Prefabs/Laser" />
+     <Folder Include="Assets/Resources/Pokemon/B/176S" />
+     <Folder Include="Assets/Resources/Pokemon/F/147S" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
+     <Folder Include="Assets/Resources/Pokemon/B/134" />
+     <Folder Include="Assets/Resources/Pokemon/B/547S" />
+     <Folder Include="Assets/Scripts/AVG/Tools" />
+     <Folder Include="Assets/Resources/Pokemon/F/212" />
+     <Folder Include="Assets/Resources/Pokemon/F/154" />
+     <Folder Include="Assets/Resources/Pokemon/F/157" />
+     <Folder Include="Assets/Resources/Texture/Chara/CS009-日漫风人物立绘" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Models/Materials" />
+     <Folder Include="Assets/Resources/Pokemon/B" />
+     <Folder Include="Assets/Scripts" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Fog/White" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs 2D/Explosions" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
+     <Folder Include="Assets/Resources/Pokemon/F/448S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Demo Prefabs/GUI Prefabs" />
+     <Folder Include="Assets/Resources/Pokemon/B/248S" />
+     <Folder Include="Assets/Resources/Pokemon/B/280" />
+     <Folder Include="Assets/Resources/Pokemon/B/5" />
+     <Folder Include="Assets/Resources/PokemonSO" />
+     <Folder Include="Assets/Resources/Prefabs/Spine/Eyes" />
+     <Folder Include="Assets/Resources/Pokemon/B/475M" />
+     <Folder Include="Assets/Scene/Test/EffectsTestScene" />
+     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+     <Folder Include="Assets/Resources/Pokemon/B/158S" />
+     <Folder Include="Assets/PrefabAndScriptableObjects/Audio" />
+     <Folder Include="Assets/Resources/Pokemon/F/159S" />
+     <None Include="Assets/Plugins/Spine/package.json" />
+     <Folder Include="Assets/Resources/Pokemon/F/393S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Materials/Water" />
+     <Folder Include="Assets/Resources/Pokemon/F/256S" />
+     <Folder Include="Assets/Sprite/Npc(测试)" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs 2D/Weather" />
+     <Folder Include="Assets/Resources/Pokemon/F/461" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+     <Folder Include="Assets/Resources/Pokemon/B/281" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Stars" />
+     <Folder Include="Assets/Resources/Pokemon/F/197" />
+     <Folder Include="Assets/Scripts/AVG/Game/Helper" />
+     <Folder Include="Assets/Resources/Pokemon/F/175" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Fire" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Muzzleflash" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/ParticleEffects/电球" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Muzzleflash/NukeMuzzle" />
+     <Folder Include="Assets/Resources/Pokemon/F/4" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Lightning/Soft" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Explosions/FireballExplosion" />
+     <Folder Include="Assets/Resources/Config/NovelsChapters" />
+     <Folder Include="Assets/Resources/Pokemon/F/349" />
+     <Folder Include="Assets/Resources/Pokemon/B/4S" />
+     <Folder Include="Assets/Resources/Pokemon/F/25" />
+     <Folder Include="Assets/Resources/Pokemon/F/156" />
+     <Folder Include="Assets/Resources/Pokemon/F/5" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Fire/Soft/Additive" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Flamethrower/Soft" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Brawling" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Missiles/Nuke" />
+     <Folder Include="Assets/Resources/Pokemon/B/502S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Weather" />
+     <Folder Include="Assets/Resources/Pokemon/F/1" />
+     <None Include="Assets/Resources/Prefabs/Spine/Spineunitygirl/Doi.atlas.txt" />
+     <Folder Include="Assets/Resources/Pokemon/B/448" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Missile Prefabs/Magic" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Missiles" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Explosions/MysticExplosion" />
+     <Folder Include="Assets/Resources/Pokemon/B/443" />
+     <Folder Include="Assets/Resources/Texture/Chara/CH04" />
+     <Folder Include="Assets/PrefabAndScriptableObjects/特性SO" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+     <Folder Include="Assets/Scripts/UI/Shop" />
+     <Folder Include="Assets/Resources/Music/BattleBgm" />
+     <Folder Include="Assets/PrefabAndScriptableObjects/道具SO/重要道具" />
+     <Folder Include="Assets/TextMesh Pro/Shaders" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/ParticleEffectsShowcase/Scenes" />
+     <Folder Include="Assets/Resources/Prefabs/Spine/FootSoldier/Equipment" />
+     <Folder Include="Assets/Resources/Pokemon/F/147" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs 2D/Blood/Yellow" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Explosions/NukeExplosion" />
+     <Folder Include="Assets/Resources/Pokemon/B/5S" />
+     <Folder Include="Assets/Resources/Pokemon/F/247S" />
+     <Folder Include="Assets/Resources/Texture/UI/dialog" />
+     <Folder Include="Assets/Resources/Pokemon/F/547" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Textures/Emoticons/TGA" />
+     <Folder Include="Assets/Resources/Pokemon/F/175S" />
+     <Folder Include="Assets/Resources/Pokemon/F/160" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Materials/Magic" />
+     <Folder Include="Assets/Sprite/Tiles" />
+     <Folder Include="Assets/Resources/Pokemon/B/135S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Muzzleflash/EnergyNovaSmallMuzzle" />
+     <None Include="Assets/Resources/Prefabs/Spine/Raptor/raptor.json" />
+     <Folder Include="Assets/Resources/Pokemon/B/147" />
+     <Folder Include="Assets/Resources/Pokemon/B/247S" />
+     <Folder Include="Assets/Sprite/封面和logo" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Interactive/Flares" />
+     <Folder Include="Assets/TextMesh Pro/Resources/Style Sheets" />
+     <Folder Include="Assets/Resources/Pokemon/B/256" />
+     <Folder Include="Assets/TextMesh Pro/Fonts" />
+     <None Include="Assets/Resources/Prefabs/Spine/Gauge/Gauge.atlas.txt" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Explosions/MagicSoftExplosion" />
+     <Folder Include="Assets/Resources/Prefabs/Spine/FootSoldier" />
+     <Folder Include="Assets/Scripts/PokeBase/Quest" />
+     <Folder Include="Assets/Resources/Pokemon/Follow" />
+     <Folder Include="Assets/Resources/Pokemon/F/446" />
+     <Folder Include="Assets/Sprite/Select场景" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/ParticleEffects/枫叶" />
+     <Folder Include="Assets/Resources/Pokemon/F/384" />
+     <Folder Include="Assets/Resources/Status" />
+     <Folder Include="Assets/Resources/Pokemon/B/2" />
+     <Folder Include="Assets/Resources/Sound" />
+     <Folder Include="Assets/Resources/Pokemon/B/371S" />
+     <Folder Include="Assets/Resources/Pokemon/B/349" />
+     <Folder Include="Assets/Resources/Pokemon/B/246S" />
+     <Folder Include="Assets/Resources/Pokemon/B/135" />
+     <Folder Include="Assets/Resources/Pokemon/F/54" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Materials/Portals" />
+     <Folder Include="Assets/Resources/Pokemon/F/129S" />
+     <Folder Include="Assets/Resources/Pokemon/F/120S" />
+     <Folder Include="Assets/Resources/Pokemon/F/94" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Sword/SwordHit" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Dust" />
+     <Folder Include="Assets/Resources/Pokemon/F/121S" />
+     <Folder Include="Assets/Sprite/Select场景/背包" />
+     <Folder Include="Assets/Scripts/BuildBase/InputSystem" />
+     <None Include="Assets/Resources/Prefabs/Spine/Dragon/license.txt" />
+     <Folder Include="Assets/Resources/Pokemon/B/390" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Interactive/Zone/BasicZone" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Textures/Text" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Muzzleflash/- Misc" />
+     <Folder Include="Assets/Scripts/UI/CustomUI" />
+     <Folder Include="Assets/Resources/Pokemon/B/154" />
+     <Folder Include="Assets/Scripts/UI/SelectPanel/图鉴(目前没用 而且没有做的必要)" />
+     <Folder Include="Assets/Resources/Pokemon/B/393S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Muzzleflash/EnergyNovaMuzzle" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Confetti" />
+     <Folder Include="Assets/PrefabAndScriptableObjects/道具SO/战斗道具" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo" />
+     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+     <Folder Include="Assets/Resources/Pokemon/B/90" />
+     <Folder Include="Assets/Resources" />
+     <Folder Include="Assets/Resources/Pokemon/F/384S" />
+     <Folder Include="Assets/Resources/Pokemon/F/475S" />
+     <Folder Include="Assets/Resources/Pokemon/B/16S" />
+     <Folder Include="Assets/Resources/Pokemon/B/610S" />
+     <Folder Include="Assets/Resources/Pokemon/F/77" />
+     <Folder Include="Assets/Resources/Pokemon/B/444S" />
+     <Folder Include="Assets/Resources/Pokemon/F/371" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Textures/Text" />
+     <Folder Include="Assets/Resources/Pokemon/B/160S" />
+     <Folder Include="Assets/Resources/Pokemon/B/498S" />
+     <Folder Include="Assets/Resources/Pokemon/F/155" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Explosions/NukeVerticalExplosion" />
+     <Folder Include="Assets/Resources/Pokemon/F/135" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Missile Prefabs/Fireball" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Textures/Emoticons" />
+     <Folder Include="Assets/Scene/Test" />
+     <Folder Include="Assets/Resources/Pokemon/F/133" />
+     <Folder Include="Assets/Resources/Texture/Chara/CH03" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects" />
+     <Folder Include="Assets/Resources/Pokemon/F/215S" />
+     <Folder Include="Assets/Resources/Pokemon/B/123" />
+     <Folder Include="Assets/Resources/Prefabs/Spine/Dragon" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Muzzleflash/FireballMuzzle" />
+     <Folder Include="Assets/Resources/Pokemon/B/447S" />
+     <None Include="Assets/Resources/Prefabs/Spine/mix-and-match/mix-and-match-pma.atlas.txt" />
+     <None Include="Assets/Resources/Prefabs/Spine/spineboy-pro/spineboy-pro.atlas.txt" />
+     <Folder Include="Assets/Resources/Pokemon/B/25" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Missile Prefabs/MagicSoft" />
+     <Folder Include="Assets/Resources/Pokemon/B/393" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Water/Flowing" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Explosions/StarExplosion" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/ParticleEffects/种子机关枪" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Fog/Grey" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Scenes/Secrets" />
+     <Folder Include="Assets/Resources/2DxFx/Material/NoneScript" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Brawling/Soft" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Textures" />
+     <Folder Include="Assets/Resources/Pokemon/F/610" />
+     <Folder Include="Assets/Resources/Debug" />
+     <Folder Include="Assets/Sprite/测试用调色板及瓦片/tile" />
+     <Folder Include="Assets/Resources/Pokemon/B/371" />
+     <Folder Include="Assets/Resources/Pokemon/F/160S" />
+     <Folder Include="Assets/Scene/BW" />
+     <Folder Include="Assets/Sprite/Items(已分类)" />
+     <Folder Include="Assets/Resources/Pokemon/B/147S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs 2D/Blood/Red" />
+     <Folder Include="Assets/Resources/Pokemon/B/372S" />
+     <Folder Include="Assets/Resources/Pokemon/B/188" />
+     <Folder Include="Assets/Sprite/Cha(测试)/npc/男市民" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Flamethrower/Soft/Additive" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Demo Prefabs" />
+     <Folder Include="Assets/Resources/Pokemon/F/91S" />
+     <Folder Include="Assets/Resources/Pokemon/B/133S" />
+     <Folder Include="Assets/Resources/Prefabs/Spine/Hero" />
+     <Folder Include="Assets/Sprite/地形(测试)/调色盘Palettes" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Stars/StarFog" />
+     <Folder Include="Assets/Resources/Pokemon/B/349S" />
+     <Folder Include="Assets/Resources/Pokemon/F/246" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Sword/SwordSlash" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Flamethrower/Soft/Alpha Blend" />
+     <Folder Include="Assets/ParticleAndShader" />
+     <None Include="Assets/Resources/Prefabs/Spine/FootSoldier/FS_White.atlas.txt" />
+     <Folder Include="Assets/Resources/Pokemon/B/446S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Muzzleflash/BulletMuzzle" />
+     <None Include="Assets/Resources/Prefabs/Spine/spineboy-unity/spineboy.atlas.txt" />
+     <Folder Include="Assets/Resources/Texture/UI/ReCall" />
+     <Folder Include="Assets/Resources/Pokemon/F/159" />
+     <Folder Include="Assets/Resources/Pokemon/B/16" />
+     <Folder Include="Assets/Scripts/AVG/Game" />
+     <Folder Include="Assets/Resources/Pokemon/F/92" />
+     <Folder Include="Assets/Sprite/Tiles/_tiles/tree_1" />
+     <Folder Include="Assets/Resources/Pokemon/B/499S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Textures" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Explosions/FrostExplosion" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Explosions/BulletFatExplosion" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Magic/PillarBlast" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Muzzleflash/MysticMuzzle" />
+     <Folder Include="Assets/Resources/Pokemon/F/444" />
+     <Folder Include="Assets/Scripts/AVG/Game/Character" />
+     <Folder Include="Assets/Resources/Pokemon/F/280S" />
+     <Folder Include="Assets/Resources/Pokemon/B/551" />
+     <Folder Include="Assets/Scripts/SavingSys" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Smoke/Dark" />
+     <Folder Include="Assets/Resources/Pokemon/B/91" />
+     <Folder Include="Assets/Resources/Pokemon/F/349S" />
+     <Folder Include="Assets/Scripts/PokeBase/BaseData" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Fire/Soft" />
+     <Folder Include="Assets/Resources/Pokemon/F/447S" />
+     <Folder Include="Assets/Resources/Pokemon/B/248" />
+     <Folder Include="Assets/Resources/Pokemon/B/92" />
+     <Folder Include="Assets/Scripts/AVG/Game/Timeline" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Missile Prefabs/BulletFat" />
+     <Folder Include="Assets/Resources/Pokemon/F/448" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Materials/Confetti" />
+     <Folder Include="Assets/Resources/2DxFx" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Blood/Yellow" />
+     <Folder Include="Assets/Resources/Pokemon/F/259S" />
+     <Folder Include="Assets/Resources/Pokemon/F/1S" />
+     <Folder Include="Assets/Resources/Pokemon/F/610S" />
+     <Folder Include="Assets/Resources/Pokemon/B/247" />
+     <Folder Include="Assets/Scripts/AVG/Game/Scene" />
+     <Folder Include="Assets/Scripts/Manager" />
+     <Folder Include="Assets/Scripts/UI/SelectPanel/TrainerCard" />
+     <Folder Include="Assets/Resources/Prefabs/Spine/Raptor" />
+     <Folder Include="Assets/Resources/Winlu Fantasy Tileset - Interior(地编)/characters" />
+     <None Include="Assets/Resources/Prefabs/Spine/Hero/license.txt" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Explosions/SmallExplosion" />
+     <Folder Include="Assets/Resources/Pokemon/F/258S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Materials/Portals" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/ParticleEffects/Materials" />
+     <Folder Include="Assets/Resources/Pokemon/B/152" />
+     <Folder Include="Assets/Scripts/UI/ChoosePanel" />
+     <Folder Include="Assets/Resources/Pokemon/F/372" />
+     <Folder Include="Assets/Resources/Prefabs/Spine/Hero/ReferenceAssets" />
+     <Folder Include="Assets/Resources/Winlu Fantasy Tileset - Interior(地编)/tilesets" />
+     <Folder Include="Assets/Scripts/RoleCtrl/Player" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Materials/Bubbles" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Materials/Splat" />
+     <Folder Include="Assets/Resources/Pokemon/B/259" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Interactive/Powerups/PowerupGlow" />
+     <Folder Include="Assets/Resources/Texture/UI/CardChoice" />
+     <Folder Include="Assets/Resources/Pokemon/B/158" />
+     <Folder Include="Assets/PrefabAndScriptableObjects/Audio/SE" />
+     <Folder Include="Assets/Resources/Pokemon/B/560S" />
+     <Folder Include="Assets/Resources/Pokemon/B/77" />
+     <Folder Include="Assets/Scripts/UI/PokemonPC" />
+     <Folder Include="Assets/Resources/Pokemon/F/255" />
+     <Folder Include="Assets/Resources/Pokemon/F/155S" />
+     <Folder Include="Assets/Scripts/PokeBase/Subcategories/Item" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Interactive/Loot/ItemSparkle" />
+     <Folder Include="Assets/Scripts/AVG" />
+     <None Include="Assets/Scripts/AboutMap/GridTileRule.txt" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Fire/Cartoon" />
+     <Folder Include="Assets/Resources/Pokemon/F/499S" />
+     <Folder Include="Assets/Resources/Pokemon/B/560" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Magic" />
+     <Folder Include="Assets/Resources/Skill" />
+     <Folder Include="Assets/Resources/Pokemon/F/281" />
+     <None Include="Assets/Resources/Prefabs/Spine/Raggedy Spineboy/Raggedy Spineboy.atlas.txt" />
+     <Folder Include="Assets/Resources/Pokemon/B/123S" />
+     <Folder Include="Assets/Resources/Prefabs/Spine/Goblins" />
+     <Folder Include="Assets/Resources/Pokemon/F/151" />
+     <Folder Include="Assets/Resources/Pokemon/B/394" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Explosions/NovaExplosion" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
+     <None Include="Assets/Resources/Prefabs/Spine/Raptor/raptor.atlas.txt" />
+     <Folder Include="Assets/Resources/Pokemon/B/257S" />
+     <Folder Include="Assets/Resources/Pokemon/B/461" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Scenes" />
+     <Folder Include="Assets/Resources/Pokemon/B/157S" />
+     <Folder Include="Assets/Resources/Pokemon/B/215S" />
+     <Folder Include="Assets/Excel/Chapter" />
+     <Folder Include="Assets/Resources/Texture/UI/dialog/NVDI_Dialogue_petition" />
+     <Folder Include="Assets/Scripts/RoleCtrl/NpcBase" />
+     <Folder Include="Assets/Resources/Pokemon/F" />
+     <None Include="Assets/Scripts/BuildBase/说明.txt" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Missiles/Frost" />
+     <Folder Include="Assets/Resources/Texture/Chara" />
+     <Folder Include="Assets/Resources/Pokemon/B/129S" />
+     <Folder Include="Assets/Resources/PlayerSpriteBase" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+     <Folder Include="Assets/Resources/Texture" />
+     <Folder Include="Assets/Resources/Pokemon/B/1S" />
+     <Folder Include="Assets/Resources/Prefabs/Spine/mix-and-match" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Fog/Black" />
+     <Folder Include="Assets/Resources/Pokemon/B/259S" />
+     <Folder Include="Assets/Resources/Pokemon/B/129" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Fire/TallFire" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Textures/Emoticons" />
+     <Folder Include="Assets/Resources/SkillSO" />
+     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Sword/Legacy" />
+     <Folder Include="Assets/Resources/Pokemon/F/156S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Magic/Charge" />
+     <Folder Include="Assets/Resources/Pokemon/F/136S" />
+     <Folder Include="Assets/TextMesh Pro/Documentation" />
+     <Folder Include="Assets/Resources/Pokemon/F/394S" />
+     <Folder Include="Assets/Resources/Pokemon/B/133" />
+     <Folder Include="Assets/Resources/Pokemon/B/197" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Scripts" />
+     <Folder Include="Assets/Resources/Pokemon/F/120" />
+     <Folder Include="Assets/Resources/Pokemon/F/258" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/ParticleEffectsShowcase/Prefabs" />
+     <Folder Include="Assets/Resources/Pokemon/B/93" />
+     <Folder Include="Assets/Resources/Pokemon/F/394" />
+     <Folder Include="Assets/Scripts/AboutMap" />
+     <Folder Include="Assets/PrefabAndScriptableObjects/道具SO/普通道具" />
+     <None Include="Assets/Resources/Prefabs/Spine/Eyes/eyes.json" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Weather/Snow" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Missiles/Lightning" />
+     <None Include="Assets/Resources/Prefabs/Spine/Spineunitygirl/Doi.json" />
+     <Folder Include="Assets/Scripts/Battle" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+     <Folder Include="Assets/Sprite/AboutUI/TrainerCard" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Muzzleflash/MagicMuzzle" />
+     <Folder Include="Assets/Sprite/Tiles/_tiles/bw_house_1" />
+     <Folder Include="Assets/Resources/Pokemon/B/256S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Brawling/RoundHit" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Materials/Misc" />
+     <Folder Include="Assets/Sprite/Tiles/_tiles" />
+     <Folder Include="Assets/Resources/Pokemon/F/152" />
+     <Folder Include="Assets/Scripts/RoleCtrl/AboutObject" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Blood/Red" />
+     <Folder Include="Assets/Resources/Pokemon/B/475S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Sword/Legacy/SwordHitCriticalLegacy" />
+     <None Include="Assets/Resources/Prefabs/Spine/FootSoldier/Equipment/Equipment.atlas.txt" />
+     <Folder Include="Assets/Resources/Pokemon/B/130" />
+     <Folder Include="Assets/Scripts/UI" />
+     <Folder Include="Assets/Scripts/RoleCtrl" />
+     <Folder Include="Assets/Resources/Pokemon/B/253S" />
+     <None Include="Assets/Resources/Prefabs/Spine/FootSoldier/license.txt" />
+     <Folder Include="Assets/Resources/Pokemon/F/387S" />
+     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne.json" />
+     <Folder Include="Assets/Resources/Pokemon/B/252" />
+     <Folder Include="Assets/Resources/Pokemon/F/55" />
+     <Folder Include="Assets/Resources/Pokemon/B/175S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Environment/Sparks" />
+     <Folder Include="Assets/Resources/Pokemon/F/152S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Materials/Sparkle" />
+     <Folder Include="Assets/Resources/Pokemon/F/16S" />
+     <Folder Include="Assets/Resources/Pokemon/F/134S" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Demo/Missile Prefabs/Rocket" />
+     <Folder Include="Assets/Resources/Prefabs/Spine/spineboy-unity/Equips" />
+     <Folder Include="Assets/Sprite/测试用调色板及瓦片/test" />
+     <None Include="Assets/Resources/Prefabs/Spine/Gauge/Gauge.json" />
+     <Folder Include="Assets/Resources/Pokemon/B/444" />
+     <Folder Include="Assets/Resources/Pokemon/F/256" />
+     <Folder Include="Assets/Resources/Pokemon/F/461S" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
+     <Folder Include="Assets/Resources/Pokemon/B/246" />
+     <Folder Include="Assets/Resources/Pokemon/F/158S" />
+     <Folder Include="Assets/Resources/Pokemon/F/443" />
+     <Folder Include="Assets/Resources/Pokemon/F/133S" />
+     <Folder Include="Assets/Resources/Pokemon/B/156" />
+     <Folder Include="Assets/Resources/Pokemon/B/212" />
+     <Folder Include="Assets/ParticleAndShader/ParticleEffects/Epic Toon FX/Prefabs/Combat/Text" />
+     <Folder Include="Assets/PrefabAndScriptableObjects/道具SO/药" />
+     <Folder Include="Assets/Sprite/AboutBattle" />
+     <Folder Include="Assets/Resources/Pokemon/B/120" />
+     <Folder Include="Assets/Sprite/建筑(测试)" />
+     <Reference Include="UnityEngine">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AIModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ARModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AccessibilityModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AndroidJNIModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AnimationModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AssetBundleModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AudioModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClothModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClusterInputModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClusterRendererModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ContentLoadModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CoreModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CrashReportingModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.DSPGraphModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.DirectorModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GIModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GameCenterModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GridModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.HotReloadModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.IMGUIModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ImageConversionModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.InputModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.InputLegacyModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.JSONSerializeModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.LocalizationModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ParticleSystemModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PerformanceReportingModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PhysicsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.Physics2DModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ProfilerModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PropertiesModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PropertiesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ScreenCaptureModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SharedInternalsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SpriteMaskModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SpriteShapeModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.StreamingModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SubstanceModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SubsystemsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TLSModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TerrainModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TerrainPhysicsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextCoreFontEngineModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextCoreTextEngineModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextRenderingModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TilemapModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIElementsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UmbraModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityAnalyticsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityConnectModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityCurlModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityTestProtocolModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VFXModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VRModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VehiclesModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VideoModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VirtualTexturingModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.WindModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.XRModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.CoreModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.DeviceSimulatorModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.DiagnosticsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.EditorToolbarModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.GraphViewModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.PresetsUIModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.QuickSearchModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.SceneTemplateModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.SceneViewModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.SceneViewModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.TextCoreFontEngineModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.TextCoreTextEngineModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIBuilderModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIElementsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIElementsSamplesModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UnityConnectModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="ICSharpCode.SharpZipLib">
+     <HintPath>/Users/user/RPGF/zpokemonz/Assets/Plugins/org.aaubry.yaml/org.icsharpcode.sharpziplib/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.Reflection.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Assets/Plugins/Sirenix/Assemblies/Sirenix.Reflection.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Collections.LowLevel.ILSupport">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.Serialization">
+     <HintPath>/Users/user/RPGF/zpokemonz/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="DemiLib">
+     <HintPath>/Users/user/RPGF/zpokemonz/Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.Serialization.Config">
+     <HintPath>/Users/user/RPGF/zpokemonz/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.OdinInspector.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.OdinInspector.Attributes">
+     <HintPath>/Users/user/RPGF/zpokemonz/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.Utilities">
+     <HintPath>/Users/user/RPGF/zpokemonz/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTween">
+     <HintPath>/Users/user/RPGF/zpokemonz/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+     </Reference>
+     <Reference Include="YamlDotNet">
+     <HintPath>/Users/user/RPGF/zpokemonz/Assets/Plugins/org.aaubry.yaml/YamlDotNet.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTweenPro">
+     <HintPath>/Users/user/RPGF/zpokemonz/Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+     </Reference>
+     <Reference Include="Excel">
+     <HintPath>/Users/user/RPGF/zpokemonz/Assets/Plugins/org.aaubry.yaml/org.icsharpcode.sharpziplib/Plugins/Excel.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.Utilities.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="EPPlus">
+     <HintPath>/Users/user/RPGF/zpokemonz/Assets/Plugins/org.aaubry.yaml/org.icsharpcode.sharpziplib/Plugins/EPPlus.dll</HintPath>
+     </Reference>
+     <Reference Include="mscorlib">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll</HintPath>
+     </Reference>
+     <Reference Include="System">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Core">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Runtime.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.Linq">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Numerics">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Numerics.Vectors">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.Vectors.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Http">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Net.Http.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.dll</HintPath>
+     </Reference>
+     <Reference Include="Microsoft.CSharp">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Microsoft.CSharp.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Data.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data.DataSetExtensions">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Data.DataSetExtensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Drawing">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Drawing.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression.FileSystem">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.FileSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Composition">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Transactions">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll</HintPath>
+     </Reference>
+     <Reference Include="Microsoft.Win32.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.AppContext">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.AppContext.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Buffers">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Buffers.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Concurrent">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Concurrent.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.NonGeneric">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Specialized">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Specialized.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Annotations">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.EventBasedAsync">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.TypeConverter">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Console">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Console.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data.Common">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Data.Common.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Contracts">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Debug">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.FileVersionInfo">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Process">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Process.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.StackTrace">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TextWriterTraceListener">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Tools">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TraceSource">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Drawing.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Drawing.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Dynamic.Runtime">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Calendars">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Calendars.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Extensions">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression.ZipFile">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.DriveInfo">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Watcher">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.IsolatedStorage">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.MemoryMappedFiles">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Pipes">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Pipes.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.UnmanagedMemoryStream">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Expressions">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Expressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Parallel">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Queryable">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Queryable.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Memory">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Memory.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Http.Rtc">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NameResolution">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NameResolution.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NetworkInformation">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Ping">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Ping.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Requests">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Requests.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Security">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Security.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Sockets">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Sockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebHeaderCollection">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets.Client">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ObjectModel">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ObjectModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.DispatchProxy">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.DispatchProxy.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit.ILGeneration">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit.Lightweight">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Extensions">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Reader">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Reader.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.ResourceManager">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Writer">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Writer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.CompilerServices.VisualC">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Extensions">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Handles">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Handles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Numerics">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Formatters">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Json">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Xml">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Claims">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Claims.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Algorithms">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Csp">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Encoding">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.X509Certificates">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Principal">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Principal.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.SecureString">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.SecureString.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ServiceModel.Duplex">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ServiceModel.Http">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Http.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ServiceModel.NetTcp">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ServiceModel.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ServiceModel.Security">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Security.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding.Extensions">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.RegularExpressions">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Overlapped">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Overlapped.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks.Extensions">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks.Parallel">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Thread">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Thread.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.ThreadPool">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Timer">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Timer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ValueTuple">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ValueTuple.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.ReaderWriter">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XDocument">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath.XDocument">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlDocument">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlSerializer">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+     </Reference>
+     <Reference Include="netstandard">
+     <HintPath>/Applications/Unity/Hub/Editor/2022.2.20f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Recorder.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.IK.Runtime">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Runtime">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="com.unity.cinemachine.editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Postprocessing.Runtime">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Common.Path.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.2D.Common.Path.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.AI.Navigation">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.AI.Navigation.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.PixelPerfect.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Rider.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Sprite.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Collections">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.SpriteShape.Runtime">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.PixelPerfect">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+     </Reference>
+     <Reference Include="PPv2URPConverters">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/PPv2URPConverters.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Recorder">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VSCode.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="PsdPlugin">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ShaderGraph.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualStudio.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Recorder.Base">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.Recorder.Base.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UI">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Animation.Runtime">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Tilemap.Extras">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="LDtkUnity.Runtime">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/LDtkUnity.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.InternalAPIEngineBridge.001">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Common.Runtime">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.InputSystem">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.InputSystem.ForUI">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.InternalAPIEditorBridge.001">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Psdimporter.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.AI.Navigation.Updater">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.AI.Navigation.Updater.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Postprocessing.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Common.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Searcher.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.AI.Navigation.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Cinemachine">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.SpriteShape.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Tilemap.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Animation.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.IK.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="LDtkUnity.Editor">
+     <HintPath>/Users/user/RPGF/zpokemonz/Library/ScriptAssemblies/LDtkUnity.Editor.dll</HintPath>
+     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{cca7b954-9fb8-5ca7-8e95-b7f97b5dd739}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.Addressables.csproj">
+      <Project>{ef7c6bed-0ae4-e1a6-32b0-b2299ab4aa64}</Project>
+      <Name>UniTask.Addressables</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.csproj">
+      <Project>{380cf117-fab5-dced-364b-351c51fa6759}</Project>
+      <Name>UniTask</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity-editor.csproj">
+      <Project>{c09c0746-91cf-217a-5a32-60f886900a4f}</Project>
+      <Name>spine-unity-editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.TextMeshPro.csproj">
+      <Project>{a5924e42-19c4-cab9-d423-27cf504beedb}</Project>
+      <Name>UniTask.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity-examples.csproj">
+      <Project>{22217578-4fbb-4693-b857-f1a8ab467a3b}</Project>
+      <Name>spine-unity-examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity-examples-editor.csproj">
+      <Project>{66a36f11-f42a-ab0a-38f9-f690272c8b48}</Project>
+      <Name>spine-unity-examples-editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.Linq.csproj">
+      <Project>{9128b6a0-3c3b-748a-f862-3268aa7b8c8d}</Project>
+      <Name>UniTask.Linq</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity.csproj">
+      <Project>{3892e3fb-5581-8d2e-8863-c3bf35e36dc2}</Project>
+      <Name>spine-unity</Name>
+    </ProjectReference>
+    <ProjectReference Include="Sirenix.OdinInspector.Modules.UnityMathematics.csproj">
+      <Project>{2d066c19-932a-7e1c-0d2e-d3276a2a7960}</Project>
+      <Name>Sirenix.OdinInspector.Modules.UnityMathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="LoopScrollRect.Editor.csproj">
+      <Project>{5d27e708-e16b-7fe7-edb0-e0d05912b689}</Project>
+      <Name>LoopScrollRect.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UIEffect.csproj">
+      <Project>{c3e58274-19cb-3b70-8c07-cf8c7cc48fa5}</Project>
+      <Name>UIEffect</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.DOTween.csproj">
+      <Project>{265f4898-399f-6b98-dbd5-1ca520761c21}</Project>
+      <Name>UniTask.DOTween</Name>
+    </ProjectReference>
+    <ProjectReference Include="LoopScrollRect.Runtime.csproj">
+      <Project>{39eb8eab-d8af-a867-7414-4206ed00af93}</Project>
+      <Name>LoopScrollRect.Runtime</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

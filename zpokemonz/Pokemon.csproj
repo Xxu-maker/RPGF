@@ -1,0 +1,868 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{264142cd-06d1-278e-78ab-44661d435b8a}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Pokemon</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_25;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_IG;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_CLOUD_FEATURES;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;LETAI_TRUESHADOW;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\RoleCtrl\RoleBase\Interactable.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Data\Pokemon.cs" />
+     <Compile Include="Assets\Scripts\Main(Instance)\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\AboutMap\FosterYard.cs" />
+     <Compile Include="Assets\Scripts\BuildBase\BuildUI\BuildUIOnDrag.cs" />
+     <Compile Include="Assets\Scripts\Test\EffectsTestScenen\MaterialsMgr.cs" />
+     <Compile Include="Assets\Scripts\UI\ChoosePanel\PokeChBox.cs" />
+     <Compile Include="Assets\Scripts\UI\Shop\ShopPanel.cs" />
+     <Compile Include="Assets\Scripts\RoleCtrl\RoleBase\Dialog.cs" />
+     <Compile Include="Assets\Scripts\SavingSys\SavableEntity.cs" />
+     <Compile Include="Assets\Scripts\BuildBase\InputSystem\BuildManager.cs" />
+     <Compile Include="Assets\Scripts\RoleCtrl\SymbolEncounterCtrl.cs" />
+     <Compile Include="Assets\Scripts\UI\DetailPanel\D_RibbonsPanel.cs" />
+     <Compile Include="Assets\Scripts\UI\ZEnhancedScroll\SmallList.cs" />
+     <Compile Include="Assets\Scripts\AboutMap\Portal.cs" />
+     <Compile Include="Assets\Scripts\AboutMap\TrainerFov.cs" />
+     <Compile Include="Assets\Scripts\UI\CommonSelectionTips\SelectionColumn.cs" />
+     <Compile Include="Assets\Scripts\Main(Instance)\CoreObject.cs" />
+     <Compile Include="Assets\Scripts\UI\ZEnhancedScroll\IScrollDelegate.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Ability\AllPlayerAbility.cs" />
+     <Compile Include="Assets\Scripts\UI\Bag\ItemHandler.cs" />
+     <Compile Include="Assets\Scripts\UI\SelectPanel\CardPanel.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Data\Skill.cs" />
+     <Compile Include="Assets\Scripts\BuildBase\InputSystem\MoveObject.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Ability\AttackAbility.cs" />
+     <Compile Include="Assets\Scripts\Test\EffectsTestScenen\EffectsTest.cs" />
+     <Compile Include="Assets\Scripts\Main(Instance)\DialogManager.cs" />
+     <Compile Include="Assets\Scripts\Battle\BattleSystem.cs" />
+     <Compile Include="Assets\Scripts\Battle\BattleDialogBox.cs" />
+     <Compile Include="Assets\Scripts\Battle\BattleUnit.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\BaseData\AllConditionData.cs" />
+     <Compile Include="Assets\Scripts\Anim\PokemonAnimator.cs" />
+     <Compile Include="Assets\Scripts\AboutMap\Bridge.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Item\PPItem.cs" />
+     <Compile Include="Assets\Scripts\UI\SelectPanel\Book\BookUI.cs" />
+     <Compile Include="Assets\Scripts\BuildBase\RoadHandler.cs" />
+     <Compile Include="Assets\Scripts\RoleCtrl\StaticInteractionObject.cs" />
+     <Compile Include="Assets\Scripts\AboutMap\DoorAnimator.cs" />
+     <Compile Include="Assets\Scripts\AboutMap\Grass.cs" />
+     <Compile Include="Assets\Scripts\UI\ZNewButton\IToggle\IToggle.cs" />
+     <Compile Include="Assets\Scripts\RoleCtrl\DoctorCtrl.cs" />
+     <Compile Include="Assets\Scripts\UI\ChoosePanel\ChooseSkillPanel.cs" />
+     <Compile Include="Assets\Scripts\SavingSys\SavingSystem.cs" />
+     <Compile Include="Assets\Scripts\BuildBase\AboutBuilding\BuildingBase.cs" />
+     <Compile Include="Assets\Scripts\BuildBase\AboutBuilding\GridObjectCheck.cs" />
+     <Compile Include="Assets\Scripts\BuildBase\InputTestzzz.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Item\BattleItem.cs" />
+     <Compile Include="Assets\Scripts\Test\TestPokemon.cs" />
+     <Compile Include="Assets\Scripts\SavingSys\ZSavable.cs" />
+     <Compile Include="Assets\Scripts\BuildBase\BuildUI\BuildingCellView.cs" />
+     <Compile Include="Assets\Scripts\UI\CommonSelectionTips\BoolSelectionTip.cs" />
+     <Compile Include="Assets\Scripts\UI\DetailPanel\D_StrengthValuePanel.cs" />
+     <Compile Include="Assets\Scripts\Main(Instance)\LightManager.cs" />
+     <Compile Include="Assets\Scripts\UI\CirclesUI\TeamCirclePanel.cs" />
+     <Compile Include="Assets\Scripts\UI\Bag\MessageTip.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Bag.cs" />
+     <Compile Include="Assets\Scripts\UI\MapTip.cs" />
+     <Compile Include="Assets\Scripts\UI\SelectPanel\Book\BookPanel.cs" />
+     <Compile Include="Assets\Scripts\UI\BasePanel.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Ability\GroundAbility.cs" />
+     <Compile Include="Assets\Scripts\RoleCtrl\RoleBase\CharacterAnimator.cs" />
+     <Compile Include="Assets\Scripts\RoleCtrl\PlotRoleCtrl.cs" />
+     <Compile Include="Assets\Scripts\UI\DetailPanel\MessagePanel4.cs" />
+     <Compile Include="Assets\Scripts\UI\DetailPanel\D_IntroductionPanel.cs" />
+     <Compile Include="Assets\Scripts\Main(Instance)\LoadingScene.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Item\BasePointItem.cs" />
+     <Compile Include="Assets\Scripts\Extra\ScriptBase\SingletonMono.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Data\ItemSlot.cs" />
+     <Compile Include="Assets\Scripts\Test\EffectsTestScenen\ZEffectsScript.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Ability\TurnOverAbility.cs" />
+     <Compile Include="Assets\Scripts\Anim\TrainerAnimator.cs" />
+     <Compile Include="Assets\Scripts\UI\SelectPanel\PausePanel.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\PokemonTeam.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Ability\OurAbility.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Quest\Quest.cs" />
+     <Compile Include="Assets\Scripts\SavingSys\SceneFileHandler.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Ability\SystemAbility.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Ability\WeatherAbility.cs" />
+     <Compile Include="Assets\Scripts\AboutMap\FosterTrigger.cs" />
+     <Compile Include="Assets\Scripts\UI\PC\PCPanel.cs" />
+     <Compile Include="Assets\Scripts\AboutMap\PlayerTrigger.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Item\Ticket.cs" />
+     <Compile Include="Assets\Scripts\Battle\HPBar.cs" />
+     <Compile Include="Assets\Scripts\UI\PC\BoxBase.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Item\MegaItem.cs" />
+     <Compile Include="Assets\Scripts\RoleCtrl\RoleBase\DressUpAnimator.cs" />
+     <Compile Include="Assets\Scripts\Anim\PokemonEvolution.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\GetAllData\AllPokemon.cs" />
+     <Compile Include="Assets\Scripts\Battle\BattleBackGround.cs" />
+     <Compile Include="Assets\Scripts\RoleCtrl\ObjectCtrl.cs" />
+     <Compile Include="Assets\Scripts\Anim\ThrowBall.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\GetAllData\AllSkill.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Inventory.cs" />
+     <Compile Include="Assets\Scripts\AboutMap\SurfTrigger.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Item\TM.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Item\ReviveItem.cs" />
+     <Compile Include="Assets\Scripts\UI\ZNewButton\D_Pad\CrossButtonTime.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Data\Nature.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Ability\NotMeAbility.cs" />
+     <Compile Include="Assets\Scripts\UI\StartMenuScripts\SaveFileSlot.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\GetAllData\AllItem.cs" />
+     <Compile Include="Assets\Scripts\Extra\ScriptBase\MyData.cs" />
+     <Compile Include="Assets\Scripts\RoleCtrl\ShopClerk.cs" />
+     <Compile Include="Assets\Scripts\RoleCtrl\AboutObject\Anim_IObject.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Item\Mint.cs" />
+     <Compile Include="Assets\Scripts\UI\ZEnhancedScroll\Scroller.cs" />
+     <Compile Include="Assets\Scripts\UI\SelectPanel\MapPanel.cs" />
+     <Compile Include="Assets\Scripts\UI\CustomUI\OnDragSetPos.cs" />
+     <Compile Include="Assets\Scripts\RoleCtrl\TrainerCtrller.cs" />
+     <Compile Include="Assets\Scripts\UI\ZNewButton\D_Pad\CrossTouchAxis.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\BaseData\AbilityBase.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Ability\TouchAbility.cs" />
+     <Compile Include="Assets\Scripts\UI\ZNewButton\SlideButtons\SlideButton.cs" />
+     <Compile Include="Assets\Scripts\BuildBase\AboutBuilding\Building.cs" />
+     <Compile Include="Assets\Scripts\BuildBase\BuildingPoint.cs" />
+     <Compile Include="Assets\Scripts\Main(Instance)\GameManager.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Ability\MySelfAbility.cs" />
+     <Compile Include="Assets\Scripts\RoleCtrl\FeederCtrl.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Quest\QuestBase.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\BaseData\PokemonBase.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Item\IVItem.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Item\EvolutionItem.cs" />
+     <Compile Include="Assets\Scripts\Main(Instance)\WeatherManager.cs" />
+     <Compile Include="Assets\Scripts\UI\SelectPanel\SetPanel.cs" />
+     <Compile Include="Assets\Scripts\BuildBase\BuildUI\BuildingScroll.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Ability\EnemyAbility.cs" />
+     <Compile Include="Assets\Scripts\UI\ZNewButton\IToggle\IToggleGroup.cs" />
+     <Compile Include="Assets\Scripts\RoleCtrl\AboutObject\InteractionObjectBase.cs" />
+     <Compile Include="Assets\Scripts\UI\StartMenuScripts\CusPanel.cs" />
+     <Compile Include="Assets\Scripts\RoleCtrl\NPCCtrller.cs" />
+     <Compile Include="Assets\Scripts\Battle\BattleHud.cs" />
+     <Compile Include="Assets\Scripts\RoleCtrl\PickUp.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Ability\DefenceAbility.cs" />
+     <Compile Include="Assets\Scripts\UI\CirclesUI\PokemonOnDrag.cs" />
+     <Compile Include="Assets\Scripts\BuildBase\BuildUI\BuildListCanvas.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\BaseData\AllNatureData.cs" />
+     <Compile Include="Assets\Scripts\UI\ZNewButton\D_Pad\CrossJoystickSprite.cs" />
+     <Compile Include="Assets\Scripts\RoleCtrl\PCCtrl.cs" />
+     <Compile Include="Assets\Scripts\Main(Instance)\ResM.cs" />
+     <Compile Include="Assets\Scripts\UI\DetailPanel\D_OtherPanel.cs" />
+     <Compile Include="Assets\Scripts\Main(Instance)\UIManager.cs" />
+     <Compile Include="Assets\Scripts\UI\Bag\BagScroller.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Ability\EnemiesAbility.cs" />
+     <Compile Include="Assets\Scripts\RoleCtrl\RoleBase\SpriteAnimator.cs" />
+     <Compile Include="Assets\Scripts\UI\EvoPanel.cs" />
+     <Compile Include="Assets\Scripts\UI\DetailPanel\D_SkillPanel.cs" />
+     <Compile Include="Assets\Scripts\BuildBase\BuildingGrid.cs" />
+     <Compile Include="Assets\Scripts\BuildBase\InputSystem\CameraMovement.cs" />
+     <Compile Include="Assets\Scripts\UI\FosterPanel.cs" />
+     <Compile Include="Assets\Scripts\Main(Instance)\FpsCounter.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\BaseData\ItemBase.cs" />
+     <Compile Include="Assets\Scripts\BuildBase\InputSystem\PlacementSystem.cs" />
+     <Compile Include="Assets\Scripts\AboutMap\PlotFov.cs" />
+     <Compile Include="Assets\Scripts\UI\StartMenuScripts\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Item\ConditionItem.cs" />
+     <Compile Include="Assets\Scripts\UI\ZNewButton\SlideButtons\SlideButtonSlot.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Item\CostumesItem.cs" />
+     <Compile Include="Assets\Scripts\AboutMap\GrassAnim.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\BaseData\SkillBase.cs" />
+     <Compile Include="Assets\Scripts\Main(Instance)\GameLayers.cs" />
+     <Compile Include="Assets\Scripts\UI\Bag\BagCellView.cs" />
+     <Compile Include="Assets\Scripts\Test\Ztest.cs" />
+     <Compile Include="Assets\Scripts\RoleCtrl\RoleBase\Character.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Item\RecoveryItem.cs" />
+     <Compile Include="Assets\Scripts\Extra\TileMapExtras\AnimatedTile.cs" />
+     <Compile Include="Assets\Scripts\UI\Shop\ShopBox.cs" />
+     <Compile Include="Assets\Scripts\AboutMap\SceneDetails.cs" />
+     <Compile Include="Assets\Scripts\UI\PC\PCOnDrag.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Item\PokeBall.cs" />
+     <Compile Include="Assets\Scripts\UI\SelectPanel\SavePanel.cs" />
+     <Compile Include="Assets\Scripts\UI\SelectPanel\SelectMenu.cs" />
+     <Compile Include="Assets\Scripts\RoleCtrl\Follow.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Subcategories\Ability\TeammatesAbility.cs" />
+     <Compile Include="Assets\Scripts\BuildBase\InputSystem\BuildInputSystem.cs" />
+     <Compile Include="Assets\Scripts\UI\ZDelegate.cs" />
+     <Compile Include="Assets\Scripts\UI\ZEnhancedScroll\ScrollCellView.cs" />
+     <Compile Include="Assets\Scripts\UI\DetailPanel\PokeDesPanel.cs" />
+     <Compile Include="Assets\Scripts\UI\CirclesUI\CircleUI.cs" />
+     <Compile Include="Assets\Scripts\RoleCtrl\StaticNpc.cs" />
+     <Compile Include="Assets\Scripts\RoleCtrl\player\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\PokeBase\Data\Condition.cs" />
+     <Compile Include="Assets\Scripts\UI\ChoosePanel\ChoosePanel.cs" />
+     <None Include="Assets\Scripts\Pokemon.asmdef" />
+     <None Include="Assets\Scripts\AboutMap\GridTileRule.txt" />
+    <Reference Include="UnityEngine">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CloudFoundationModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.CloudFoundationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsNativeModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsNativeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PackageManagerUIModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.PackageManagerUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIServiceModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UIServiceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+        <HintPath>P:\ZPKMOriginProject\zpokemonz\Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiLib">
+        <HintPath>P:\ZPKMOriginProject\zpokemonz\Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+        <HintPath>P:\ZPKMOriginProject\zpokemonz\Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="obfuscator">
+        <HintPath>P:\ZPKMOriginProject\zpokemonz\Assets\Plugins\Obfuscator3.9.1\Editor\Beebyte\Obfuscator\Plugins\obfuscator.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenProEditor">
+        <HintPath>P:\ZPKMOriginProject\zpokemonz\Assets\Plugins\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+        <HintPath>P:\ZPKMOriginProject\zpokemonz\Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+        <HintPath>P:\ZPKMOriginProject\zpokemonz\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiEditor">
+        <HintPath>P:\ZPKMOriginProject\zpokemonz\Assets\Plugins\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+        <HintPath>P:\ZPKMOriginProject\zpokemonz\Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Beebyte.Cecil">
+        <HintPath>P:\ZPKMOriginProject\zpokemonz\Assets\Plugins\Obfuscator3.9.1\Editor\Beebyte\Obfuscator\Mono.Cecil\Beebyte.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Beebyte.Cecil.Rocks">
+        <HintPath>P:\ZPKMOriginProject\zpokemonz\Assets\Plugins\Obfuscator3.9.1\Editor\Beebyte\Obfuscator\Mono.Cecil\Beebyte.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+        <HintPath>P:\ZPKMOriginProject\zpokemonz\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.NRefactory">
+        <HintPath>P:\ZPKMOriginProject\zpokemonz\Library\PackageCache\com.unity.render-pipelines.core@10.8.1\Editor\ShaderGenerator\ICSharpCode.NRefactory.dll</HintPath>
+    </Reference>
+    <Reference Include="Beebyte.Cecil.Mdb">
+        <HintPath>P:\ZPKMOriginProject\zpokemonz\Assets\Plugins\Obfuscator3.9.1\Editor\Beebyte\Obfuscator\Mono.Cecil\Beebyte.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+        <HintPath>P:\ZPKMOriginProject\zpokemonz\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Beebyte.Cecil.Pdb">
+        <HintPath>P:\ZPKMOriginProject\zpokemonz\Assets\Plugins\Obfuscator3.9.1\Editor\Beebyte\Obfuscator\Mono.Cecil\Beebyte.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\Extensions\2.0.0\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+        <HintPath>P:\Unity\unity\2020.3.25f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+        <HintPath>P:\ZPKMOriginProject\zpokemonz\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+        <HintPath>P:\ZPKMOriginProject\zpokemonz\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>P:\ZPKMOriginProject\zpokemonz\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>P:\ZPKMOriginProject\zpokemonz\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UniTask.csproj">
+      <Project>{380cf117-fab5-dced-364b-351c51fa6759}</Project>
+      <Name>UniTask</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
