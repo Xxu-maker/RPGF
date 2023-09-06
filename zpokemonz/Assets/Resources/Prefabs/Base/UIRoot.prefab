@@ -319,6 +319,7 @@ MonoBehaviour:
   Canvas: {fileID: 985029393279400873}
   UICamera: {fileID: 985029392771457924}
   Trans_NovelsPoint: {fileID: 1679903688}
+  Trans_RecallPoint: {fileID: 1095372544990280838}
   AVG: Config/NovelsChapters/108
 --- !u!1 &985029393848157575
 GameObject:

@@ -28,7 +28,10 @@ public class UIRoot : MonoSingleton<UIRoot>
         //Todo 初始化剧情UI模块
         GameHelper.Alloc<GameObject>("Prefabs/UI/Novels/UINovelsPanel").transform.RestTransform(Trans_NovelsPoint);
     }
-    
-    
-    
+
+    protected override void Awake()
+    {
+        base.Awake();
+        Trans_RecallPoint.gameObject.SetActive(false);
+    }
 }

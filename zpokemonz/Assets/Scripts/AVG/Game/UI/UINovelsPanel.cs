@@ -292,7 +292,6 @@ public class UINovelsPanel : SerializedMonoBehaviour
     {
         InputListenerManager.RegisterInputEvent(btnObj, new InputCallback()
         {
-
             ClickCallBack = () =>
             {
                 //AudioManager.Instance.PlayCommandClose();

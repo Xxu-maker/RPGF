@@ -19,6 +19,12 @@ public class UIRecallPanel : SingletonMono<UIRecallPanel>,LoopScrollPrefabSource
     private readonly Stack<Transform> _poolDialogItem = new();
     private readonly Stack<Transform> _poolSelectItem = new();
     
+    public void Awake()
+    {
+        base.Awake();
+        RecallConfigItemDataList = SaveManager.Instance.GetRecallConfigList;
+    }
+    
     public void ProvideData(Transform transform, int idx)
     {
         var data = RecallConfigItemDataList[idx];
@@ -84,7 +90,8 @@ public class UIRecallPanel : SingletonMono<UIRecallPanel>,LoopScrollPrefabSource
     
     public void OnOpen()
     {
-        gameObject.SetActive(true);
+        UINovelsPanel.Instance.buttonIsolateGroup[5].gameObject.SetActive(true);
+        UIRoot.Instance.Trans_RecallPoint.gameObject.SetActive(true);
         var oldSize = RecallConfigItemDataList?.Count ?? -1;
         RecallConfigItemDataList = SaveManager.Instance.GetRecallConfigList;
         InitScrollRect(true, oldSize);
@@ -92,7 +99,9 @@ public class UIRecallPanel : SingletonMono<UIRecallPanel>,LoopScrollPrefabSource
 
     public void OnClose()
     {
-        gameObject.SetActive(false);
+        UIRoot.Instance.Trans_RecallPoint.gameObject.SetActive(false);
+        UINovelsPanel.Instance.buttonIsolateGroup[5].gameObject.SetActive(false);
+       
     }
     
     private void InitScrollRect(bool smoothScroll = false, int oldSize = -1)
