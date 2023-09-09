@@ -188,11 +188,17 @@ Shader "AkilliMum/SRP/D2WeatherEffects/URP/D2Snows"
             {
                 half4 main = i.color;// * SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, i.uv);
                 half4 mask = SAMPLE_TEXTURE2D(_MaskTex, sampler_MaskTex, i.uv);
+                
+                SurfaceData2D surfaceData;
+				InputData2D inputData;
+				surfaceData.albedo = main.rgb;
+				surfaceData.alpha = 1;
+				surfaceData.mask = mask;
+				inputData.uv = i.uv;
+				inputData.lightingUV = i.lightingUV;
+                half4 Color = half4(CombinedShapeLightShared(surfaceData, inputData).rgb, main.a);
 
-                half4 Color = CombinedShapeLightShared(main, mask, i.lightingUV);
-
-
-
+                
 
 				float2 screenUV = i.screenPosition.xy / i.screenPosition.w;
 

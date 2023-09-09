@@ -286,10 +286,34 @@ PrefabInstance:
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: 824135081, guid: 22a5af75cab7592468126945d7e6ac13, type: 3}
+    - target: {fileID: 1800324018555352593, guid: 22a5af75cab7592468126945d7e6ac13, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 868.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 1800324018555352593, guid: 22a5af75cab7592468126945d7e6ac13, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 80.48
+      objectReference: {fileID: 0}
     - target: {fileID: 2652804463344480585, guid: 22a5af75cab7592468126945d7e6ac13, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 204.00189
       objectReference: {fileID: 0}
+    - target: {fileID: 4379815978962762894, guid: 22a5af75cab7592468126945d7e6ac13, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379815978962762894, guid: 22a5af75cab7592468126945d7e6ac13, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1052.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379815978962762894, guid: 22a5af75cab7592468126945d7e6ac13, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -23.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545650970374653688, guid: 22a5af75cab7592468126945d7e6ac13, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ea30c616f13844495ac96fa332e98c30, type: 3}
     - target: {fileID: 7084921151699884375, guid: 22a5af75cab7592468126945d7e6ac13, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -382,6 +406,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8102657636037815878, guid: 22a5af75cab7592468126945d7e6ac13, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1079.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 8102657636037815878, guid: 22a5af75cab7592468126945d7e6ac13, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -23.9
+      objectReference: {fileID: 0}
     - target: {fileID: 8133412182178808981, guid: 22a5af75cab7592468126945d7e6ac13, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -449,7 +481,7 @@ MonoBehaviour:
   UICamera: {fileID: 8460397872593124552}
   Trans_NovelsPoint: {fileID: 8701754966743012484}
   Trans_RecallPoint: {fileID: 332866972}
-  AVG: "Config/NovelsChapters/\u6D4B\u8BD5\u5267\u60C5\u7247\u6BB51"
+  AVG: "Config/NovelsChapters/\u4E8B\u4F8B\u5267\u60C5"
 --- !u!224 &8460397871825986788
 RectTransform:
   m_ObjectHideFlags: 0

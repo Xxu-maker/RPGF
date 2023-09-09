@@ -1,0 +1,530 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a8069ad651919e40886945bb90fcbe8, type: 3}
+  m_Name: "\u4E8B\u4F8B\u5267\u60C5"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 21300000, guid: 5616ba326b0734e4298839d2dd1ab38a, type: 3}
+    - {fileID: 21300000, guid: ea30c616f13844495ac96fa332e98c30, type: 3}
+    - {fileID: 21300000, guid: c7e8768611f614e37811618f03c57b61, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: EventNodes
+      Entry: 7
+      Data: 0|Novels.INovelsNode[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 11
+    - Name: 
+      Entry: 7
+      Data: 1|Novels.SetNodeData, Assembly-CSharp
+    - Name: SetData
+      Entry: 7
+      Data: 2|SetBackground, Assembly-CSharp
+    - Name: IsShow
+      Entry: 5
+      Data: true
+    - Name: SpriteData
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|Novels.SetNodeData, Assembly-CSharp
+    - Name: SetData
+      Entry: 7
+      Data: 4|ShowCharaSet, Assembly-CSharp
+    - Name: State
+      Entry: 3
+      Data: 1
+    - Name: image
+      Entry: 10
+      Data: 1
+    - Name: name
+      Entry: 1
+      Data: "\u514B\u857E\u96C5"
+    - Name: PosType
+      Entry: 3
+      Data: 0
+    - Name: IsFlipX
+      Entry: 5
+      Data: false
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 500
+    - Name: 
+      Entry: 4
+      Data: 1050
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|Novels.NovelsNodeData, Assembly-CSharp
+    - Name: Content
+      Entry: 7
+      Data: 6|Novels.DialogueContent, Assembly-CSharp
+    - Name: Str
+      Entry: 1
+      Data: "\u6211\u4EEC\u4E0D\u60DC\u541D\u556C\u51E0\u5341\u4E07\u519B\u4EBA\u7684\u9C9C\u8840\uFF0C\u6362\u6765\u7684\u5374\u53EA\u662F\u4E00\u7EB8\u5C48\u8FB1\u6027\u7684\u5408\u7EA6\uFF0C\u7956\u56FD\u5728\u7D27\u968F\u800C\u81F3\u7684\u5927\u9769\u547D\u4E2D\u571F\u5D29\u74E6\u89E3\uFF01"
+    - Name: CN
+      Entry: 6
+      Data: 
+    - Name: HK
+      Entry: 6
+      Data: 
+    - Name: EN
+      Entry: 6
+      Data: 
+    - Name: JP
+      Entry: 6
+      Data: 
+    - Name: TextEffect
+      Entry: 3
+      Data: 3
+    - Name: EffectTime
+      Entry: 4
+      Data: 0
+    - Name: LeaveWait
+      Entry: 4
+      Data: 0
+    - Name: DialogBoxType
+      Entry: 3
+      Data: 0
+    - Name: IsNextLine
+      Entry: 5
+      Data: true
+    - Name: IsNeedClick
+      Entry: 5
+      Data: true
+    - Name: IsClearCache
+      Entry: 5
+      Data: true
+    - Name: IsCloseDialog
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|Novels.NovelsNodeData, Assembly-CSharp
+    - Name: Content
+      Entry: 7
+      Data: 8|Novels.DialogueContent, Assembly-CSharp
+    - Name: Str
+      Entry: 1
+      Data: "\u7956\u56FD\u5982\u6B64\uFF0C\u6211\u4E5F\u5982\u6B64\u3002"
+    - Name: CN
+      Entry: 6
+      Data: 
+    - Name: HK
+      Entry: 6
+      Data: 
+    - Name: EN
+      Entry: 6
+      Data: 
+    - Name: JP
+      Entry: 6
+      Data: 
+    - Name: TextEffect
+      Entry: 3
+      Data: 3
+    - Name: EffectTime
+      Entry: 4
+      Data: 0
+    - Name: LeaveWait
+      Entry: 4
+      Data: 0
+    - Name: DialogBoxType
+      Entry: 3
+      Data: 0
+    - Name: IsNextLine
+      Entry: 5
+      Data: true
+    - Name: IsNeedClick
+      Entry: 5
+      Data: true
+    - Name: IsClearCache
+      Entry: 5
+      Data: true
+    - Name: IsCloseDialog
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|Novels.NovelsNodeData, Assembly-CSharp
+    - Name: Content
+      Entry: 7
+      Data: 10|Novels.DialogueContent, Assembly-CSharp
+    - Name: Str
+      Entry: 1
+      Data: "\u6211\u7684\u4EBA\u751F\u4E5F\u4E00\u8D25\u6D82\u5730\u2026\u2026"
+    - Name: CN
+      Entry: 6
+      Data: 
+    - Name: HK
+      Entry: 6
+      Data: 
+    - Name: EN
+      Entry: 6
+      Data: 
+    - Name: JP
+      Entry: 6
+      Data: 
+    - Name: TextEffect
+      Entry: 3
+      Data: 3
+    - Name: EffectTime
+      Entry: 4
+      Data: 0
+    - Name: LeaveWait
+      Entry: 4
+      Data: 0
+    - Name: DialogBoxType
+      Entry: 3
+      Data: 0
+    - Name: IsNextLine
+      Entry: 5
+      Data: true
+    - Name: IsNeedClick
+      Entry: 5
+      Data: true
+    - Name: IsClearCache
+      Entry: 5
+      Data: true
+    - Name: IsCloseDialog
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|Novels.SetNodeData, Assembly-CSharp
+    - Name: SetData
+      Entry: 7
+      Data: 12|ShowCharaSet, Assembly-CSharp
+    - Name: State
+      Entry: 3
+      Data: 1
+    - Name: image
+      Entry: 10
+      Data: 2
+    - Name: name
+      Entry: 1
+      Data: "\u5965\u857E\u5229\u4E9A"
+    - Name: PosType
+      Entry: 3
+      Data: 1
+    - Name: IsFlipX
+      Entry: 5
+      Data: false
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 500
+    - Name: 
+      Entry: 4
+      Data: 1050
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 13|Novels.NovelsNodeData, Assembly-CSharp
+    - Name: Content
+      Entry: 7
+      Data: 14|Novels.DialogueContent, Assembly-CSharp
+    - Name: Str
+      Entry: 1
+      Data: "\u514B\u857E\u96C5\uFF0C\u4F60\u53EF\u4E0D\u80FD\u81EA\u66B4\u81EA\u5F03\u5440\u2026\u2026"
+    - Name: CN
+      Entry: 6
+      Data: 
+    - Name: HK
+      Entry: 6
+      Data: 
+    - Name: EN
+      Entry: 6
+      Data: 
+    - Name: JP
+      Entry: 6
+      Data: 
+    - Name: TextEffect
+      Entry: 3
+      Data: 3
+    - Name: EffectTime
+      Entry: 4
+      Data: 0
+    - Name: LeaveWait
+      Entry: 4
+      Data: 0
+    - Name: DialogBoxType
+      Entry: 3
+      Data: 0
+    - Name: IsNextLine
+      Entry: 5
+      Data: true
+    - Name: IsNeedClick
+      Entry: 5
+      Data: true
+    - Name: IsClearCache
+      Entry: 5
+      Data: true
+    - Name: IsCloseDialog
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 15|Novels.NovelsNodeData, Assembly-CSharp
+    - Name: Content
+      Entry: 7
+      Data: 16|Novels.DialogueContent, Assembly-CSharp
+    - Name: Str
+      Entry: 1
+      Data: "\u8986\u6C34\u96BE\u6536\uFF0C\u800C\u6211\u4EEC\u53EA\u80FD\u5F80\u524D\u770B\u3002"
+    - Name: CN
+      Entry: 6
+      Data: 
+    - Name: HK
+      Entry: 6
+      Data: 
+    - Name: EN
+      Entry: 6
+      Data: 
+    - Name: JP
+      Entry: 6
+      Data: 
+    - Name: TextEffect
+      Entry: 3
+      Data: 3
+    - Name: EffectTime
+      Entry: 4
+      Data: 0
+    - Name: LeaveWait
+      Entry: 4
+      Data: 0
+    - Name: DialogBoxType
+      Entry: 3
+      Data: 0
+    - Name: IsNextLine
+      Entry: 5
+      Data: true
+    - Name: IsNeedClick
+      Entry: 5
+      Data: true
+    - Name: IsClearCache
+      Entry: 5
+      Data: true
+    - Name: IsCloseDialog
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 17|Novels.SetNodeData, Assembly-CSharp
+    - Name: SetData
+      Entry: 7
+      Data: 18|ShowCharaSet, Assembly-CSharp
+    - Name: State
+      Entry: 3
+      Data: 1
+    - Name: image
+      Entry: 10
+      Data: 1
+    - Name: name
+      Entry: 1
+      Data: "\u514B\u857E\u96C5"
+    - Name: PosType
+      Entry: 3
+      Data: 0
+    - Name: IsFlipX
+      Entry: 5
+      Data: false
+    - Name: Size
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 500
+    - Name: 
+      Entry: 4
+      Data: 1050
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 19|Novels.NovelsNodeData, Assembly-CSharp
+    - Name: Content
+      Entry: 7
+      Data: 20|Novels.DialogueContent, Assembly-CSharp
+    - Name: Str
+      Entry: 1
+      Data: "\u6211\u4EEC\u4F1A\u82F1\u52C7\u5730\u51FB\u8D25\u4EFB\u4F55\u654C\u4EBA\uFF0C\u5728\u6218\u573A\u4E0A\u3002"
+    - Name: CN
+      Entry: 6
+      Data: 
+    - Name: HK
+      Entry: 6
+      Data: 
+    - Name: EN
+      Entry: 6
+      Data: 
+    - Name: JP
+      Entry: 6
+      Data: 
+    - Name: TextEffect
+      Entry: 3
+      Data: 3
+    - Name: EffectTime
+      Entry: 4
+      Data: 0
+    - Name: LeaveWait
+      Entry: 4
+      Data: 0
+    - Name: DialogBoxType
+      Entry: 3
+      Data: 0
+    - Name: IsNextLine
+      Entry: 5
+      Data: true
+    - Name: IsNeedClick
+      Entry: 5
+      Data: true
+    - Name: IsClearCache
+      Entry: 5
+      Data: true
+    - Name: IsCloseDialog
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 21|Novels.NovelsNodeData, Assembly-CSharp
+    - Name: Content
+      Entry: 7
+      Data: 22|Novels.DialogueContent, Assembly-CSharp
+    - Name: Str
+      Entry: 1
+      Data: "\u5982\u679C\u9700\u8981\u7684\u8BDD\uFF0C\u6211\u4EEC\u4F1A\u518D\u6765\u4E00\u6B21\u2026\u2026"
+    - Name: CN
+      Entry: 6
+      Data: 
+    - Name: HK
+      Entry: 6
+      Data: 
+    - Name: EN
+      Entry: 6
+      Data: 
+    - Name: JP
+      Entry: 6
+      Data: 
+    - Name: TextEffect
+      Entry: 3
+      Data: 3
+    - Name: EffectTime
+      Entry: 4
+      Data: 0
+    - Name: LeaveWait
+      Entry: 4
+      Data: 0
+    - Name: DialogBoxType
+      Entry: 3
+      Data: 0
+    - Name: IsNextLine
+      Entry: 5
+      Data: true
+    - Name: IsNeedClick
+      Entry: 5
+      Data: true
+    - Name: IsClearCache
+      Entry: 5
+      Data: true
+    - Name: IsCloseDialog
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
